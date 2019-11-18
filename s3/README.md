@@ -1,11 +1,10 @@
 # AWS S3
 This is a Postman collection for the AWS S3 API.
 
-Docs - https://docs.aws.amazon.com/AmazonS3/latest/API/Type_API_Reference.html
-
-Postman Collection - https://www.getpostman.com/collections/0436238b042f46df04e2
-
-Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+label%3As3
+- Docs - https://docs.aws.amazon.com/AmazonS3/latest/API/Type_API_Reference.html
+- Postman Documentation - https://documenter.getpostman.com/view/35240/SVtWy7if?version=latest
+- Postman Collection - https://www.getpostman.com/collections/0436238b042f46df04e2
+- Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+label%3As3
 
 ## Buckets
 
