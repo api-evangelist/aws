@@ -28,17 +28,14 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Deprovision BYOIP CIDR ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Provision BYOIP CIDR ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Withdraw BYOIP CIDR ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## BYOIP CIDRs
 ## Bundle Task
  - Cancel Bundle Task ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Bundle Tasks
 ## Capacity Reservation
  - Cancel Capacity Reservation ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create Capacity Reservation ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Capacity Reservation ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Capacity Reservation Usage
  - Get Capacity Reservation Usage ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Capacity Reservations
 ## Classic Link Instances
  - Describe Classic Link Instances ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Classic Link VPC
@@ -58,29 +55,24 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Create Client VPN Endpoint ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Client VPN Endpoint ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Client VPN Endpoint ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Client VPN Endpoints
 ## Client VPN Ingress
  - Authorize Client VPN Ingress ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Revoke Client VPN Ingress ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Client VPN Route
  - Create Client VPN Route ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Client VPN Route ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Client VPN Routes
 ## Client VPN Target Network
  - Associate Client VPN Target Network ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Disassociate Client VPN Target Network ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Client VPN Target Networks
 ## Console Output
  - Get Console Output ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Console Screenshot
  - Get Console Screenshot ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Conversion Task
  - Cancel Conversion Task ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Conversion Tasks
 ## Customer Gateway
  - Create Customer Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Customer Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Customer Gateways
 ## DHCP Options
  - Associate DHCP Options ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create DHCP Options ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -99,14 +91,12 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Egress Only Internet Gateway
  - Create Egress Only Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Egress Only Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Egress Only Internet Gateways
 ## Elastic GPUs
  - Describe Elastic GPUs ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Export Image Tasks
  - Describe Export Image Tasks ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Export Task
  - Cancel Export Task ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Export Tasks
 ## FPGA Image
  - Copy FPGA Image ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create FPGA Image ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -115,7 +105,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Describe FPGA Image Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify FPGA Image Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Reset FPGA Image Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## FPGA Images
 ## Fleet
  - Create Fleet ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Fleet ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -123,7 +112,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Describe Fleet History ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Fleet Instances
  - Describe Fleet Instances ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Fleets
 ## Flow Logs
  - Create Flow Logs ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Flow Logs ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -168,7 +156,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Describe Image Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Image Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Reset Image Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Images
 ## Import Image Tasks
  - Describe Import Image Tasks ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Import Snapshot Tasks
@@ -197,18 +184,15 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Instance Status
  - Describe Instance Status ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Report Instance Status ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Instances
 ## Internet Gateway
  - Attach Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Detach Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Internet Gateways
 ## Key Pair
  - Create Key Pair ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Key Pair ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Import Key Pair ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Key Pairs
 ## Launch Template
  - Create Launch Template ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Launch Template ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -217,14 +201,11 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Get Launch Template Data ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Launch Template Version
  - Create Launch Template Version ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Launch Template Versions
-## Launch Templates
 ## Moving Addresses
  - Describe Moving Addresses ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Nat Gateway
  - Create Nat Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Nat Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Nat Gateways
 ## Network ACL
  - Create Network ACL ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Network ACL ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -234,7 +215,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Create Network ACL Entry ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Network ACL Entry ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Replace Network ACL Entry ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Network ACLs
 ## Network Interface
  - Attach Network Interface ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create Network Interface ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -247,14 +227,11 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Network Interface Permission
  - Create Network Interface Permission ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Network Interface Permission ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Network Interface Permissions
-## Network Interfaces
 ## Password Data
  - Get Password Data ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Placement Group
  - Create Placement Group ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Placement Group ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Placement Groups
 ## Prefix Lists
  - Describe Prefix Lists ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Principal ID Format
@@ -279,7 +256,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Reserved Instances Listing
  - Cancel Reserved Instances Listing ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create Reserved Instances Listing ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Reserved Instances Listings
 ## Reserved Instances Modifications
  - Describe Reserved Instances Modifications ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Reserved Instances Offering
@@ -297,7 +273,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Disassociate Route Table ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Route Table Association
  - Replace Route Table Association ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Route Tables
 ## Scheduled Instance Availability
  - Describe Scheduled Instance Availability ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Scheduled Instances
@@ -319,7 +294,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Update Security Group Rule Descriptions Egress ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Security Group Rule Descriptions Ingress
  - Update Security Group Rule Descriptions Ingress ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Security Groups
 ## Security Groups To Client VPN Target Network
  - Apply Security Groups To Client VPN Target Network ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Snapshot
@@ -331,7 +305,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Describe Snapshot Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Snapshot Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Reset Snapshot Attribute ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Snapshots
 ## Spot Datafeed Subscription
  - Create Spot Datafeed Subscription ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Spot Datafeed Subscription ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -365,7 +338,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Subnet CIDR Block
  - Associate Subnet CIDR Block ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Disassociate Subnet CIDR Block ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Subnets
 ## Tags
  - Create Tags ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Tags ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -379,16 +351,13 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Create Traffic Mirror Filter Rule ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Traffic Mirror Filter Rule ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Traffic Mirror Filter Rule ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Traffic Mirror Filters
 ## Traffic Mirror Session
  - Create Traffic Mirror Session ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Traffic Mirror Session ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Traffic Mirror Session ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Traffic Mirror Sessions
 ## Traffic Mirror Target
  - Create Traffic Mirror Target ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Traffic Mirror Target ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Traffic Mirror Targets
 ## Transit Gateway
  - Create Transit Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Transit Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -410,17 +379,12 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Transit Gateway Route Table Propagation
  - Disable Transit Gateway Route Table Propagation ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Enable Transit Gateway Route Table Propagation ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Transit Gateway Route Table Propagations
-## Transit Gateway Route Tables
-## Transit Gateway Routes
 ## Transit Gateway VPC Attachment
  - Accept Transit Gateway VPC Attachment ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create Transit Gateway VPC Attachment ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Transit Gateway VPC Attachment ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify Transit Gateway VPC Attachment ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Reject Transit Gateway VPC Attachment ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Transit Gateway VPC Attachments
-## Transit Gateways
 ## VPC
  - Create Default VPC ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create VPC ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -445,7 +409,6 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## VPC Endpoint Connection Notification
  - Create VPC Endpoint Connection Notification ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify VPC Endpoint Connection Notification ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## VPC Endpoint Connection Notifications
 ## VPC Endpoint Connections
  - Accept VPC Endpoint Connections ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Describe VPC Endpoint Connections ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -453,13 +416,11 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## VPC Endpoint Service Configuration
  - Create VPC Endpoint Service Configuration ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify VPC Endpoint Service Configuration ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## VPC Endpoint Service Configurations
 ## VPC Endpoint Service Permissions
  - Describe VPC Endpoint Service Permissions ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Modify VPC Endpoint Service Permissions ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## VPC Endpoint Services
  - Describe VPC Endpoint Services ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## VPC Endpoints
 ## VPC Peering Connection
  - Accept VPC Peering Connection ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create VPC Peering Connection ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -467,10 +428,8 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Reject VPC Peering Connection ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## VPC Peering Connection Options
  - Modify VPC Peering Connection Options ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## VPC Peering Connections
 ## VPC Tenancy
  - Modify VPC Tenancy ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## VPCs
 ## VPN Connection
  - Create VPN Connection ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete VPN Connection ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -478,13 +437,11 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## VPN Connection Route
  - Create VPN Connection Route ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete VPN Connection Route ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## VPN Connections
 ## VPN Gateway
  - Attach VPN Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create VPN Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete VPN Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Detach VPN Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## VPN Gateways
 ## VPN Tunnel Certificate
  - Modify VPN Tunnel Certificate ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## VPN Tunnel Options
@@ -506,6 +463,5 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Enable Volume IO ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Volume Status
  - Describe Volume Status ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Volumes
 ## Volumes Modifications
  - Describe Volumes Modifications ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
