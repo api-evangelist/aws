@@ -86,20 +86,16 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
  - Create DHCP Options ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete DHCP Options ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Describe DHCP Options ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Default Subnet
- - Create Default Subnet ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## Default VPC
- - Create Default VPC ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Diagnostic Interrupt
  - Send Diagnostic Interrupt ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
-## EBS Default Kms Key ID
- - Get EBS Default Kms Key ID ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
- - Modify EBS Default Kms Key ID ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
- - Reset EBS Default Kms Key ID ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## EBS Encryption By Default
  - Disable EBS Encryption By Default ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Enable EBS Encryption By Default ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Get EBS Encryption By Default ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
+## EBS Kms Key ID
+ - Get EBS Default Kms Key ID ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
+ - Modify EBS Default Kms Key ID ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
+ - Reset EBS Default Kms Key ID ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Egress Only Internet Gateway
  - Create Egress Only Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Egress Only Internet Gateway ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
@@ -361,6 +357,7 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Stale Security Groups
  - Describe Stale Security Groups ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Subnet
+ - Create Default Subnet ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create Subnet ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete Subnet ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## Subnet Attribute
@@ -425,6 +422,7 @@ Issues - https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+lab
 ## Transit Gateway VPC Attachments
 ## Transit Gateways
 ## VPC
+ - Create Default VPC ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Create VPC ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
  - Delete VPC ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))
 ## VPC Attribute
