@@ -1,10 +1,10 @@
 # AWS EC2
 This is a Postman collection for the AWS EC2 API.
 
-- (Docs)[https://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html]
-- (Postman Documentation)[https://documenter.getpostman.com/view/35240/SW7XZpAm?version=latest]
-- (Postman Collection)[https://www.getpostman.com/collections/e6e8465143cba95cf28b]
-- (Issues)[https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+label%3AEC2]
+- [Docs](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html)
+- [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7XZpAm?version=latest)
+- [Postman Collection](https://www.getpostman.com/collections/e6e8465143cba95cf28b)
+- [Issues](https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+label%3AEC2)
 
 ## Account Attributes
  - Describe Account Attributes ([Docs](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_WithdrawByoipCidr.html))

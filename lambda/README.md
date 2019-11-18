@@ -1,10 +1,10 @@
 # AWS Lambda
 This is a Postman collection for the AWS Lambda API.
 
-- (Documentation)[https://docs.aws.amazon.com/lambda/latest/dg/welcome.html]
-- (Postman Documentation)[https://documenter.getpostman.com/view/35240/SW7XZpQ3]https://documenter.getpostman.com/view/35240/SW7XZpQ3
-- (Postman Collection)[https://www.getpostman.com/collections/8b6b2d0cf8ad4d2bda44]
-- (Issues)[https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+label%3ALambda]
+- [Documentation](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+- [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7XZpQ3]https://documenter.getpostman.com/view/35240/SW7XZpQ3)
+- [Postman Collection](https://www.getpostman.com/collections/8b6b2d0cf8ad4d2bda44)
+- [Issues](https://github.com/api-evangelist/aws/issues?q=is%3Aissue+is%3Aopen+label%3ALambda)
 
 ## Account Settings
  - Get Account Settings ([Docs](http://docs.aws.amazon.com/lambda/latest/dg/API_UpdateFunctionConfiguration.html))

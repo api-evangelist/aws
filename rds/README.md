@@ -1,10 +1,10 @@
 # AWS RDS
 This is a Postman collection for the AWS RDS API.
 
-- (Documentation)[https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/Welcome.html]
-- (Postman Documentation)[https://documenter.getpostman.com/view/35240/SW7Xa9Gb?version=latest)
-- (Postman Collection)[https://www.getpostman.com/collections/bfb1ca84090be37cd700]
-- (Issues)[https://github.com/api-evangelist/aws/labels/RDS]
+- [Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/Welcome.html)
+- [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Xa9Gb?version=latest)
+- [Postman Collection](https://www.getpostman.com/collections/bfb1ca84090be37cd700)
+- [Issues](https://github.com/api-evangelist/aws/labels/RDS)
 
 ## Account Attributes
  - Describe Account Attributes ([Docs](http://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_StopDBInstance.html))

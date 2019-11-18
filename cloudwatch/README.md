@@ -1,10 +1,10 @@
 # AWS CloudWatch
 This is a Postman collection for the AWS CloudWatch API.
 
-- (Documentation)[https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/Welcome.html]
-- (Postman Documentation)[https://documenter.getpostman.com/view/35240/SW7Xa9M5)
-- (Postman Collection)[https://www.getpostman.com/collections/2c8e3cbec5cfc78c4aa8]
-- (Issues)[https://github.com/api-evangelist/aws/labels/CloudWatch]
+- [Documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/Welcome.html)
+- [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Xa9M5)
+- [Postman Collection](https://www.getpostman.com/collections/2c8e3cbec5cfc78c4aa8)
+- [Issues](https://github.com/api-evangelist/aws/labels/CloudWatch)
 
 ## Alarm Actions
  - Disable Alarm Actions ([Docs](http://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_UntagResource.html))
