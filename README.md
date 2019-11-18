@@ -1,6 +1,7 @@
 # AWS API Postman Collections
 This is an assortment of Postman collections for the AWS APIs.
 
+- [Certificate Manager](certificate-manager/README.md) - A Postman collection for the AWS Certificate Manager API.
 - [CloudWatch](cloudwatch/README.md) - A Postman collection for the AWS CloudWatch API.
 - [EC2](ec2/README.md) - A Postman collection for the AWS EC2 API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
