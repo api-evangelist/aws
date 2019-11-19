@@ -2,10 +2,12 @@
 This is an assortment of Postman collections for the AWS APIs.
 
 - [Auto Scaling](auto-scaling/README.md) - A Postman collection for the AWS Auto Scaling API.
+- [Batch](batch/README.md) - A Postman collection for the AWS Batch API.
 - [Certificate Manager](certificate-manager/README.md) - A Postman collection for the AWS Certificate Manager API.
 - [CloudFormation](cloudformation/README.md) - A Postman collection for the AWS CloudFormation API.
 - [CloudFront](cloudfront/README.md) - A Postman collection for the AWS CloudFront API.
 - [CloudHSM](cloudhsm/README.md) - A Postman collection for the AWS CloudHSM API.
+- [CloudTrail](cloudtrail/README.md) - A Postman collection for the AWS CloudTrail API.
 - [CloudWatch](cloudwatch/README.md) - A Postman collection for the AWS CloudWatch API.
 - [EC2](ec2/README.md) - A Postman collection for the AWS EC2 API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
