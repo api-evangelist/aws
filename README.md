@@ -32,7 +32,12 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [Identity and Access Management](identity-and-access-management/README.md) - A Postman collection for the AWS Identity and Access Management API.
 - [Inspector](internet-of-things/README.md) - A Postman collection for the AWS Internet of Things API.
 - [Internet of Things](inspector/README.md) - A Postman collection for the AWS Inspector API.
+- [Key Management Service](key-management-service/README.md) - A Postman collection for the AWS Key Management Service API.
+- [Kinesis Data Analytics](kinesis-data-analytics/README.md) - A Postman collection for the AWS Kinesis Data Analytics API.
+- [Kinesis Firehose](kinesis-firehose/README.md) - A Postman collection for the AWS Kinesis Firehose API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
+- [Lightsail](lightsail/README.md) - A Postman collection for the AWS Lightsail API.
+- [Machine Learning](machine-learning/README.md) - A Postman collection for the AWS Machine Learning API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
 - [S3](s3/README.md) - A Postman collection for the AWS S3 API.
 - [Systems Manager](systems-manager/README.md) - A Postman collection for the AWS Systems Manager API.
