@@ -12,6 +12,9 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [CodeBuild](codebuild/README.md) - A Postman collection for the AWS CodeBuild API.
 - [CodeCommit](codecommit/README.md) - A Postman collection for the AWS CodeCommit API.
 - [CodePipeline](codepipeline/README.md) - A Postman collection for the AWS CodePipeline API.
+- [Cognito Federated Identities](cognito-federated-identities/README.md) - A Postman collection for the Amazon Cognito Federated Identities API.
+- [Cognito Sync](cognito-sync/README.md) - A Postman collection for the Amazon Cognito Sync API.
+- [Cognito Identity Provider](cognito-identity-provider/README.md) - A Postman collection for the Amazon Cognito Identity Provider API.
 - [EC2](ec2/README.md) - A Postman collection for the AWS EC2 API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
