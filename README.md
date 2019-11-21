@@ -15,6 +15,9 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [Cognito Federated Identities](cognito-federated-identities/README.md) - A Postman collection for the Amazon Cognito Federated Identities API.
 - [Cognito Sync](cognito-sync/README.md) - A Postman collection for the Amazon Cognito Sync API.
 - [Cognito Identity Provider](cognito-identity-provider/README.md) - A Postman collection for the Amazon Cognito Identity Provider API.
+- [Config](config/README.md) - A Postman collection for the Amazon Config API.
+- [Data Pipeline](data-pipeline/README.md) - A Postman collection for the AWS Data Pipeline API.
+- [Database Migration Service](database-migration-service/README.md) - A Postman collection for the AWS Database Migration Service API.
 - [EC2](ec2/README.md) - A Postman collection for the AWS EC2 API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
