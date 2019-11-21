@@ -1,5 +1,5 @@
 # AWS API Postman Collections
-This is an assortment of Postman collections for the AWS APIs.
+This is an assortment of Postman collections for the AWS APIs, broken down by each AWS service.
 
 - [Auto Scaling](auto-scaling/README.md) - A Postman collection for the AWS Auto Scaling API.
 - [Batch](batch/README.md) - A Postman collection for the AWS Batch API.
@@ -9,9 +9,12 @@ This is an assortment of Postman collections for the AWS APIs.
 - [CloudHSM](cloudhsm/README.md) - A Postman collection for the AWS CloudHSM API.
 - [CloudTrail](cloudtrail/README.md) - A Postman collection for the AWS CloudTrail API.
 - [CloudWatch](cloudwatch/README.md) - A Postman collection for the AWS CloudWatch API.
+- [CodeBuild](codebuild/README.md) - A Postman collection for the AWS CodeBuild API.
+- [CodeCommit](codecommit/README.md) - A Postman collection for the AWS CodeCommit API.
+- [CodePipeline](codepipeline/README.md) - A Postman collection for the AWS CodePipeline API.
 - [EC2](ec2/README.md) - A Postman collection for the AWS EC2 API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
 - [S3](s3/README.md) - A Postman collection for the AWS S3 API.
 
-These are not official AWS APIs, and always being evolved via this repository.
+These are not official AWS APIs, and always independently being evolved via this repository.
