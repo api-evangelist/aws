@@ -30,6 +30,8 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [Elastic MapReduce](elastic-mapreduce/README.md) - A Postman collection for the AWS Elastic MapReduce API.
 - [Elasticache](elasticache/README.md) - A Postman collection for the AWS Elasticache API.
 - [Identity and Access Management](identity-and-access-management/README.md) - A Postman collection for the AWS Identity and Access Management API.
+- [Inspector](internet-of-things/README.md) - A Postman collection for the AWS Internet of Things API.
+- [Internet of Things](inspector/README.md) - A Postman collection for the AWS Inspector API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
 - [S3](s3/README.md) - A Postman collection for the AWS S3 API.
