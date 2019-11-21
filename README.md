@@ -18,6 +18,7 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [Config](config/README.md) - A Postman collection for the Amazon Config API.
 - [Data Pipeline](data-pipeline/README.md) - A Postman collection for the AWS Data Pipeline API.
 - [Database Migration Service](database-migration-service/README.md) - A Postman collection for the AWS Database Migration Service API.
+- [Device Farm](device-farm/README.md) - A Postman collection for the AWS Device Farm API.
 - [EC2](ec2/README.md) - A Postman collection for the AWS EC2 API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
