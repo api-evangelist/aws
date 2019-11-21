@@ -19,9 +19,16 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [Data Pipeline](data-pipeline/README.md) - A Postman collection for the AWS Data Pipeline API.
 - [Database Migration Service](database-migration-service/README.md) - A Postman collection for the AWS Database Migration Service API.
 - [Device Farm](device-farm/README.md) - A Postman collection for the AWS Device Farm API.
+- [Direct Connect](direct-connect/README.md) - A Postman collection for the AWS Direct Connect API.
+- [Directory Manager](directory-manager/README.md) - A Postman collection for the AWS Directory Manager API.
+- [DynamoDB](dynamodb/README.md) - A Postman collection for the AWS DynamoDB API.
 - [EC2](ec2/README.md) - A Postman collection for the AWS EC2 API.
+- [Elastic Beanstalk](elastic-beanstalk/README.md) - A Postman collection for the AWS Elastic Beanstalk API.
+- [Elastic Container Registry](elastic-container-registry/README.md) - A Postman collection for the AWS Elastic Container Registry API.
+- [Elastic Container Service](elastic-container-service/README.md) - A Postman collection for the AWS Elastic Container Service API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
 - [S3](s3/README.md) - A Postman collection for the AWS S3 API.
+- [Systems Manager](systems-manager/README.md) - A Postman collection for the AWS Systems Manager API.
 
 These are not official AWS APIs, and always independently being evolved via this repository.
