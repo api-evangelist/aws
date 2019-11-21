@@ -26,6 +26,10 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [Elastic Beanstalk](elastic-beanstalk/README.md) - A Postman collection for the AWS Elastic Beanstalk API.
 - [Elastic Container Registry](elastic-container-registry/README.md) - A Postman collection for the AWS Elastic Container Registry API.
 - [Elastic Container Service](elastic-container-service/README.md) - A Postman collection for the AWS Elastic Container Service API.
+- [Elastic Load Balancing](elastic-load-balancing/README.md) - A Postman collection for the AWS Elastic Load Balancing API.
+- [Elastic MapReduce](elastic-mapreduce/README.md) - A Postman collection for the AWS Elastic MapReduce API.
+- [Elasticache](elasticache/README.md) - A Postman collection for the AWS Elasticache API.
+- [Identity and Access Management](identity-and-access-management/README.md) - A Postman collection for the AWS Identity and Access Management API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
 - [S3](s3/README.md) - A Postman collection for the AWS S3 API.
