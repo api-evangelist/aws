@@ -38,8 +38,23 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [Lightsail](lightsail/README.md) - A Postman collection for the AWS Lightsail API.
 - [Machine Learning](machine-learning/README.md) - A Postman collection for the AWS Machine Learning API.
+- [Marketplace Metering Service](marketplace-metering-service/README.md) - A Postman collection for the AWS Marketplace Metering Service API.
+- [OpsWorks](opsworks/README.md) - A Postman collection for the AWS OpsWorks API.
+- [Polly](polly/README.md) - A Postman collection for the AWS Polly API.
+- [RedShift](redshift/README.md) - A Postman collection for the Amazon Redshift API.
+- [Rekognition](rekognition/README.md) - A Postman collection for the Amazon Rekognition API.
 - [RDS](rds/README.md) - A Postman collection for the AWS RDS API.
-- [S3](s3/README.md) - A Postman collection for the AWS S3 API.
+- [Security Token Service](security-token-service/README.md) - A Postman collection for the AWS Security Token Service API.
+- [Service Catalog](service-catalog/README.md) - A Postman collection for the AWS Service Catalog API.
+- [Shield Advanced](shield-advanced/README.md) - A Postman collection for the AWS Shield Advanced API.
+- [Simple Email Service](simple-email-service/README.md) - A Postman collection for the AWS Simple Email Service API.
+- [Simple Notification Service](simple-notification-service/README.md) - A Postman collection for the AWS Simple Notification Service API.
+- [Simple Queue Service](simple-queue-service/README.md) - A Postman collection for the AWS Simple Queue Service API.
+- [Snowball](snowball/README.md) - A Postman collection for the AWS Snowball API.
+- [Step Functions](step-functions/README.md) - A Postman collection for the AWS Step Functions API.
+- [Storage Gateway Service](storage-gateway-service/README.md) - A Postman collection for the AWS Storage Gateway Service API.
 - [Systems Manager](systems-manager/README.md) - A Postman collection for the AWS Systems Manager API.
+- [WAF](waf/README.md) - A Postman collection for the AWS WAF API.
+- [WAF Regional](waf-regional/README.md) - A Postman collection for the AWS WAF Regional API.
 
 These are not official AWS APIs, and always independently being evolved via this repository.
