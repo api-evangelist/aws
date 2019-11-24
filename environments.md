@@ -3,8 +3,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## Amazon API Gateway Control Plane
 **Service Slug:** amazon_api_gateway_control_plane
+
 **Host:** apigateway.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -26,8 +29,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## Amazon API Gateway Data Plane
 **Service Slug:** amazon_api_gateway_data_plane
+
 **Host:** execute-api.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -49,8 +55,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## AWS AppSync Control Plane
 **Service Slug:** aws_appsync_control_plane
+
 **Host:** appsync.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -72,8 +81,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## AWS AppSync Data Plane
 **Service Slug:** aws_appsync_data_plane
+
 **Host:** &lt;unique-id&gt;.appsync-api.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -95,8 +107,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## Amazon Aurora with MySQL compatibility
 **Service Slug:** amazon_aurora_with_mysql_compatibility
+
 **Host:** rds.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -118,8 +133,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## Amazon Aurora with PostgreSQL compatibility
 **Service Slug:** amazon_aurora_with_postgresql_compatibility
+
 **Host:** rds.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -141,8 +159,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## AWS Cost Explorer
 **Service Slug:** aws_cost_explorer
+
 **Host:** ce.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -164,8 +185,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## AWS Cost and Usage Reports
 **Service Slug:** aws_cost_and_usage_reports
+
 **Host:** cur.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -187,8 +211,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## AWS Budgets
 **Service Slug:** aws_budgets
+
 **Host:** budgets.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1
+
 
 **Environment**
 ```{
@@ -210,8 +237,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## AWS Price List Service
 **Service Slug:** aws_price_list_service
+
 **Host:** api.pricing.ap-south-1.amazonaws.com
+
 **Regions:** us-east-1, ap-south-1
+
 
 **Environment**
 ```{
@@ -233,8 +263,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## Savings Plans
 **Service Slug:** savings_plans
+
 **Host:** savingsplans.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -256,8 +289,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 ## Amazon Cognito Your User Pools
 **Service Slug:** amazon_cognito_your_user_pools
+
 **Host:** cognito-idp.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -281,8 +317,11 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
                         Identities
 **Service Slug:** amazon_cognito_federated
 _identities
+
 **Host:** cognito-identity.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -304,8 +343,11 @@ _identities
 
 ## Amazon Forecast
 **Service Slug:** amazon_forecast
+
 **Host:** forecast.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -327,8 +369,11 @@ _identities
 
 ## Amazon Forecast Query
 **Service Slug:** amazon_forecast_query
+
 **Host:** forecastquery.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -350,8 +395,11 @@ _identities
 
 ## Amazon FreeRTOS OTA Control Plane
 **Service Slug:** amazon_freertos_ota_control_plane
+
 **Host:** iot.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -373,8 +421,11 @@ _identities
 
 ## Amazon FreeRTOS OTA Data Plane
 **Service Slug:** amazon_freertos_ota_data_plane
+
 **Host:** prefix.iot.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -396,8 +447,11 @@ _identities
 
 ## AWS Import/Export Disk
 **Service Slug:** aws_import/export_disk
+
 **Host:**
+
 **Regions:** HTTPS
+
 
 **Environment**
 ```{
@@ -421,8 +475,11 @@ _identities
                         API
 **Service Slug:** aws_iot_1-click_projects
 _api
+
 **Host:** projects.iot1click.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -444,8 +501,11 @@ _api
 
 ## AWS IoT 1-Click Devices API
 **Service Slug:** aws_iot_1-click_devices_api
+
 **Host:** devices.iot1click.us-west-2.amazonaws.com
+
 **Regions:** us-west-2
+
 
 **Environment**
 ```{
@@ -467,8 +527,11 @@ _api
 
 ## Control Plane Operations
 **Service Slug:** control_plane_operations
+
 **Host:** greengrass.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -490,8 +553,11 @@ _api
 
 ## AWS IoT Device Operations
 **Service Slug:** aws_iot_device_operations
+
 **Host:** prefix-ats.iot.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -513,8 +579,11 @@ _api
 
 ## Discovery Operations
 **Service Slug:** discovery_operations
+
 **Host:** greengrass-ats.iot.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -536,8 +605,11 @@ _api
 
 ## Supported Legacy Endpoints
 **Service Slug:** supported_legacy_endpoints
+
 **Host:** prefix.iot.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -559,8 +631,11 @@ _api
 
 ## Model Building Endpoints
 **Service Slug:** model_building_endpoints
+
 **Host:** models.lex.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, eu-west-1
+
 
 **Environment**
 ```{
@@ -582,8 +657,11 @@ _api
 
 ## Runtime Endpoints
 **Service Slug:** runtime_endpoints
+
 **Host:** runtime.lex.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, eu-west-1
+
 
 **Environment**
 ```{
@@ -605,8 +683,11 @@ _api
 
 ## AWS Marketplace Commerce Analytics
 **Service Slug:** aws_marketplace_commerce_analytics
+
 **Host:** marketplacecommerceanalytics.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -628,8 +709,11 @@ _api
 
 ## AWS Marketplace Entitlement Service
 **Service Slug:** aws_marketplace_entitlement_service
+
 **Host:** entitlement.marketplace.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -651,8 +735,11 @@ _api
 
 ## AWS Marketplace Metering Service
 **Service Slug:** aws_marketplace_metering_service
+
 **Host:** metering.marketplace.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -674,8 +761,11 @@ _api
 
 ## AWS OpsWorks CM
 **Service Slug:** aws_opsworks_cm
+
 **Host:** opsworks-cm.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -697,8 +787,11 @@ _api
 
 ## AWS OpsWorks Stacks
 **Service Slug:** aws_opsworks_stacks
+
 **Host:** opsworks.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1
+
 
 **Environment**
 ```{
@@ -720,8 +813,11 @@ _api
 
 ## Amazon Personalize
 **Service Slug:** amazon_personalize
+
 **Host:** personalize.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -743,8 +839,11 @@ _api
 
 ## Amazon Personalize Events
 **Service Slug:** amazon_personalize_events
+
 **Host:** personalize-events.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-east-2, us-west-2, ap-northeast-1, ap-southeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -766,8 +865,11 @@ _api
 
 ## Amazon Personalize Runtime
 **Service Slug:** amazon_personalize_runtime
+
 **Host:** personalize-runtime.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-east-2, us-west-2, ap-northeast-1, ap-southeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -789,8 +891,11 @@ _api
 
 ## Amazon Pinpoint API
 **Service Slug:** amazon_pinpoint_api
+
 **Host:** pinpoint.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -812,8 +917,11 @@ _api
 
 ## Amazon Pinpoint Email API
 **Service Slug:** amazon_pinpoint_email_api
+
 **Host:** email.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -835,8 +943,11 @@ _api
 
 ## Amazon Pinpoint SMS and Voice API
 **Service Slug:** amazon_pinpoint_sms_and_voice_api
+
 **Host:** sms-voice.pinpoint.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -858,8 +969,11 @@ _api
 
 ## Amazon QLDB Control Plane
 **Service Slug:** amazon_qldb_control_plane
+
 **Host:** qldb.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -881,8 +995,11 @@ _api
 
 ## Amazon QLDB Transactional Data Plane
 **Service Slug:** amazon_qldb_transactional_data_plane
+
 **Host:** session.qldb.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -908,8 +1025,11 @@ _api
 **Service Slug:** requests_for_hosted_zones,_records,_health_checks,_dns_query_logs,_reusable_delegation
 _sets,_
 _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_checks
+
 **Host:** route53.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -931,8 +1051,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Requests for domain registration
 **Service Slug:** requests_for_domain_registration
+
 **Host:** route53domains.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -954,8 +1077,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Requests for Route 53 Resolver
 **Service Slug:** requests_for_route 53_resolver
+
 **Host:** route53resolver.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -977,8 +1103,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Requests for Route 53 Auto Naming
 **Service Slug:** requests_for_route 53_auto_naming
+
 **Host:** api.sagemaker.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1000,8 +1129,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon SQS Legacy Endpoints
 **Service Slug:** amazon_sqs_legacy_endpoints
+
 **Host:** sa-east-1.queue.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -1023,8 +1155,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Simple Storage Service Website Endpoints
 **Service Slug:** amazon_simple_storage_service_website_endpoints
+
 **Host:** Z1MPMWCPA7YB62
+
 **Regions:** s3-website.us-east-2.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website-us-west-1.amazonaws.com, s3-website-us-west-2.amazonaws.com, s3-website.ap-east-1.amazonaws.com, s3-website.ap-south-1.amazonaws.com, s3-website.ap-northeast-3.amazonaws.com, s3-website.ap-northeast-2.amazonaws.com, s3-website-ap-southeast-1.amazonaws.com, s3-website-ap-southeast-2.amazonaws.com, s3-website-ap-northeast-1.amazonaws.com, s3-website.ca-central-1.amazonaws.com, s3-website.cn-northwest-1.amazonaws.com.cn, s3-website.eu-central-1.amazonaws.com, s3-website-eu-west-1.amazonaws.com, s3-website.eu-west-2.amazonaws.com, s3-website.eu-west-3.amazonaws.com, s3-website.eu-north-1.amazonaws.com, s3-website-sa-east-1.amazonaws.com, s3-website.me-south-1.amazonaws.com
+
 
 **Environment**
 ```{
@@ -1046,8 +1181,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Storage Gateway Hardware Appliance Regions
 **Service Slug:** aws_storage_gateway_hardware_appliance_regions
+
 **Host:** ssm.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1069,8 +1207,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Regions and Endpoints by Service
 **Service Slug:** aws_regions_and_endpoints_by_service
+
 **Host:** a4b.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -1092,8 +1233,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon API Gateway
 **Service Slug:** amazon_api_gateway
+
 **Host:** apigateway.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1115,8 +1259,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Application Auto Scaling
 **Service Slug:** application_auto_scaling
+
 **Host:** application-autoscaling.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1138,8 +1285,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Application Discovery Service
 **Service Slug:** aws_application_discovery_service
+
 **Host:** discovery.eu-central-1.amazonaws.com
+
 **Regions:** us-west-2, eu-central-1
+
 
 **Environment**
 ```{
@@ -1161,10 +1311,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon AppStream 2.0
 **Service Slug:** amazon_appstream_2.0
+
 **Host:** appstream2.us-gov-west-1.amazonaws.com
 
                                     appstream2-fips.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1186,8 +1339,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS App Mesh
 **Service Slug:** aws_app_mesh
+
 **Host:** appmesh.eu-west-3.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3
+
 
 **Environment**
 ```{
@@ -1209,8 +1365,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS AppSync
 **Service Slug:** aws_appsync
+
 **Host:** appsync.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -1232,8 +1391,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Athena
 **Service Slug:** amazon_athena
+
 **Host:** athena.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1255,8 +1417,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Aurora
 **Service Slug:** amazon_aurora
+
 **Host:** rds.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1278,8 +1443,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Auto Scaling
 **Service Slug:** aws_auto_scaling
+
 **Host:** autoscaling-plans.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -1301,8 +1469,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon EC2 Auto Scaling
 **Service Slug:** amazon_ec2_auto_scaling
+
 **Host:** autoscaling.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1324,8 +1495,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Backup
 **Service Slug:** aws_backup
+
 **Host:** backup.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -1347,8 +1521,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Batch
 **Service Slug:** aws_batch
+
 **Host:** batch.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -1370,8 +1547,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Billing and Cost Management
 **Service Slug:** aws_billing_and_cost_management
+
 **Host:** ce.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -1393,8 +1573,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Certificate Manager
 **Service Slug:** aws_certificate_manager
+
 **Host:** acm.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1416,8 +1599,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Certificate Manager Private Certificate Authority
 **Service Slug:** aws_certificate_manager_private_certificate_authority
+
 **Host:** acm-pca.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1439,8 +1625,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Chime
 **Service Slug:** amazon_chime
+
 **Host:** cloud9.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -1462,8 +1651,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Cloud Directory
 **Service Slug:** amazon_cloud_directory
+
 **Host:** clouddirectory.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ca-central-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1485,8 +1677,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CloudFormation
 **Service Slug:** aws_cloudformation
+
 **Host:** cloudformation.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, eu-north-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1508,8 +1703,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon CloudFront
 **Service Slug:** amazon_cloudfront
+
 **Host:** cloudfront.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -1531,8 +1729,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CloudHSM
 **Service Slug:** aws_cloudhsm
+
 **Host:** cloudhsmv2.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1554,8 +1755,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CloudHSM Classic
 **Service Slug:** aws_cloudhsm_classic
+
 **Host:** cloudhsm.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1577,8 +1781,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Cloud Map
 **Service Slug:** aws_cloud_map
+
 **Host:** servicediscovery.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -1600,8 +1807,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon CloudSearch
 **Service Slug:** amazon_cloudsearch
+
 **Host:** cloudsearch.sa-east-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -1623,8 +1833,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CloudTrail
 **Service Slug:** aws_cloudtrail
+
 **Host:** cloudtrail.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1646,8 +1859,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon CloudWatch
 **Service Slug:** amazon_cloudwatch
+
 **Host:** monitoring.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1669,8 +1885,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon CloudWatch Events
 **Service Slug:** amazon_cloudwatch_events
+
 **Host:** events.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1692,8 +1911,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon CloudWatch Logs
 **Service Slug:** amazon_cloudwatch_logs
+
 **Host:** logs.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1715,8 +1937,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CodeBuild
 **Service Slug:** aws_codebuild
+
 **Host:** codebuild.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1738,8 +1963,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CodeCommit
 **Service Slug:** aws_codecommit
+
 **Host:** codecommit.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1761,10 +1989,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CodeDeploy
 **Service Slug:** aws_codedeploy
+
 **Host:** codedeploy.us-gov-west-1.amazonaws.com
 
                                     codedeploy-fips.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1786,8 +2017,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CodePipeline
 **Service Slug:** aws_codepipeline
+
 **Host:** codepipeline.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -1809,8 +2043,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CodeStar
 **Service Slug:** aws_codestar
+
 **Host:** codestar.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -1832,8 +2069,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS CodeStar Notifications
 **Service Slug:** aws_codestar_notifications
+
 **Host:** codestar-notifications.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -1855,8 +2095,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Cognito Identity
 **Service Slug:** amazon_cognito_identity
+
 **Host:** cognito-idp.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -1878,8 +2121,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Cognito Sync
 **Service Slug:** amazon_cognito_sync
+
 **Host:** cognito-sync.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -1901,8 +2147,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Comprehend
 **Service Slug:** amazon_comprehend
+
 **Host:** comprehend.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ca-central-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1924,8 +2173,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Comprehend Medical
 **Service Slug:** amazon_comprehend_medical
+
 **Host:** comprehendmedical.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-2, ca-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -1947,8 +2199,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Config and AWS Config Rules
 **Service Slug:** aws_config_and_aws_config_rules
+
 **Host:** config.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -1970,8 +2225,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Connect
 **Service Slug:** amazon_connect
+
 **Host:** connect.eu-central-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1
+
 
 **Environment**
 ```{
@@ -1993,8 +2251,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Data Exchange
 **Service Slug:** aws_data_exchange
+
 **Host:** dataexchange.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -2016,8 +2277,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Data Lifecycle Manager
 **Service Slug:** amazon_data_lifecycle_manager
+
 **Host:** dlm.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -2039,8 +2303,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Data Pipeline
 **Service Slug:** aws_data_pipeline
+
 **Host:** datapipeline.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -2062,10 +2329,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS DataSync
 **Service Slug:** aws_datasync
+
 **Host:** datasync.us-gov-west-1.amazonaws.com
 
                                     datasync-fips.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2087,8 +2357,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Database Migration Service
 **Service Slug:** aws_database_migration_service
+
 **Host:** dms.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2110,8 +2383,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS DeepLens
 **Service Slug:** aws_deeplens
+
 **Host:** deeplens.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -2133,8 +2409,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Device Farm
 **Service Slug:** aws_device_farm
+
 **Host:** devicefarm.us-west-2.amazonaws.com
+
 **Regions:** us-west-2
+
 
 **Environment**
 ```{
@@ -2156,8 +2435,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Direct Connect
 **Service Slug:** aws_direct_connect
+
 **Host:** directconnect.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2179,8 +2461,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Directory Service
 **Service Slug:** aws_directory_service
+
 **Host:** ds.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2202,8 +2487,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon DocumentDB
 **Service Slug:** amazon_documentdb
+
 **Host:** rds.eu-west-3.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3
+
 
 **Environment**
 ```{
@@ -2225,10 +2513,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon DynamoDB
 **Service Slug:** amazon_dynamodb
+
 **Host:** dynamodb.us-gov-west-1.amazonaws.com
 
                                     dynamodb.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2250,8 +2541,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## DynamoDB Accelerator (DAX)
 **Service Slug:** dynamodb_accelerator_(dax)
+
 **Host:** dax.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1
+
 
 **Environment**
 ```{
@@ -2273,10 +2567,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon DynamoDB Streams
 **Service Slug:** amazon_dynamodb_streams
+
 **Host:** streams.dynamodb.us-gov-west-1.amazonaws.com
 
                                     dynamodb.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2298,8 +2595,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Elastic Beanstalk
 **Service Slug:** aws_elastic_beanstalk
+
 **Host:** elasticbeanstalk.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2321,8 +2621,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Elastic Beanstalk Health Service
 **Service Slug:** aws_elastic_beanstalk_health_service
+
 **Host:** elasticbeanstalk-health.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2344,8 +2647,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Elastic Compute Cloud (Amazon EC2)
 **Service Slug:** amazon_elastic_compute_cloud_(amazon_ec2)
+
 **Host:** ec2.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2367,8 +2673,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Elastic Container Registry
 **Service Slug:** amazon_elastic_container_registry
+
 **Host:** ecr.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2390,8 +2699,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Elastic Container Service
 **Service Slug:** amazon_elastic_container_service
+
 **Host:** ecs.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2413,8 +2725,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Elastic Kubernetes Service (Amazon EKS)
 **Service Slug:** amazon_elastic_kubernetes_service_(amazon_eks)
+
 **Host:** eks.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -2436,8 +2751,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Elastic File System
 **Service Slug:** amazon_elastic_file_system
+
 **Host:** elasticfilesystem.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2459,8 +2777,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Elastic Load Balancing
 **Service Slug:** elastic_load_balancing
+
 **Host:** elasticloadbalancing.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -2482,8 +2803,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Elastic Transcoder
 **Service Slug:** amazon_elastic_transcoder
+
 **Host:** elastictranscoder.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -2505,8 +2829,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon ElastiCache
 **Service Slug:** amazon_elasticache
+
 **Host:** elasticache.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2528,10 +2855,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Elasticsearch Service
 **Service Slug:** amazon_elasticsearch_service
+
 **Host:** es.us-gov-west-1.amazonaws.com
 
                                     es-fips.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2553,8 +2883,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon EMR
 **Service Slug:** amazon_emr
+
 **Host:** elasticmapreduce.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2576,8 +2909,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon EventBridge
 **Service Slug:** amazon_eventbridge
+
 **Host:** events.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2599,8 +2935,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Firewall Manager
 **Service Slug:** aws_firewall_manager
+
 **Host:** fms.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -2622,8 +2961,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Forecast
 **Service Slug:** amazon_forecast
+
 **Host:** forecast.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -2645,8 +2987,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon FreeRTOS
 **Service Slug:** amazon_freertos
+
 **Host:** iot.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -2668,8 +3013,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon FSx
 **Service Slug:** amazon_fsx
+
 **Host:** fsx.eu-north-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1
+
 
 **Environment**
 ```{
@@ -2691,8 +3039,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon GameLift
 **Service Slug:** amazon_gamelift
+
 **Host:** gamelift.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, sa-east-1
+
 
 **Environment**
 ```{
@@ -2714,8 +3065,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon S3 Glacier
 **Service Slug:** amazon_s3_glacier
+
 **Host:** glacier.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2737,8 +3091,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Global Accelerator
 **Service Slug:** aws_global_accelerator
+
 **Host:** globalaccelerator.amazonaws.com
+
 **Regions:** us-west-2
+
 
 **Environment**
 ```{
@@ -2760,8 +3117,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Glue
 **Service Slug:** aws_glue
+
 **Host:** glue.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2783,8 +3143,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Ground Station
 **Service Slug:** aws_ground_station
+
 **Host:** groundstation.us-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-west-2
+
 
 **Environment**
 ```{
@@ -2806,8 +3169,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon GuardDuty
 **Service Slug:** amazon_guardduty
+
 **Host:** guardduty.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2829,8 +3195,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Health
 **Service Slug:** aws_health
+
 **Host:** iam.us-gov.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2852,8 +3221,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Import/Export
 **Service Slug:** aws_import/export
+
 **Host:**
+
 **Regions:** HTTPS
+
 
 **Environment**
 ```{
@@ -2875,8 +3247,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Inspector
 **Service Slug:** amazon_inspector
+
 **Host:** inspector.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2898,8 +3273,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT 1-Click
 **Service Slug:** aws_iot_1-click
+
 **Host:** projects.iot1click.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -2921,8 +3299,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT Analytics
 **Service Slug:** aws_iot_analytics
+
 **Host:** iotanalytics.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -2944,8 +3325,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT Core
 **Service Slug:** aws_iot_core
+
 **Host:** iot.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2967,8 +3351,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT Device Defender
 **Service Slug:** aws_iot_device_defender
+
 **Host:** iot.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -2990,8 +3377,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT Device Management
 **Service Slug:** aws_iot_device_management
+
 **Host:** iot.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3013,8 +3403,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT Events
 **Service Slug:** aws_iot_events
+
 **Host:** iotevents.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -3036,8 +3429,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT Greengrass
 **Service Slug:** aws_iot_greengrass
+
 **Host:** greengrass.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3059,8 +3455,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS IoT Things Graph
 **Service Slug:** aws_iot_things_graph
+
 **Host:** iotthingsgraph.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-northeast-2, ap-southeast-2, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3082,10 +3481,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Key Management Service
 **Service Slug:** aws_key_management_service
+
 **Host:** kms.us-gov-west-1.amazonaws.com
 
                                     kms-fips.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3107,8 +3509,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Kinesis Data Analytics
 **Service Slug:** amazon_kinesis_data_analytics
+
 **Host:** kinesisanalytics.eu-north-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1
+
 
 **Environment**
 ```{
@@ -3130,8 +3535,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Kinesis Data Firehose
 **Service Slug:** amazon_kinesis_data_firehose
+
 **Host:** firehose.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3153,8 +3561,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Kinesis Data Streams
 **Service Slug:** amazon_kinesis_data_streams
+
 **Host:** kinesis.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3176,8 +3587,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Kinesis Video Streams
 **Service Slug:** amazon_kinesis_video_streams
+
 **Host:** kinesisvideo.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3199,8 +3613,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Lake Formation
 **Service Slug:** aws_lake_formation
+
 **Host:** lakeformation.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -3222,8 +3639,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Lambda
 **Service Slug:** aws_lambda
+
 **Host:** lambda.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3245,8 +3665,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Lex
 **Service Slug:** amazon_lex
+
 **Host:** models.lex.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, eu-west-1
+
 
 **Environment**
 ```{
@@ -3268,8 +3691,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS License Manager
 **Service Slug:** aws_license_manager
+
 **Host:** license-manager.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3291,8 +3717,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Lightsail
 **Service Slug:** amazon_lightsail
+
 **Host:** lightsail.eu-west-3.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3
+
 
 **Environment**
 ```{
@@ -3314,8 +3743,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Macie
 **Service Slug:** amazon_macie
+
 **Host:** macie.us-west-2.amazonaws.com
+
 **Regions:** us-east-1, us-west-2
+
 
 **Environment**
 ```{
@@ -3337,8 +3769,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Machine Learning
 **Service Slug:** amazon_machine_learning
+
 **Host:** machinelearning.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3360,8 +3795,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Managed Blockchain
 **Service Slug:** amazon_managed_blockchain
+
 **Host:** managedblockchain.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -3383,8 +3821,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Marketplace
 **Service Slug:** aws_marketplace
+
 **Host:** marketplacecommerceanalytics.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -3406,8 +3847,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Mechanical Turk
 **Service Slug:** amazon_mechanical_turk
+
 **Host:** HTTPS
+
 **Regions:** mturk-requester-sandbox.us-east-1.amazonaws.com, mturk-requester.us-east-1.amazonaws.com
+
 
 **Environment**
 ```{
@@ -3429,8 +3873,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 **Service Slug:** amazon_managed_streaming_for_apache_kafka_(amazon_msk)
+
 **Host:** kafka.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -3452,8 +3899,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Elemental MediaConnect
 **Service Slug:** aws_elemental_mediaconnect
+
 **Host:** mediaconnect.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -3475,8 +3925,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Elemental MediaConvert
 **Service Slug:** aws_elemental_mediaconvert
+
 **Host:** mediaconvert.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3498,8 +3951,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Elemental MediaLive
 **Service Slug:** aws_elemental_medialive
+
 **Host:** mediapackage.sa-east-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1
+
 
 **Environment**
 ```{
@@ -3521,8 +3977,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Elemental MediaStore
 **Service Slug:** aws_elemental_mediastore
+
 **Host:** mediastore.eu-north-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-northeast-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-north-1
+
 
 **Environment**
 ```{
@@ -3544,8 +4003,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Elemental MediaTailor
 **Service Slug:** aws_elemental_mediatailor
+
 **Host:** api.mediatailor.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3567,8 +4029,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Migration Hub
 **Service Slug:** aws_migration_hub
+
 **Host:** mgh.eu-central-1.amazonaws.com
+
 **Regions:** us-west-2, eu-central-1
+
 
 **Environment**
 ```{
@@ -3590,8 +4055,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon MQ
 **Service Slug:** amazon_mq
+
 **Host:** mq.eu-west-3.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3
+
 
 **Environment**
 ```{
@@ -3613,8 +4081,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Neptune
 **Service Slug:** amazon_neptune
+
 **Host:** rds.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3636,8 +4107,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS OpsWorks
 **Service Slug:** aws_opsworks
+
 **Host:** opsworks-cm.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3659,8 +4133,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Organizations
 **Service Slug:** aws_organizations
+
 **Host:** organizations.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3682,8 +4159,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Personalize
 **Service Slug:** amazon_personalize
+
 **Host:** personalize.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3705,8 +4185,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Pinpoint
 **Service Slug:** amazon_pinpoint
+
 **Host:** pinpoint.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3728,8 +4211,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Polly
 **Service Slug:** amazon_polly
+
 **Host:** polly.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3751,8 +4237,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon QLDB
 **Service Slug:** amazon_qldb
+
 **Host:** qldb.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -3774,8 +4263,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon QuickSight
 **Service Slug:** amazon_quicksight
+
 **Host:** https://eu-west-2.quicksight.aws.amazon.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -3797,8 +4289,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Resource Access Manager
 **Service Slug:** aws_resource_access_manager
+
 **Host:** ram.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3820,8 +4315,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Redshift
 **Service Slug:** amazon_redshift
+
 **Host:** redshift.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3843,8 +4341,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Rekognition
 **Service Slug:** amazon_rekognition
+
 **Host:** rekognition.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3866,8 +4367,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Relational Database Service (Amazon RDS)
 **Service Slug:** amazon_relational_database_service_(amazon_rds)
+
 **Host:** rds.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3889,8 +4393,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Relational Database Service (Amazon RDS) Performance Insights
 **Service Slug:** amazon_relational_database_service_(amazon_rds)_performance_insights
+
 **Host:** pi.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -3912,10 +4419,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Resource Groups
 **Service Slug:** aws_resource_groups
+
 **Host:** resource-groups.us-gov-west-1.amazonaws.com
 
                                     resource-groups.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3937,8 +4447,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Resource Groups Tagging API
 **Service Slug:** resource_groups_tagging_api
+
 **Host:** tagging.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -3960,8 +4473,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS RoboMaker
 **Service Slug:** aws_robomaker
+
 **Host:** robomaker.ap-northeast-1.amazonaws.com
+
 **Regions:** us-east-1, us-east-2, us-west-2, eu-west-1, eu-central-1, ap-southeast-1, ap-northeast-1
+
 
 **Environment**
 ```{
@@ -3983,8 +4499,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Route 53
 **Service Slug:** amazon_route 53
+
 **Host:** route53.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -4006,8 +4525,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon SageMaker
 **Service Slug:** amazon_sagemaker
+
 **Host:** api.sagemaker.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4029,8 +4551,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Secrets Manager
 **Service Slug:** aws_secrets_manager
+
 **Host:** secretsmanager.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4052,8 +4577,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Security Hub
 **Service Slug:** aws_security_hub
+
 **Host:** securityhub.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -4075,8 +4603,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Security Token Service (AWS STS)
 **Service Slug:** aws_security_token_service_(aws_sts)
+
 **Host:** sts.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4098,8 +4629,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Server Migration Service
 **Service Slug:** aws_server_migration_service
+
 **Host:** sms.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4121,8 +4655,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Service Quotas
 **Service Slug:** service_quotas
+
 **Host:** servicequotas.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1
+
 
 **Environment**
 ```{
@@ -4144,8 +4681,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Serverless Application Repository
 **Service Slug:** aws_serverless_application_repository
+
 **Host:** serverlessrepo.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4167,8 +4707,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Service Catalog
 **Service Slug:** aws_service_catalog
+
 **Host:** servicecatalog.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4190,8 +4733,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Shield Advanced
 **Service Slug:** aws_shield_advanced
+
 **Host:** shield.us-east-1.amazonaws.com
+
 **Regions:** us-east-1
+
 
 **Environment**
 ```{
@@ -4213,8 +4759,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Simple Email Service (Amazon SES)
 **Service Slug:** amazon_simple_email_service_(amazon_ses)
+
 **Host:** email.eu-central-1.amazonaws.com
+
 **Regions:** us-east-1, us-east-1, us-west-2, us-west-2, ap-south-1, ap-southeast-2, eu-west-1, eu-central-1
+
 
 **Environment**
 ```{
@@ -4236,8 +4785,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Simple Notification Service (Amazon SNS)
 **Service Slug:** amazon_simple_notification_service_(amazon_sns)
+
 **Host:** sns.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4259,8 +4811,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Simple Queue Service (Amazon SQS)
 **Service Slug:** amazon_simple_queue_service_(amazon_sqs)
+
 **Host:** sqs.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4282,6 +4837,7 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Simple Storage Service (Amazon S3)
 **Service Slug:** amazon_simple_storage_service_(amazon_s3)
+
 **Host:** Valid endpoint names for this Region:
 
 
@@ -4316,7 +4872,9 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 
                                              account-id.s3-control.dualstack.me-south-1.amazonaws.com**
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, me-south-1
+
 
 **Environment**
 ```{
@@ -4338,8 +4896,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Simple Workflow Service (Amazon SWF)
 **Service Slug:** amazon_simple_workflow_service_(amazon_swf)
+
 **Host:** swf.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4361,8 +4922,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon SimpleDB
 **Service Slug:** amazon_simpledb
+
 **Host:** sdb.sa-east-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -4384,8 +4948,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Single Sign-On
 **Service Slug:** aws_single_sign-on
+
 **Host:** sso.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ca-central-1, eu-central-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -4407,8 +4974,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Snowball
 **Service Slug:** aws_snowball
+
 **Host:** snowball.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4430,8 +5000,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Step Functions
 **Service Slug:** aws_step_functions
+
 **Host:** states.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4453,8 +5026,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Storage Gateway
 **Service Slug:** aws_storage_gateway
+
 **Host:** storagegateway.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4476,8 +5052,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Support
 **Service Slug:** aws_support
+
 **Host:** ssm.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4499,8 +5078,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Textract
 **Service Slug:** amazon_textract
+
 **Host:** textract.eu-west-2.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, eu-west-1, eu-west-2
+
 
 **Environment**
 ```{
@@ -4522,8 +5104,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Transcribe
 **Service Slug:** amazon_transcribe
+
 **Host:** transcribe.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, me-south-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4545,8 +5130,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Transcribe Streaming
 **Service Slug:** amazon_transcribe_streaming
+
 **Host:** transcribestreaming.eu-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-2, ca-central-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -4568,8 +5156,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS Transfer for SFTP
 **Service Slug:** aws_transfer_for_sftp
+
 **Host:** transfer.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1
+
 
 **Environment**
 ```{
@@ -4591,10 +5182,13 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon Translate
 **Service Slug:** amazon_translate
+
 **Host:** translate.us-gov-west-1.amazonaws.com
 
                                     translate-fips.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4616,8 +5210,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon VPC
 **Service Slug:** amazon_vpc
+
 **Host:** ec2.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4639,8 +5236,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS WAF
 **Service Slug:** aws_waf
+
 **Host:** waf.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4662,8 +5262,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon WorkDocs
 **Service Slug:** amazon_workdocs
+
 **Host:** workdocs.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -4685,8 +5288,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon WorkLink
 **Service Slug:** amazon_worklink
+
 **Host:** worklink.eu-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-east-2, us-west-2, eu-west-1
+
 
 **Environment**
 ```{
@@ -4708,8 +5314,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon WorkMail
 **Service Slug:** amazon_workmail
+
 **Host:** SMTP via TLS (port 465)
+
 **Regions:** us-east-1, us-east-1, us-east-1, us-east-1, us-east-1, us-east-1, us-east-1, us-west-2, us-west-2, us-west-2, us-west-2, us-west-2, us-west-2, us-west-2, eu-west-1, eu-west-1, eu-west-1, eu-west-1, eu-west-1, eu-west-1, eu-west-1
+
 
 **Environment**
 ```{
@@ -4731,8 +5340,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## Amazon WorkSpaces
 **Service Slug:** amazon_workspaces
+
 **Host:** workspaces.us-gov-west-1.amazonaws.com
+
 **Regions:** us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, sa-east-1, us-gov-west-1
+
 
 **Environment**
 ```{
@@ -4754,8 +5366,11 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 ## AWS X-Ray
 **Service Slug:** aws_x-ray
+
 **Host:** xray.sa-east-1.amazonaws.com
+
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1
+
 
 **Environment**
 ```{
