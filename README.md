@@ -1,5 +1,7 @@
 # AWS API Postman Collections
-This is an assortment of Postman collections for the AWS APIs, broken down by each AWS service.
+This is an assortment of Postman collections for the AWS APIs, broken down by each AWS service. This is not an official AWS project, and is just meant to drive discussion, and hopefully more work into maintaining a robust set of Postman collections for the AWS platform.
+
+Make sure and look at [the AWS Postman environments](environments.md) as part of this work, establishing the base URL and regions for each service.
 
 - [Auto Scaling](auto-scaling/README.md) - A Postman collection for the AWS Auto Scaling API.
 - [Batch](batch/README.md) - A Postman collection for the AWS Batch API.
@@ -57,4 +59,4 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 - [WAF](waf/README.md) - A Postman collection for the AWS WAF API.
 - [WAF Regional](waf-regional/README.md) - A Postman collection for the AWS WAF Regional API.
 
-These are not official AWS APIs, and always independently being evolved via this repository.
+If you have any comments or questions you can submit an issue on this repository, or feel free to tweet at @apievangelist on Twitter, or email info@apievangelist.com for a more private discussion.
