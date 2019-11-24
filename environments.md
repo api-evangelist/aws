@@ -1,6 +1,9 @@
 # AWS API Environments
 These are Postman environments generated from the [AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html), providing the details you need to work with each of the AWS APIs across all regions.
 
+
+
+
 ## Amazon API Gateway Control Plane
 **Service Slug:** amazon_api_gateway_control_plane
 **Host:** apigateway.us-gov-west-1.amazonaws.com<br>**Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1<br>**Environment**
@@ -18,7 +21,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon API Gateway Data Plane
 **Service Slug:** amazon_api_gateway_data_plane
@@ -37,7 +41,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## AWS AppSync Control Plane
 **Service Slug:** aws_appsync_control_plane
@@ -56,7 +61,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## AWS AppSync Data Plane
 **Service Slug:** aws_appsync_data_plane
@@ -75,7 +81,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Aurora with MySQL compatibility
 **Service Slug:** amazon_aurora_with_mysql_compatibility
@@ -94,7 +101,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Aurora with PostgreSQL compatibility
 **Service Slug:** amazon_aurora_with_postgresql_compatibility
@@ -113,7 +121,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Cost Explorer
 **Service Slug:** aws_cost_explorer
@@ -132,7 +141,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Cost and Usage Reports
 **Service Slug:** aws_cost_and_usage_reports
@@ -151,7 +161,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Budgets
 **Service Slug:** aws_budgets
@@ -170,7 +181,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Price List Service
 **Service Slug:** aws_price_list_service
@@ -189,7 +201,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## Savings Plans
 **Service Slug:** savings_plans
@@ -208,7 +221,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Cognito Your User Pools
 **Service Slug:** amazon_cognito_your_user_pools
@@ -227,7 +241,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Cognito Federated
                         Identities
@@ -248,7 +263,8 @@ _identities
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Forecast
 **Service Slug:** amazon_forecast
@@ -267,7 +283,8 @@ _identities
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Forecast Query
 **Service Slug:** amazon_forecast_query
@@ -286,7 +303,8 @@ _identities
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon FreeRTOS OTA Control Plane
 **Service Slug:** amazon_freertos_ota_control_plane
@@ -305,7 +323,8 @@ _identities
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon FreeRTOS OTA Data Plane
 **Service Slug:** amazon_freertos_ota_data_plane
@@ -324,7 +343,8 @@ _identities
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Import/Export Disk
 **Service Slug:** aws_import/export_disk
@@ -343,7 +363,8 @@ _identities
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT 1-Click Projects
                         API
@@ -364,7 +385,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT 1-Click Devices API
 **Service Slug:** aws_iot_1-click_devices_api
@@ -383,7 +405,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Control Plane Operations
 **Service Slug:** control_plane_operations
@@ -402,7 +425,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Device Operations
 **Service Slug:** aws_iot_device_operations
@@ -421,7 +445,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Discovery Operations
 **Service Slug:** discovery_operations
@@ -440,7 +465,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Supported Legacy Endpoints
 **Service Slug:** supported_legacy_endpoints
@@ -459,7 +485,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Model Building Endpoints
 **Service Slug:** model_building_endpoints
@@ -478,7 +505,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Runtime Endpoints
 **Service Slug:** runtime_endpoints
@@ -497,7 +525,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Marketplace Commerce Analytics
 **Service Slug:** aws_marketplace_commerce_analytics
@@ -516,7 +545,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Marketplace Entitlement Service
 **Service Slug:** aws_marketplace_entitlement_service
@@ -535,7 +565,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Marketplace Metering Service
 **Service Slug:** aws_marketplace_metering_service
@@ -554,7 +585,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## AWS OpsWorks CM
 **Service Slug:** aws_opsworks_cm
@@ -573,7 +605,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## AWS OpsWorks Stacks
 **Service Slug:** aws_opsworks_stacks
@@ -592,7 +625,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Personalize
 **Service Slug:** amazon_personalize
@@ -611,7 +645,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Personalize Events
 **Service Slug:** amazon_personalize_events
@@ -630,7 +665,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Personalize Runtime
 **Service Slug:** amazon_personalize_runtime
@@ -649,7 +685,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Pinpoint API
 **Service Slug:** amazon_pinpoint_api
@@ -668,7 +705,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Pinpoint Email API
 **Service Slug:** amazon_pinpoint_email_api
@@ -687,7 +725,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Pinpoint SMS and Voice API
 **Service Slug:** amazon_pinpoint_sms_and_voice_api
@@ -706,7 +745,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon QLDB Control Plane
 **Service Slug:** amazon_qldb_control_plane
@@ -725,7 +765,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon QLDB Transactional Data Plane
 **Service Slug:** amazon_qldb_transactional_data_plane
@@ -744,7 +785,8 @@ _api
             }
         ]
     }
-}```
+}
+```
 
 ## Requests for hosted zones, records, health checks, DNS query logs, reusable delegation
                         sets,
@@ -767,7 +809,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Requests for domain registration
 **Service Slug:** requests_for_domain_registration
@@ -786,7 +829,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Requests for Route 53 Resolver
 **Service Slug:** requests_for_route 53_resolver
@@ -805,7 +849,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Requests for Route 53 Auto Naming
 **Service Slug:** requests_for_route 53_auto_naming
@@ -824,7 +869,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon SQS Legacy Endpoints
 **Service Slug:** amazon_sqs_legacy_endpoints
@@ -843,7 +889,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Simple Storage Service Website Endpoints
 **Service Slug:** amazon_simple_storage_service_website_endpoints
@@ -862,7 +909,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Storage Gateway Hardware Appliance Regions
 **Service Slug:** aws_storage_gateway_hardware_appliance_regions
@@ -881,7 +929,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Regions and Endpoints by Service
 **Service Slug:** aws_regions_and_endpoints_by_service
@@ -900,7 +949,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon API Gateway
 **Service Slug:** amazon_api_gateway
@@ -919,7 +969,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Application Auto Scaling
 **Service Slug:** application_auto_scaling
@@ -938,7 +989,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Application Discovery Service
 **Service Slug:** aws_application_discovery_service
@@ -957,7 +1009,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon AppStream 2.0
 **Service Slug:** amazon_appstream_2.0
@@ -978,7 +1031,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS App Mesh
 **Service Slug:** aws_app_mesh
@@ -997,7 +1051,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS AppSync
 **Service Slug:** aws_appsync
@@ -1016,7 +1071,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Athena
 **Service Slug:** amazon_athena
@@ -1035,7 +1091,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Aurora
 **Service Slug:** amazon_aurora
@@ -1054,7 +1111,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Auto Scaling
 **Service Slug:** aws_auto_scaling
@@ -1073,7 +1131,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon EC2 Auto Scaling
 **Service Slug:** amazon_ec2_auto_scaling
@@ -1092,7 +1151,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Backup
 **Service Slug:** aws_backup
@@ -1111,7 +1171,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Batch
 **Service Slug:** aws_batch
@@ -1130,7 +1191,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Billing and Cost Management
 **Service Slug:** aws_billing_and_cost_management
@@ -1149,7 +1211,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Certificate Manager
 **Service Slug:** aws_certificate_manager
@@ -1168,7 +1231,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Certificate Manager Private Certificate Authority
 **Service Slug:** aws_certificate_manager_private_certificate_authority
@@ -1187,7 +1251,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Chime
 **Service Slug:** amazon_chime
@@ -1206,7 +1271,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Cloud Directory
 **Service Slug:** amazon_cloud_directory
@@ -1225,7 +1291,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CloudFormation
 **Service Slug:** aws_cloudformation
@@ -1244,7 +1311,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon CloudFront
 **Service Slug:** amazon_cloudfront
@@ -1263,7 +1331,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CloudHSM
 **Service Slug:** aws_cloudhsm
@@ -1282,7 +1351,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CloudHSM Classic
 **Service Slug:** aws_cloudhsm_classic
@@ -1301,7 +1371,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Cloud Map
 **Service Slug:** aws_cloud_map
@@ -1320,7 +1391,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon CloudSearch
 **Service Slug:** amazon_cloudsearch
@@ -1339,7 +1411,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CloudTrail
 **Service Slug:** aws_cloudtrail
@@ -1358,7 +1431,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon CloudWatch
 **Service Slug:** amazon_cloudwatch
@@ -1377,7 +1451,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon CloudWatch Events
 **Service Slug:** amazon_cloudwatch_events
@@ -1396,7 +1471,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon CloudWatch Logs
 **Service Slug:** amazon_cloudwatch_logs
@@ -1415,7 +1491,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CodeBuild
 **Service Slug:** aws_codebuild
@@ -1434,7 +1511,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CodeCommit
 **Service Slug:** aws_codecommit
@@ -1453,7 +1531,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CodeDeploy
 **Service Slug:** aws_codedeploy
@@ -1474,7 +1553,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CodePipeline
 **Service Slug:** aws_codepipeline
@@ -1493,7 +1573,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CodeStar
 **Service Slug:** aws_codestar
@@ -1512,7 +1593,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS CodeStar Notifications
 **Service Slug:** aws_codestar_notifications
@@ -1531,7 +1613,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Cognito Identity
 **Service Slug:** amazon_cognito_identity
@@ -1550,7 +1633,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Cognito Sync
 **Service Slug:** amazon_cognito_sync
@@ -1569,7 +1653,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Comprehend
 **Service Slug:** amazon_comprehend
@@ -1588,7 +1673,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Comprehend Medical
 **Service Slug:** amazon_comprehend_medical
@@ -1607,7 +1693,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Config and AWS Config Rules
 **Service Slug:** aws_config_and_aws_config_rules
@@ -1626,7 +1713,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Connect
 **Service Slug:** amazon_connect
@@ -1645,7 +1733,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Data Exchange
 **Service Slug:** aws_data_exchange
@@ -1664,7 +1753,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Data Lifecycle Manager
 **Service Slug:** amazon_data_lifecycle_manager
@@ -1683,7 +1773,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Data Pipeline
 **Service Slug:** aws_data_pipeline
@@ -1702,7 +1793,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS DataSync
 **Service Slug:** aws_datasync
@@ -1723,7 +1815,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Database Migration Service
 **Service Slug:** aws_database_migration_service
@@ -1742,7 +1835,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS DeepLens
 **Service Slug:** aws_deeplens
@@ -1761,7 +1855,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Device Farm
 **Service Slug:** aws_device_farm
@@ -1780,7 +1875,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Direct Connect
 **Service Slug:** aws_direct_connect
@@ -1799,7 +1895,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Directory Service
 **Service Slug:** aws_directory_service
@@ -1818,7 +1915,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon DocumentDB
 **Service Slug:** amazon_documentdb
@@ -1837,7 +1935,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon DynamoDB
 **Service Slug:** amazon_dynamodb
@@ -1858,7 +1957,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## DynamoDB Accelerator (DAX)
 **Service Slug:** dynamodb_accelerator_(dax)
@@ -1877,7 +1977,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon DynamoDB Streams
 **Service Slug:** amazon_dynamodb_streams
@@ -1898,7 +1999,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Elastic Beanstalk
 **Service Slug:** aws_elastic_beanstalk
@@ -1917,7 +2019,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Elastic Beanstalk Health Service
 **Service Slug:** aws_elastic_beanstalk_health_service
@@ -1936,7 +2039,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Elastic Compute Cloud (Amazon EC2)
 **Service Slug:** amazon_elastic_compute_cloud_(amazon_ec2)
@@ -1955,7 +2059,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Elastic Container Registry
 **Service Slug:** amazon_elastic_container_registry
@@ -1974,7 +2079,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Elastic Container Service
 **Service Slug:** amazon_elastic_container_service
@@ -1993,7 +2099,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Elastic Kubernetes Service (Amazon EKS)
 **Service Slug:** amazon_elastic_kubernetes_service_(amazon_eks)
@@ -2012,7 +2119,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Elastic File System
 **Service Slug:** amazon_elastic_file_system
@@ -2031,7 +2139,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Elastic Load Balancing
 **Service Slug:** elastic_load_balancing
@@ -2050,7 +2159,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Elastic Transcoder
 **Service Slug:** amazon_elastic_transcoder
@@ -2069,7 +2179,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon ElastiCache
 **Service Slug:** amazon_elasticache
@@ -2088,7 +2199,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Elasticsearch Service
 **Service Slug:** amazon_elasticsearch_service
@@ -2109,7 +2221,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon EMR
 **Service Slug:** amazon_emr
@@ -2128,7 +2241,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon EventBridge
 **Service Slug:** amazon_eventbridge
@@ -2147,7 +2261,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Firewall Manager
 **Service Slug:** aws_firewall_manager
@@ -2166,7 +2281,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Forecast
 **Service Slug:** amazon_forecast
@@ -2185,7 +2301,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon FreeRTOS
 **Service Slug:** amazon_freertos
@@ -2204,7 +2321,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon FSx
 **Service Slug:** amazon_fsx
@@ -2223,7 +2341,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon GameLift
 **Service Slug:** amazon_gamelift
@@ -2242,7 +2361,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon S3 Glacier
 **Service Slug:** amazon_s3_glacier
@@ -2261,7 +2381,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Global Accelerator
 **Service Slug:** aws_global_accelerator
@@ -2280,7 +2401,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Glue
 **Service Slug:** aws_glue
@@ -2299,7 +2421,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Ground Station
 **Service Slug:** aws_ground_station
@@ -2318,7 +2441,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon GuardDuty
 **Service Slug:** amazon_guardduty
@@ -2337,7 +2461,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Health
 **Service Slug:** aws_health
@@ -2356,7 +2481,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Import/Export
 **Service Slug:** aws_import/export
@@ -2375,7 +2501,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Inspector
 **Service Slug:** amazon_inspector
@@ -2394,7 +2521,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT 1-Click
 **Service Slug:** aws_iot_1-click
@@ -2413,7 +2541,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Analytics
 **Service Slug:** aws_iot_analytics
@@ -2432,7 +2561,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Core
 **Service Slug:** aws_iot_core
@@ -2451,7 +2581,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Device Defender
 **Service Slug:** aws_iot_device_defender
@@ -2470,7 +2601,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Device Management
 **Service Slug:** aws_iot_device_management
@@ -2489,7 +2621,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Events
 **Service Slug:** aws_iot_events
@@ -2508,7 +2641,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Greengrass
 **Service Slug:** aws_iot_greengrass
@@ -2527,7 +2661,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS IoT Things Graph
 **Service Slug:** aws_iot_things_graph
@@ -2546,7 +2681,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Key Management Service
 **Service Slug:** aws_key_management_service
@@ -2567,7 +2703,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Kinesis Data Analytics
 **Service Slug:** amazon_kinesis_data_analytics
@@ -2586,7 +2723,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Kinesis Data Firehose
 **Service Slug:** amazon_kinesis_data_firehose
@@ -2605,7 +2743,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Kinesis Data Streams
 **Service Slug:** amazon_kinesis_data_streams
@@ -2624,7 +2763,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Kinesis Video Streams
 **Service Slug:** amazon_kinesis_video_streams
@@ -2643,7 +2783,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Lake Formation
 **Service Slug:** aws_lake_formation
@@ -2662,7 +2803,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Lambda
 **Service Slug:** aws_lambda
@@ -2681,7 +2823,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Lex
 **Service Slug:** amazon_lex
@@ -2700,7 +2843,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS License Manager
 **Service Slug:** aws_license_manager
@@ -2719,7 +2863,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Lightsail
 **Service Slug:** amazon_lightsail
@@ -2738,7 +2883,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Macie
 **Service Slug:** amazon_macie
@@ -2757,7 +2903,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Machine Learning
 **Service Slug:** amazon_machine_learning
@@ -2776,7 +2923,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Managed Blockchain
 **Service Slug:** amazon_managed_blockchain
@@ -2795,7 +2943,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Marketplace
 **Service Slug:** aws_marketplace
@@ -2814,7 +2963,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Mechanical Turk
 **Service Slug:** amazon_mechanical_turk
@@ -2833,7 +2983,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 **Service Slug:** amazon_managed_streaming_for_apache_kafka_(amazon_msk)
@@ -2852,7 +3003,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Elemental MediaConnect
 **Service Slug:** aws_elemental_mediaconnect
@@ -2871,7 +3023,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Elemental MediaConvert
 **Service Slug:** aws_elemental_mediaconvert
@@ -2890,7 +3043,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Elemental MediaLive
 **Service Slug:** aws_elemental_medialive
@@ -2909,7 +3063,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Elemental MediaStore
 **Service Slug:** aws_elemental_mediastore
@@ -2928,7 +3083,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Elemental MediaTailor
 **Service Slug:** aws_elemental_mediatailor
@@ -2947,7 +3103,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Migration Hub
 **Service Slug:** aws_migration_hub
@@ -2966,7 +3123,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon MQ
 **Service Slug:** amazon_mq
@@ -2985,7 +3143,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Neptune
 **Service Slug:** amazon_neptune
@@ -3004,7 +3163,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS OpsWorks
 **Service Slug:** aws_opsworks
@@ -3023,7 +3183,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Organizations
 **Service Slug:** aws_organizations
@@ -3042,7 +3203,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Personalize
 **Service Slug:** amazon_personalize
@@ -3061,7 +3223,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Pinpoint
 **Service Slug:** amazon_pinpoint
@@ -3080,7 +3243,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Polly
 **Service Slug:** amazon_polly
@@ -3099,7 +3263,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon QLDB
 **Service Slug:** amazon_qldb
@@ -3118,7 +3283,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon QuickSight
 **Service Slug:** amazon_quicksight
@@ -3137,7 +3303,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Resource Access Manager
 **Service Slug:** aws_resource_access_manager
@@ -3156,7 +3323,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Redshift
 **Service Slug:** amazon_redshift
@@ -3175,7 +3343,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Rekognition
 **Service Slug:** amazon_rekognition
@@ -3194,7 +3363,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Relational Database Service (Amazon RDS)
 **Service Slug:** amazon_relational_database_service_(amazon_rds)
@@ -3213,7 +3383,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Relational Database Service (Amazon RDS) Performance Insights
 **Service Slug:** amazon_relational_database_service_(amazon_rds)_performance_insights
@@ -3232,7 +3403,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Resource Groups
 **Service Slug:** aws_resource_groups
@@ -3253,7 +3425,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Resource Groups Tagging API
 **Service Slug:** resource_groups_tagging_api
@@ -3272,7 +3445,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS RoboMaker
 **Service Slug:** aws_robomaker
@@ -3291,7 +3465,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Route 53
 **Service Slug:** amazon_route 53
@@ -3310,7 +3485,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon SageMaker
 **Service Slug:** amazon_sagemaker
@@ -3329,7 +3505,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Secrets Manager
 **Service Slug:** aws_secrets_manager
@@ -3348,7 +3525,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Security Hub
 **Service Slug:** aws_security_hub
@@ -3367,7 +3545,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Security Token Service (AWS STS)
 **Service Slug:** aws_security_token_service_(aws_sts)
@@ -3386,7 +3565,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Server Migration Service
 **Service Slug:** aws_server_migration_service
@@ -3405,7 +3585,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Service Quotas
 **Service Slug:** service_quotas
@@ -3424,7 +3605,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Serverless Application Repository
 **Service Slug:** aws_serverless_application_repository
@@ -3443,7 +3625,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Service Catalog
 **Service Slug:** aws_service_catalog
@@ -3462,7 +3645,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Shield Advanced
 **Service Slug:** aws_shield_advanced
@@ -3481,7 +3665,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Simple Email Service (Amazon SES)
 **Service Slug:** amazon_simple_email_service_(amazon_ses)
@@ -3500,7 +3685,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Simple Notification Service (Amazon SNS)
 **Service Slug:** amazon_simple_notification_service_(amazon_sns)
@@ -3519,7 +3705,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Simple Queue Service (Amazon SQS)
 **Service Slug:** amazon_simple_queue_service_(amazon_sqs)
@@ -3538,7 +3725,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Simple Storage Service (Amazon S3)
 **Service Slug:** amazon_simple_storage_service_(amazon_s3)
@@ -3590,7 +3778,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Simple Workflow Service (Amazon SWF)
 **Service Slug:** amazon_simple_workflow_service_(amazon_swf)
@@ -3609,7 +3798,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon SimpleDB
 **Service Slug:** amazon_simpledb
@@ -3628,7 +3818,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Single Sign-On
 **Service Slug:** aws_single_sign-on
@@ -3647,7 +3838,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Snowball
 **Service Slug:** aws_snowball
@@ -3666,7 +3858,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Step Functions
 **Service Slug:** aws_step_functions
@@ -3685,7 +3878,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Storage Gateway
 **Service Slug:** aws_storage_gateway
@@ -3704,7 +3898,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Support
 **Service Slug:** aws_support
@@ -3723,7 +3918,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Textract
 **Service Slug:** amazon_textract
@@ -3742,7 +3938,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Transcribe
 **Service Slug:** amazon_transcribe
@@ -3761,7 +3958,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Transcribe Streaming
 **Service Slug:** amazon_transcribe_streaming
@@ -3780,7 +3978,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS Transfer for SFTP
 **Service Slug:** aws_transfer_for_sftp
@@ -3799,7 +3998,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon Translate
 **Service Slug:** amazon_translate
@@ -3820,7 +4020,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon VPC
 **Service Slug:** amazon_vpc
@@ -3839,7 +4040,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS WAF
 **Service Slug:** aws_waf
@@ -3858,7 +4060,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon WorkDocs
 **Service Slug:** amazon_workdocs
@@ -3877,7 +4080,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon WorkLink
 **Service Slug:** amazon_worklink
@@ -3896,7 +4100,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon WorkMail
 **Service Slug:** amazon_workmail
@@ -3915,7 +4120,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## Amazon WorkSpaces
 **Service Slug:** amazon_workspaces
@@ -3934,7 +4140,8 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
 
 ## AWS X-Ray
 **Service Slug:** aws_x-ray
@@ -3953,4 +4160,5 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             }
         ]
     }
-}```
+}
+```
