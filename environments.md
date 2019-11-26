@@ -313,10 +313,8 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 }
 ```
 
-## Amazon Cognito Federated
-                        Identities
-**Service Slug:** amazon_cognito_federated
-_identities
+## Amazon Cognito Federated Identities
+**Service Slug:** amazon_cognito_federated_identities
 
 **Host:** cognito-identity.eu-west-2.amazonaws.com
 
@@ -471,10 +469,8 @@ _identities
 }
 ```
 
-## AWS IoT 1-Click Projects
-                        API
-**Service Slug:** aws_iot_1-click_projects
-_api
+## AWS IoT 1-Click Projects API
+**Service Slug:** aws_iot_1-click_projects_api
 
 **Host:** projects.iot1click.eu-west-2.amazonaws.com
 
@@ -1019,12 +1015,8 @@ _api
 }
 ```
 
-## Requests for hosted zones, records, health checks, DNS query logs, reusable delegation
-                        sets,
-                        				traffic policies, and cost allocation tags for hosted zones and health checks
-**Service Slug:** requests_for_hosted_zones,_records,_health_checks,_dns_query_logs,_reusable_delegation
-_sets,_
-_				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_checks
+## AWS Route 53
+**Service Slug:** aws_route_53
 
 **Host:** route53.amazonaws.com
 
@@ -4392,7 +4384,7 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 ```
 
 ## Amazon Relational Database Service (Amazon RDS) Performance Insights
-**Service Slug:** amazon_relational_database_service_(amazon_rds)_performance_insights
+**Service Slug:** amazon_relational_database_service_amazon_rds_performance_insights
 
 **Host:** pi.sa-east-1.amazonaws.com
 
