@@ -1,5 +1,5 @@
 # AWS API Environments
-These are Postman environments generated from the [AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html), providing the details you need to work with each of the AWS APIs across all regions.
+These are Postman environments generated from the [AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html), providing the details you need to work with each of the AWS APIs across all regions. It provides the host, regions, environments for all of the AWS APIs, where the list of collections within this repo reflects only about 50+.
 
 ## Amazon API Gateway Control Plane
 **Service Slug:** amazon_api_gateway_control_plane
@@ -4292,7 +4292,7 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
 **Host:** ram.us-gov-west-1.amazonaws.com
 
-**Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, us-gov-east-1, us-gov-west-1
+**Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-east-1, us-gov-west-1
 
 
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
@@ -4306,7 +4306,7 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             },
             {
                 "key": "aws_resource_access_manager_region",
-                "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, us-gov-east-1, us-gov-west-1"
+                "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-east-1, us-gov-west-1"
             }
         ]
     }
@@ -5187,7 +5187,7 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
 
                                     translate-fips.us-gov-west-1.amazonaws.com
 
-**Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, us-gov-west-1
+**Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, us-gov-west-1
 
 
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
@@ -5201,7 +5201,7 @@ _				traffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_chec
             },
             {
                 "key": "amazon_translate_region",
-                "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, us-gov-west-1"
+                "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, us-gov-west-1"
             }
         ]
     }
