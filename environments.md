@@ -1,8 +1,8 @@
 # AWS API Environments
 These are Postman environments generated from the [AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html), providing the details you need to work with each of the AWS APIs across all regions. It provides the host, regions, environments for all of the AWS APIs, where the list of collections within this repo reflects only about 50+.
 
-## Amazon API Gateway Control Plane
-**Service Slug:** amazon_api_gateway_control_plane
+## AWS API Gateway Control Plane
+**Service Slug:** aws_api_gateway_control_plane
 
 **Host:** apigateway.us-gov-west-1.amazonaws.com
 
@@ -12,23 +12,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon API Gateway Control Plane",
+        "name": "AWS API Gateway Control Plane",
         "values": [
             {
-                "key": "amazon_api_gateway_control_plane_base_url",
+                "key": "aws_api_gateway_control_plane_base_url",
                 "value": "apigateway.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_api_gateway_control_plane_region",
+                "key": "aws_api_gateway_control_plane_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon API Gateway Data Plane
-**Service Slug:** amazon_api_gateway_data_plane
+## AWS API Gateway Data Plane
+**Service Slug:** aws_api_gateway_data_plane
 
 **Host:** execute-api.us-gov-west-1.amazonaws.com
 
@@ -38,15 +46,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon API Gateway Data Plane",
+        "name": "AWS API Gateway Data Plane",
         "values": [
             {
-                "key": "amazon_api_gateway_data_plane_base_url",
+                "key": "aws_api_gateway_data_plane_base_url",
                 "value": "execute-api.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_api_gateway_data_plane_region",
+                "key": "aws_api_gateway_data_plane_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -73,6 +89,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_appsync_control_plane_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -99,14 +123,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_appsync_data_plane_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Aurora with MySQL compatibility
-**Service Slug:** amazon_aurora_with_mysql_compatibility
+## AWS Aurora with MySQL compatibility
+**Service Slug:** aws_aurora_with_mysql_compatibility
 
 **Host:** rds.us-gov-west-1.amazonaws.com
 
@@ -116,23 +148,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Aurora with MySQL compatibility",
+        "name": "AWS Aurora with MySQL compatibility",
         "values": [
             {
-                "key": "amazon_aurora_with_mysql_compatibility_base_url",
+                "key": "aws_aurora_with_mysql_compatibility_base_url",
                 "value": "rds.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_aurora_with_mysql_compatibility_region",
+                "key": "aws_aurora_with_mysql_compatibility_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Aurora with PostgreSQL compatibility
-**Service Slug:** amazon_aurora_with_postgresql_compatibility
+## AWS Aurora with PostgreSQL compatibility
+**Service Slug:** aws_aurora_with_postgresql_compatibility
 
 **Host:** rds.us-gov-west-1.amazonaws.com
 
@@ -142,15 +182,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Aurora with PostgreSQL compatibility",
+        "name": "AWS Aurora with PostgreSQL compatibility",
         "values": [
             {
-                "key": "amazon_aurora_with_postgresql_compatibility_base_url",
+                "key": "aws_aurora_with_postgresql_compatibility_base_url",
                 "value": "rds.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_aurora_with_postgresql_compatibility_region",
+                "key": "aws_aurora_with_postgresql_compatibility_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -177,6 +225,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_cost_explorer_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -203,6 +259,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_cost_and_usage_reports_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -229,6 +293,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_budgets_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -255,6 +327,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_price_list_service_region",
                 "value": "us-east-1, ap-south-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -281,14 +361,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "savings_plans_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Cognito Your User Pools
-**Service Slug:** amazon_cognito_your_user_pools
+## AWS Cognito Your User Pools
+**Service Slug:** aws_cognito_your_user_pools
 
 **Host:** cognito-idp.eu-west-2.amazonaws.com
 
@@ -298,23 +386,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Cognito Your User Pools",
+        "name": "AWS Cognito Your User Pools",
         "values": [
             {
-                "key": "amazon_cognito_your_user_pools_base_url",
+                "key": "aws_cognito_your_user_pools_base_url",
                 "value": "cognito-idp.eu-west-2.amazonaws.com"
             },
             {
-                "key": "amazon_cognito_your_user_pools_region",
+                "key": "aws_cognito_your_user_pools_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Cognito Federated Identities
-**Service Slug:** amazon_cognito_federated_identities
+## AWS Cognito Federated                        Identities
+**Service Slug:** aws_cognito_federated_identities
 
 **Host:** cognito-identity.eu-west-2.amazonaws.com
 
@@ -324,23 +420,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Cognito Federated\n                        Identities",
+        "name": "AWS Cognito Federated                        Identities",
         "values": [
             {
-                "key": "amazon_cognito_federated\n_identities_base_url",
+                "key": "aws_cognito_federated_identities_base_url",
                 "value": "cognito-identity.eu-west-2.amazonaws.com"
             },
             {
-                "key": "amazon_cognito_federated\n_identities_region",
+                "key": "aws_cognito_federated_identities_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Forecast
-**Service Slug:** amazon_forecast
+## AWS Forecast
+**Service Slug:** aws_forecast
 
 **Host:** forecast.eu-west-1.amazonaws.com
 
@@ -350,23 +454,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Forecast",
+        "name": "AWS Forecast",
         "values": [
             {
-                "key": "amazon_forecast_base_url",
+                "key": "aws_forecast_base_url",
                 "value": "forecast.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_forecast_region",
+                "key": "aws_forecast_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Forecast Query
-**Service Slug:** amazon_forecast_query
+## AWS Forecast Query
+**Service Slug:** aws_forecast_query
 
 **Host:** forecastquery.eu-west-1.amazonaws.com
 
@@ -376,23 +488,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Forecast Query",
+        "name": "AWS Forecast Query",
         "values": [
             {
-                "key": "amazon_forecast_query_base_url",
+                "key": "aws_forecast_query_base_url",
                 "value": "forecastquery.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_forecast_query_region",
+                "key": "aws_forecast_query_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon FreeRTOS OTA Control Plane
-**Service Slug:** amazon_freertos_ota_control_plane
+## AWS FreeRTOS OTA Control Plane
+**Service Slug:** aws_freertos_ota_control_plane
 
 **Host:** iot.sa-east-1.amazonaws.com
 
@@ -402,23 +522,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon FreeRTOS OTA Control Plane",
+        "name": "AWS FreeRTOS OTA Control Plane",
         "values": [
             {
-                "key": "amazon_freertos_ota_control_plane_base_url",
+                "key": "aws_freertos_ota_control_plane_base_url",
                 "value": "iot.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_freertos_ota_control_plane_region",
+                "key": "aws_freertos_ota_control_plane_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon FreeRTOS OTA Data Plane
-**Service Slug:** amazon_freertos_ota_data_plane
+## AWS FreeRTOS OTA Data Plane
+**Service Slug:** aws_freertos_ota_data_plane
 
 **Host:** prefix.iot.sa-east-1.amazonaws.com
 
@@ -428,15 +556,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon FreeRTOS OTA Data Plane",
+        "name": "AWS FreeRTOS OTA Data Plane",
         "values": [
             {
-                "key": "amazon_freertos_ota_data_plane_base_url",
+                "key": "aws_freertos_ota_data_plane_base_url",
                 "value": "prefix.iot.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_freertos_ota_data_plane_region",
+                "key": "aws_freertos_ota_data_plane_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -463,13 +599,21 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_import\/export_disk_region",
                 "value": "HTTPS"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## AWS IoT 1-Click Projects API
+## AWS IoT 1-Click Projects                        API
 **Service Slug:** aws_iot_1-click_projects_api
 
 **Host:** projects.iot1click.eu-west-2.amazonaws.com
@@ -480,15 +624,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "AWS IoT 1-Click Projects\n                        API",
+        "name": "AWS IoT 1-Click Projects                        API",
         "values": [
             {
-                "key": "aws_iot_1-click_projects\n_api_base_url",
+                "key": "aws_iot_1-click_projects_api_base_url",
                 "value": "projects.iot1click.eu-west-2.amazonaws.com"
             },
             {
-                "key": "aws_iot_1-click_projects\n_api_region",
+                "key": "aws_iot_1-click_projects_api_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -515,6 +667,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_1-click_devices_api_region",
                 "value": "us-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -541,6 +701,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "control_plane_operations_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -567,6 +735,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_device_operations_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -593,6 +769,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "discovery_operations_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -619,6 +803,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "supported_legacy_endpoints_region",
                 "value": "us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -645,6 +837,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "model_building_endpoints_region",
                 "value": "us-east-1, us-west-2, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -671,6 +871,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "runtime_endpoints_region",
                 "value": "us-east-1, us-west-2, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -697,6 +905,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_marketplace_commerce_analytics_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -723,6 +939,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_marketplace_entitlement_service_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -749,6 +973,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_marketplace_metering_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -775,6 +1007,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_opsworks_cm_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -801,14 +1041,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_opsworks_stacks_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Personalize
-**Service Slug:** amazon_personalize
+## AWS Personalize
+**Service Slug:** aws_personalize
 
 **Host:** personalize.eu-west-1.amazonaws.com
 
@@ -818,23 +1066,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Personalize",
+        "name": "AWS Personalize",
         "values": [
             {
-                "key": "amazon_personalize_base_url",
+                "key": "aws_personalize_base_url",
                 "value": "personalize.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_personalize_region",
+                "key": "aws_personalize_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Personalize Events
-**Service Slug:** amazon_personalize_events
+## AWS Personalize Events
+**Service Slug:** aws_personalize_events
 
 **Host:** personalize-events.eu-west-1.amazonaws.com
 
@@ -844,23 +1100,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Personalize Events",
+        "name": "AWS Personalize Events",
         "values": [
             {
-                "key": "amazon_personalize_events_base_url",
+                "key": "aws_personalize_events_base_url",
                 "value": "personalize-events.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_personalize_events_region",
+                "key": "aws_personalize_events_region",
                 "value": "us-east-1, us-east-2, us-west-2, ap-northeast-1, ap-southeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Personalize Runtime
-**Service Slug:** amazon_personalize_runtime
+## AWS Personalize Runtime
+**Service Slug:** aws_personalize_runtime
 
 **Host:** personalize-runtime.eu-west-1.amazonaws.com
 
@@ -870,23 +1134,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Personalize Runtime",
+        "name": "AWS Personalize Runtime",
         "values": [
             {
-                "key": "amazon_personalize_runtime_base_url",
+                "key": "aws_personalize_runtime_base_url",
                 "value": "personalize-runtime.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_personalize_runtime_region",
+                "key": "aws_personalize_runtime_region",
                 "value": "us-east-1, us-east-2, us-west-2, ap-northeast-1, ap-southeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Pinpoint API
-**Service Slug:** amazon_pinpoint_api
+## AWS Pinpoint API
+**Service Slug:** aws_pinpoint_api
 
 **Host:** pinpoint.eu-west-1.amazonaws.com
 
@@ -896,23 +1168,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Pinpoint API",
+        "name": "AWS Pinpoint API",
         "values": [
             {
-                "key": "amazon_pinpoint_api_base_url",
+                "key": "aws_pinpoint_api_base_url",
                 "value": "pinpoint.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_pinpoint_api_region",
+                "key": "aws_pinpoint_api_region",
                 "value": "us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Pinpoint Email API
-**Service Slug:** amazon_pinpoint_email_api
+## AWS Pinpoint Email API
+**Service Slug:** aws_pinpoint_email_api
 
 **Host:** email.eu-west-1.amazonaws.com
 
@@ -922,23 +1202,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Pinpoint Email API",
+        "name": "AWS Pinpoint Email API",
         "values": [
             {
-                "key": "amazon_pinpoint_email_api_base_url",
+                "key": "aws_pinpoint_email_api_base_url",
                 "value": "email.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_pinpoint_email_api_region",
+                "key": "aws_pinpoint_email_api_region",
                 "value": "us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Pinpoint SMS and Voice API
-**Service Slug:** amazon_pinpoint_sms_and_voice_api
+## AWS Pinpoint SMS and Voice API
+**Service Slug:** aws_pinpoint_sms_and_voice_api
 
 **Host:** sms-voice.pinpoint.eu-west-1.amazonaws.com
 
@@ -948,23 +1236,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Pinpoint SMS and Voice API",
+        "name": "AWS Pinpoint SMS and Voice API",
         "values": [
             {
-                "key": "amazon_pinpoint_sms_and_voice_api_base_url",
+                "key": "aws_pinpoint_sms_and_voice_api_base_url",
                 "value": "sms-voice.pinpoint.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_pinpoint_sms_and_voice_api_region",
+                "key": "aws_pinpoint_sms_and_voice_api_region",
                 "value": "us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon QLDB Control Plane
-**Service Slug:** amazon_qldb_control_plane
+## AWS QLDB Control Plane
+**Service Slug:** aws_qldb_control_plane
 
 **Host:** qldb.eu-west-1.amazonaws.com
 
@@ -974,23 +1270,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon QLDB Control Plane",
+        "name": "AWS QLDB Control Plane",
         "values": [
             {
-                "key": "amazon_qldb_control_plane_base_url",
+                "key": "aws_qldb_control_plane_base_url",
                 "value": "qldb.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_qldb_control_plane_region",
+                "key": "aws_qldb_control_plane_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon QLDB Transactional Data Plane
-**Service Slug:** amazon_qldb_transactional_data_plane
+## AWS QLDB Transactional Data Plane
+**Service Slug:** aws_qldb_transactional_data_plane
 
 **Host:** session.qldb.eu-west-1.amazonaws.com
 
@@ -1000,15 +1304,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon QLDB Transactional Data Plane",
+        "name": "AWS QLDB Transactional Data Plane",
         "values": [
             {
-                "key": "amazon_qldb_transactional_data_plane_base_url",
+                "key": "aws_qldb_transactional_data_plane_base_url",
                 "value": "session.qldb.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_qldb_transactional_data_plane_region",
+                "key": "aws_qldb_transactional_data_plane_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1026,15 +1338,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Requests for hosted zones, records, health checks, DNS query logs, reusable delegation\n                        sets, \n                        \t\t\t\ttraffic policies, and cost allocation tags for hosted zones and health checks",
+        "name": "Requests for hosted zones, records, health checks, DNS query logs, reusable delegation                        sets,                         \t\t\t\ttraffic policies, and cost allocation tags for hosted zones and health checks",
         "values": [
             {
-                "key": "requests_for_hosted_zones,_records,_health_checks,_dns_query_logs,_reusable_delegation\n_sets,_\n_\t\t\t\ttraffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_checks_base_url",
+                "key": "requests_for_hosted_zones,_records,_health_checks,_dns_query_logs,_reusable_delegation_sets,_\t\t\t\ttraffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_checks_base_url",
                 "value": "route53.amazonaws.com"
             },
             {
-                "key": "requests_for_hosted_zones,_records,_health_checks,_dns_query_logs,_reusable_delegation\n_sets,_\n_\t\t\t\ttraffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_checks_region",
+                "key": "requests_for_hosted_zones,_records,_health_checks,_dns_query_logs,_reusable_delegation_sets,_\t\t\t\ttraffic_policies,_and_cost_allocation_tags_for_hosted_zones_and_health_checks_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1061,6 +1381,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "requests_for_domain_registration_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1087,6 +1415,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "requests_for_route\u00a053_resolver_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1113,14 +1449,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "requests_for_route\u00a053_auto_naming_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon SQS Legacy Endpoints
-**Service Slug:** amazon_sqs_legacy_endpoints
+## AWS SQS Legacy Endpoints
+**Service Slug:** aws_sqs_legacy_endpoints
 
 **Host:** sa-east-1.queue.amazonaws.com
 
@@ -1130,23 +1474,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon SQS Legacy Endpoints",
+        "name": "AWS SQS Legacy Endpoints",
         "values": [
             {
-                "key": "amazon_sqs_legacy_endpoints_base_url",
+                "key": "aws_sqs_legacy_endpoints_base_url",
                 "value": "sa-east-1.queue.amazonaws.com"
             },
             {
-                "key": "amazon_sqs_legacy_endpoints_region",
+                "key": "aws_sqs_legacy_endpoints_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Simple Storage Service Website Endpoints
-**Service Slug:** amazon_simple_storage_service_website_endpoints
+## AWS Simple Storage Service Website Endpoints
+**Service Slug:** aws_simple_storage_service_website_endpoints
 
 **Host:** Z1MPMWCPA7YB62
 
@@ -1156,15 +1508,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Simple Storage Service Website Endpoints",
+        "name": "AWS Simple Storage Service Website Endpoints",
         "values": [
             {
-                "key": "amazon_simple_storage_service_website_endpoints_base_url",
+                "key": "aws_simple_storage_service_website_endpoints_base_url",
                 "value": "Z1MPMWCPA7YB62"
             },
             {
-                "key": "amazon_simple_storage_service_website_endpoints_region",
+                "key": "aws_simple_storage_service_website_endpoints_region",
                 "value": "s3-website.us-east-2.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website-us-west-1.amazonaws.com, s3-website-us-west-2.amazonaws.com, s3-website.ap-east-1.amazonaws.com, s3-website.ap-south-1.amazonaws.com, s3-website.ap-northeast-3.amazonaws.com, s3-website.ap-northeast-2.amazonaws.com, s3-website-ap-southeast-1.amazonaws.com, s3-website-ap-southeast-2.amazonaws.com, s3-website-ap-northeast-1.amazonaws.com, s3-website.ca-central-1.amazonaws.com, s3-website.cn-northwest-1.amazonaws.com.cn, s3-website.eu-central-1.amazonaws.com, s3-website-eu-west-1.amazonaws.com, s3-website.eu-west-2.amazonaws.com, s3-website.eu-west-3.amazonaws.com, s3-website.eu-north-1.amazonaws.com, s3-website-sa-east-1.amazonaws.com, s3-website.me-south-1.amazonaws.com"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1191,6 +1551,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_storage_gateway_hardware_appliance_regions_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1217,14 +1585,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_regions_and_endpoints_by_service_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon API Gateway
-**Service Slug:** amazon_api_gateway
+## AWS API Gateway
+**Service Slug:** aws_api_gateway
 
 **Host:** apigateway.us-gov-west-1.amazonaws.com
 
@@ -1234,15 +1610,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon API Gateway",
+        "name": "AWS API Gateway",
         "values": [
             {
-                "key": "amazon_api_gateway_base_url",
+                "key": "aws_api_gateway_base_url",
                 "value": "apigateway.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_api_gateway_region",
+                "key": "aws_api_gateway_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1269,6 +1653,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "application_auto_scaling_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1295,14 +1687,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_application_discovery_service_region",
                 "value": "us-west-2, eu-central-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon AppStream 2.0
-**Service Slug:** amazon_appstream_2.0
+## AWS AppStream 2.0
+**Service Slug:** aws_appstream_2.0
 
 **Host:** appstream2.us-gov-west-1.amazonaws.com
 
@@ -1314,15 +1714,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon AppStream 2.0",
+        "name": "AWS AppStream 2.0",
         "values": [
             {
-                "key": "amazon_appstream_2.0_base_url",
+                "key": "aws_appstream_2.0_base_url",
                 "value": "appstream2.us-gov-west-1.amazonaws.com\n                                    \n                                    appstream2-fips.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_appstream_2.0_region",
+                "key": "aws_appstream_2.0_region",
                 "value": "us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1349,6 +1757,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_app_mesh_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1375,14 +1791,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_appsync_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Athena
-**Service Slug:** amazon_athena
+## AWS Athena
+**Service Slug:** aws_athena
 
 **Host:** athena.us-gov-west-1.amazonaws.com
 
@@ -1392,23 +1816,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Athena",
+        "name": "AWS Athena",
         "values": [
             {
-                "key": "amazon_athena_base_url",
+                "key": "aws_athena_base_url",
                 "value": "athena.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_athena_region",
+                "key": "aws_athena_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Aurora
-**Service Slug:** amazon_aurora
+## AWS Aurora
+**Service Slug:** aws_aurora
 
 **Host:** rds.us-gov-west-1.amazonaws.com
 
@@ -1418,15 +1850,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Aurora",
+        "name": "AWS Aurora",
         "values": [
             {
-                "key": "amazon_aurora_base_url",
+                "key": "aws_aurora_base_url",
                 "value": "rds.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_aurora_region",
+                "key": "aws_aurora_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1453,14 +1893,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_auto_scaling_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon EC2 Auto Scaling
-**Service Slug:** amazon_ec2_auto_scaling
+## AWS EC2 Auto Scaling
+**Service Slug:** aws_ec2_auto_scaling
 
 **Host:** autoscaling.us-gov-west-1.amazonaws.com
 
@@ -1470,15 +1918,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon EC2 Auto Scaling",
+        "name": "AWS EC2 Auto Scaling",
         "values": [
             {
-                "key": "amazon_ec2_auto_scaling_base_url",
+                "key": "aws_ec2_auto_scaling_base_url",
                 "value": "autoscaling.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_ec2_auto_scaling_region",
+                "key": "aws_ec2_auto_scaling_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1505,6 +1961,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_backup_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1531,6 +1995,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_batch_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1557,6 +2029,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_billing_and_cost_management_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1583,6 +2063,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_certificate_manager_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1609,14 +2097,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_certificate_manager_private_certificate_authority_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Chime
-**Service Slug:** amazon_chime
+## AWS Chime
+**Service Slug:** aws_chime
 
 **Host:** cloud9.eu-west-1.amazonaws.com
 
@@ -1626,23 +2122,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Chime",
+        "name": "AWS Chime",
         "values": [
             {
-                "key": "amazon_chime_base_url",
+                "key": "aws_chime_base_url",
                 "value": "cloud9.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_chime_region",
+                "key": "aws_chime_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Cloud Directory
-**Service Slug:** amazon_cloud_directory
+## AWS Cloud Directory
+**Service Slug:** aws_cloud_directory
 
 **Host:** clouddirectory.us-gov-west-1.amazonaws.com
 
@@ -1652,15 +2156,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Cloud Directory",
+        "name": "AWS Cloud Directory",
         "values": [
             {
-                "key": "amazon_cloud_directory_base_url",
+                "key": "aws_cloud_directory_base_url",
                 "value": "clouddirectory.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_cloud_directory_region",
+                "key": "aws_cloud_directory_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ca-central-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1687,14 +2199,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_cloudformation_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, eu-north-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon CloudFront
-**Service Slug:** amazon_cloudfront
+## AWS CloudFront
+**Service Slug:** aws_cloudfront
 
 **Host:** cloudfront.amazonaws.com
 
@@ -1704,15 +2224,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon CloudFront",
+        "name": "AWS CloudFront",
         "values": [
             {
-                "key": "amazon_cloudfront_base_url",
+                "key": "aws_cloudfront_base_url",
                 "value": "cloudfront.amazonaws.com"
             },
             {
-                "key": "amazon_cloudfront_region",
+                "key": "aws_cloudfront_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1739,6 +2267,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_cloudhsm_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1765,6 +2301,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_cloudhsm_classic_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1791,14 +2335,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_cloud_map_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon CloudSearch
-**Service Slug:** amazon_cloudsearch
+## AWS CloudSearch
+**Service Slug:** aws_cloudsearch
 
 **Host:** cloudsearch.sa-east-1.amazonaws.com
 
@@ -1808,15 +2360,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon CloudSearch",
+        "name": "AWS CloudSearch",
         "values": [
             {
-                "key": "amazon_cloudsearch_base_url",
+                "key": "aws_cloudsearch_base_url",
                 "value": "cloudsearch.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_cloudsearch_region",
+                "key": "aws_cloudsearch_region",
                 "value": "us-east-1, us-west-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1843,14 +2403,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_cloudtrail_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon CloudWatch
-**Service Slug:** amazon_cloudwatch
+## AWS CloudWatch
+**Service Slug:** aws_cloudwatch
 
 **Host:** monitoring.us-gov-west-1.amazonaws.com
 
@@ -1860,23 +2428,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon CloudWatch",
+        "name": "AWS CloudWatch",
         "values": [
             {
-                "key": "amazon_cloudwatch_base_url",
+                "key": "aws_cloudwatch_base_url",
                 "value": "monitoring.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_cloudwatch_region",
+                "key": "aws_cloudwatch_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon CloudWatch Events
-**Service Slug:** amazon_cloudwatch_events
+## AWS CloudWatch Events
+**Service Slug:** aws_cloudwatch_events
 
 **Host:** events.us-gov-west-1.amazonaws.com
 
@@ -1886,23 +2462,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon CloudWatch Events",
+        "name": "AWS CloudWatch Events",
         "values": [
             {
-                "key": "amazon_cloudwatch_events_base_url",
+                "key": "aws_cloudwatch_events_base_url",
                 "value": "events.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_cloudwatch_events_region",
+                "key": "aws_cloudwatch_events_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon CloudWatch Logs
-**Service Slug:** amazon_cloudwatch_logs
+## AWS CloudWatch Logs
+**Service Slug:** aws_cloudwatch_logs
 
 **Host:** logs.us-gov-west-1.amazonaws.com
 
@@ -1912,15 +2496,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon CloudWatch Logs",
+        "name": "AWS CloudWatch Logs",
         "values": [
             {
-                "key": "amazon_cloudwatch_logs_base_url",
+                "key": "aws_cloudwatch_logs_base_url",
                 "value": "logs.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_cloudwatch_logs_region",
+                "key": "aws_cloudwatch_logs_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1947,6 +2539,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_codebuild_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -1973,6 +2573,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_codecommit_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2001,6 +2609,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_codedeploy_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2027,6 +2643,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_codepipeline_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2053,6 +2677,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_codestar_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2079,14 +2711,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_codestar_notifications_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Cognito Identity
-**Service Slug:** amazon_cognito_identity
+## AWS Cognito Identity
+**Service Slug:** aws_cognito_identity
 
 **Host:** cognito-idp.eu-west-2.amazonaws.com
 
@@ -2096,23 +2736,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Cognito Identity",
+        "name": "AWS Cognito Identity",
         "values": [
             {
-                "key": "amazon_cognito_identity_base_url",
+                "key": "aws_cognito_identity_base_url",
                 "value": "cognito-idp.eu-west-2.amazonaws.com"
             },
             {
-                "key": "amazon_cognito_identity_region",
+                "key": "aws_cognito_identity_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Cognito Sync
-**Service Slug:** amazon_cognito_sync
+## AWS Cognito Sync
+**Service Slug:** aws_cognito_sync
 
 **Host:** cognito-sync.eu-west-2.amazonaws.com
 
@@ -2122,23 +2770,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Cognito Sync",
+        "name": "AWS Cognito Sync",
         "values": [
             {
-                "key": "amazon_cognito_sync_base_url",
+                "key": "aws_cognito_sync_base_url",
                 "value": "cognito-sync.eu-west-2.amazonaws.com"
             },
             {
-                "key": "amazon_cognito_sync_region",
+                "key": "aws_cognito_sync_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Comprehend
-**Service Slug:** amazon_comprehend
+## AWS Comprehend
+**Service Slug:** aws_comprehend
 
 **Host:** comprehend.us-gov-west-1.amazonaws.com
 
@@ -2148,23 +2804,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Comprehend",
+        "name": "AWS Comprehend",
         "values": [
             {
-                "key": "amazon_comprehend_base_url",
+                "key": "aws_comprehend_base_url",
                 "value": "comprehend.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_comprehend_region",
+                "key": "aws_comprehend_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ca-central-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Comprehend Medical
-**Service Slug:** amazon_comprehend_medical
+## AWS Comprehend Medical
+**Service Slug:** aws_comprehend_medical
 
 **Host:** comprehendmedical.eu-west-2.amazonaws.com
 
@@ -2174,15 +2838,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Comprehend Medical",
+        "name": "AWS Comprehend Medical",
         "values": [
             {
-                "key": "amazon_comprehend_medical_base_url",
+                "key": "aws_comprehend_medical_base_url",
                 "value": "comprehendmedical.eu-west-2.amazonaws.com"
             },
             {
-                "key": "amazon_comprehend_medical_region",
+                "key": "aws_comprehend_medical_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-2, ca-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2209,14 +2881,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_config_and_aws_config_rules_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Connect
-**Service Slug:** amazon_connect
+## AWS Connect
+**Service Slug:** aws_connect
 
 **Host:** connect.eu-central-1.amazonaws.com
 
@@ -2226,15 +2906,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Connect",
+        "name": "AWS Connect",
         "values": [
             {
-                "key": "amazon_connect_base_url",
+                "key": "aws_connect_base_url",
                 "value": "connect.eu-central-1.amazonaws.com"
             },
             {
-                "key": "amazon_connect_region",
+                "key": "aws_connect_region",
                 "value": "us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2261,14 +2949,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_data_exchange_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Data Lifecycle Manager
-**Service Slug:** amazon_data_lifecycle_manager
+## AWS Data Lifecycle Manager
+**Service Slug:** aws_data_lifecycle_manager
 
 **Host:** dlm.sa-east-1.amazonaws.com
 
@@ -2278,15 +2974,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Data Lifecycle Manager",
+        "name": "AWS Data Lifecycle Manager",
         "values": [
             {
-                "key": "amazon_data_lifecycle_manager_base_url",
+                "key": "aws_data_lifecycle_manager_base_url",
                 "value": "dlm.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_data_lifecycle_manager_region",
+                "key": "aws_data_lifecycle_manager_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2313,6 +3017,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_data_pipeline_region",
                 "value": "us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2341,6 +3053,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_datasync_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2367,6 +3087,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_database_migration_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2393,6 +3121,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_deeplens_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2419,6 +3155,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_device_farm_region",
                 "value": "us-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2445,6 +3189,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_direct_connect_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2471,14 +3223,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_directory_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon DocumentDB
-**Service Slug:** amazon_documentdb
+## AWS DocumentDB
+**Service Slug:** aws_documentdb
 
 **Host:** rds.eu-west-3.amazonaws.com
 
@@ -2488,23 +3248,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon DocumentDB",
+        "name": "AWS DocumentDB",
         "values": [
             {
-                "key": "amazon_documentdb_base_url",
+                "key": "aws_documentdb_base_url",
                 "value": "rds.eu-west-3.amazonaws.com"
             },
             {
-                "key": "amazon_documentdb_region",
+                "key": "aws_documentdb_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon DynamoDB
-**Service Slug:** amazon_dynamodb
+## AWS DynamoDB
+**Service Slug:** aws_dynamodb
 
 **Host:** dynamodb.us-gov-west-1.amazonaws.com
 
@@ -2516,23 +3284,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon DynamoDB",
+        "name": "AWS DynamoDB",
         "values": [
             {
-                "key": "amazon_dynamodb_base_url",
+                "key": "aws_dynamodb_base_url",
                 "value": "dynamodb.us-gov-west-1.amazonaws.com\n                                    \n                                    dynamodb.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_dynamodb_region",
+                "key": "aws_dynamodb_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## DynamoDB Accelerator (DAX)
-**Service Slug:** dynamodb_accelerator_(dax)
+## DynamoDB Accelerator DAX
+**Service Slug:** dynamodb_accelerator_dax
 
 **Host:** dax.sa-east-1.amazonaws.com
 
@@ -2542,23 +3318,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "DynamoDB Accelerator (DAX)",
+        "name": "DynamoDB Accelerator DAX",
         "values": [
             {
-                "key": "dynamodb_accelerator_(dax)_base_url",
+                "key": "dynamodb_accelerator_dax_base_url",
                 "value": "dax.sa-east-1.amazonaws.com"
             },
             {
-                "key": "dynamodb_accelerator_(dax)_region",
+                "key": "dynamodb_accelerator_dax_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon DynamoDB Streams
-**Service Slug:** amazon_dynamodb_streams
+## AWS DynamoDB Streams
+**Service Slug:** aws_dynamodb_streams
 
 **Host:** streams.dynamodb.us-gov-west-1.amazonaws.com
 
@@ -2570,15 +3354,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon DynamoDB Streams",
+        "name": "AWS DynamoDB Streams",
         "values": [
             {
-                "key": "amazon_dynamodb_streams_base_url",
+                "key": "aws_dynamodb_streams_base_url",
                 "value": "streams.dynamodb.us-gov-west-1.amazonaws.com\n                                    \n                                    dynamodb.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_dynamodb_streams_region",
+                "key": "aws_dynamodb_streams_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2605,6 +3397,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_elastic_beanstalk_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2631,14 +3431,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_elastic_beanstalk_health_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Elastic Compute Cloud (Amazon EC2)
-**Service Slug:** amazon_elastic_compute_cloud_(amazon_ec2)
+## AWS Elastic Compute Cloud AWS EC2
+**Service Slug:** aws_elastic_compute_cloud_aws_ec2
 
 **Host:** ec2.us-gov-west-1.amazonaws.com
 
@@ -2648,23 +3456,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "name": "AWS Elastic Compute Cloud AWS EC2",
         "values": [
             {
-                "key": "amazon_elastic_compute_cloud_(amazon_ec2)_base_url",
+                "key": "aws_elastic_compute_cloud_aws_ec2_base_url",
                 "value": "ec2.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_elastic_compute_cloud_(amazon_ec2)_region",
+                "key": "aws_elastic_compute_cloud_aws_ec2_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Elastic Container Registry
-**Service Slug:** amazon_elastic_container_registry
+## AWS Elastic Container Registry
+**Service Slug:** aws_elastic_container_registry
 
 **Host:** ecr.us-gov-west-1.amazonaws.com
 
@@ -2674,23 +3490,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Elastic Container Registry",
+        "name": "AWS Elastic Container Registry",
         "values": [
             {
-                "key": "amazon_elastic_container_registry_base_url",
+                "key": "aws_elastic_container_registry_base_url",
                 "value": "ecr.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_elastic_container_registry_region",
+                "key": "aws_elastic_container_registry_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Elastic Container Service
-**Service Slug:** amazon_elastic_container_service
+## AWS Elastic Container Service
+**Service Slug:** aws_elastic_container_service
 
 **Host:** ecs.us-gov-west-1.amazonaws.com
 
@@ -2700,23 +3524,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Elastic Container Service",
+        "name": "AWS Elastic Container Service",
         "values": [
             {
-                "key": "amazon_elastic_container_service_base_url",
+                "key": "aws_elastic_container_service_base_url",
                 "value": "ecs.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_elastic_container_service_region",
+                "key": "aws_elastic_container_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Elastic Kubernetes Service (Amazon EKS)
-**Service Slug:** amazon_elastic_kubernetes_service_(amazon_eks)
+## AWS Elastic Kubernetes Service AWS EKS
+**Service Slug:** aws_elastic_kubernetes_service_aws_eks
 
 **Host:** eks.sa-east-1.amazonaws.com
 
@@ -2726,23 +3558,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "name": "AWS Elastic Kubernetes Service AWS EKS",
         "values": [
             {
-                "key": "amazon_elastic_kubernetes_service_(amazon_eks)_base_url",
+                "key": "aws_elastic_kubernetes_service_aws_eks_base_url",
                 "value": "eks.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_elastic_kubernetes_service_(amazon_eks)_region",
+                "key": "aws_elastic_kubernetes_service_aws_eks_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Elastic File System
-**Service Slug:** amazon_elastic_file_system
+## AWS Elastic File System
+**Service Slug:** aws_elastic_file_system
 
 **Host:** elasticfilesystem.us-gov-west-1.amazonaws.com
 
@@ -2752,15 +3592,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Elastic File System",
+        "name": "AWS Elastic File System",
         "values": [
             {
-                "key": "amazon_elastic_file_system_base_url",
+                "key": "aws_elastic_file_system_base_url",
                 "value": "elasticfilesystem.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_elastic_file_system_region",
+                "key": "aws_elastic_file_system_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2787,14 +3635,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "elastic_load_balancing_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Elastic Transcoder
-**Service Slug:** amazon_elastic_transcoder
+## AWS Elastic Transcoder
+**Service Slug:** aws_elastic_transcoder
 
 **Host:** elastictranscoder.eu-west-1.amazonaws.com
 
@@ -2804,23 +3660,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Elastic Transcoder",
+        "name": "AWS Elastic Transcoder",
         "values": [
             {
-                "key": "amazon_elastic_transcoder_base_url",
+                "key": "aws_elastic_transcoder_base_url",
                 "value": "elastictranscoder.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_elastic_transcoder_region",
+                "key": "aws_elastic_transcoder_region",
                 "value": "us-east-1, us-west-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon ElastiCache
-**Service Slug:** amazon_elasticache
+## AWS ElastiCache
+**Service Slug:** aws_elasticache
 
 **Host:** elasticache.us-gov-west-1.amazonaws.com
 
@@ -2830,23 +3694,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon ElastiCache",
+        "name": "AWS ElastiCache",
         "values": [
             {
-                "key": "amazon_elasticache_base_url",
+                "key": "aws_elasticache_base_url",
                 "value": "elasticache.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_elasticache_region",
+                "key": "aws_elasticache_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Elasticsearch Service
-**Service Slug:** amazon_elasticsearch_service
+## AWS Elasticsearch Service
+**Service Slug:** aws_elasticsearch_service
 
 **Host:** es.us-gov-west-1.amazonaws.com
 
@@ -2858,23 +3730,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Elasticsearch Service",
+        "name": "AWS Elasticsearch Service",
         "values": [
             {
-                "key": "amazon_elasticsearch_service_base_url",
+                "key": "aws_elasticsearch_service_base_url",
                 "value": "es.us-gov-west-1.amazonaws.com\n                                    \n                                    es-fips.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_elasticsearch_service_region",
+                "key": "aws_elasticsearch_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon EMR
-**Service Slug:** amazon_emr
+## AWS EMR
+**Service Slug:** aws_emr
 
 **Host:** elasticmapreduce.us-gov-west-1.amazonaws.com
 
@@ -2884,23 +3764,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon EMR",
+        "name": "AWS EMR",
         "values": [
             {
-                "key": "amazon_emr_base_url",
+                "key": "aws_emr_base_url",
                 "value": "elasticmapreduce.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_emr_region",
+                "key": "aws_emr_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon EventBridge
-**Service Slug:** amazon_eventbridge
+## AWS EventBridge
+**Service Slug:** aws_eventbridge
 
 **Host:** events.us-gov-west-1.amazonaws.com
 
@@ -2910,15 +3798,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon EventBridge",
+        "name": "AWS EventBridge",
         "values": [
             {
-                "key": "amazon_eventbridge_base_url",
+                "key": "aws_eventbridge_base_url",
                 "value": "events.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_eventbridge_region",
+                "key": "aws_eventbridge_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -2945,14 +3841,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_firewall_manager_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Forecast
-**Service Slug:** amazon_forecast
+## AWS Forecast
+**Service Slug:** aws_forecast
 
 **Host:** forecast.eu-west-1.amazonaws.com
 
@@ -2962,23 +3866,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Forecast",
+        "name": "AWS Forecast",
         "values": [
             {
-                "key": "amazon_forecast_base_url",
+                "key": "aws_forecast_base_url",
                 "value": "forecast.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_forecast_region",
+                "key": "aws_forecast_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon FreeRTOS
-**Service Slug:** amazon_freertos
+## AWS FreeRTOS
+**Service Slug:** aws_freertos
 
 **Host:** iot.sa-east-1.amazonaws.com
 
@@ -2988,23 +3900,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon FreeRTOS",
+        "name": "AWS FreeRTOS",
         "values": [
             {
-                "key": "amazon_freertos_base_url",
+                "key": "aws_freertos_base_url",
                 "value": "iot.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_freertos_region",
+                "key": "aws_freertos_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon FSx
-**Service Slug:** amazon_fsx
+## AWS FSx
+**Service Slug:** aws_fsx
 
 **Host:** fsx.eu-north-1.amazonaws.com
 
@@ -3014,23 +3934,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon FSx",
+        "name": "AWS FSx",
         "values": [
             {
-                "key": "amazon_fsx_base_url",
+                "key": "aws_fsx_base_url",
                 "value": "fsx.eu-north-1.amazonaws.com"
             },
             {
-                "key": "amazon_fsx_region",
+                "key": "aws_fsx_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon GameLift
-**Service Slug:** amazon_gamelift
+## AWS GameLift
+**Service Slug:** aws_gamelift
 
 **Host:** gamelift.sa-east-1.amazonaws.com
 
@@ -3040,23 +3968,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon GameLift",
+        "name": "AWS GameLift",
         "values": [
             {
-                "key": "amazon_gamelift_base_url",
+                "key": "aws_gamelift_base_url",
                 "value": "gamelift.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_gamelift_region",
+                "key": "aws_gamelift_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon S3 Glacier
-**Service Slug:** amazon_s3_glacier
+## AWS S3 Glacier
+**Service Slug:** aws_s3_glacier
 
 **Host:** glacier.us-gov-west-1.amazonaws.com
 
@@ -3066,15 +4002,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon S3 Glacier",
+        "name": "AWS S3 Glacier",
         "values": [
             {
-                "key": "amazon_s3_glacier_base_url",
+                "key": "aws_s3_glacier_base_url",
                 "value": "glacier.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_s3_glacier_region",
+                "key": "aws_s3_glacier_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3101,6 +4045,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_global_accelerator_region",
                 "value": "us-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3127,6 +4079,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_glue_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3153,14 +4113,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_ground_station_region",
                 "value": "us-east-2, us-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon GuardDuty
-**Service Slug:** amazon_guardduty
+## AWS GuardDuty
+**Service Slug:** aws_guardduty
 
 **Host:** guardduty.us-gov-west-1.amazonaws.com
 
@@ -3170,15 +4138,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon GuardDuty",
+        "name": "AWS GuardDuty",
         "values": [
             {
-                "key": "amazon_guardduty_base_url",
+                "key": "aws_guardduty_base_url",
                 "value": "guardduty.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_guardduty_region",
+                "key": "aws_guardduty_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3205,6 +4181,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_health_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3231,14 +4215,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_import\/export_region",
                 "value": "HTTPS"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Inspector
-**Service Slug:** amazon_inspector
+## AWS Inspector
+**Service Slug:** aws_inspector
 
 **Host:** inspector.us-gov-west-1.amazonaws.com
 
@@ -3248,15 +4240,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Inspector",
+        "name": "AWS Inspector",
         "values": [
             {
-                "key": "amazon_inspector_base_url",
+                "key": "aws_inspector_base_url",
                 "value": "inspector.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_inspector_region",
+                "key": "aws_inspector_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3283,6 +4283,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_1-click_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3309,6 +4317,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_analytics_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3335,6 +4351,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_core_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3361,6 +4385,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_device_defender_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3387,6 +4419,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_device_management_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3413,6 +4453,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_events_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3439,6 +4487,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_greengrass_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3465,6 +4521,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_iot_things_graph_region",
                 "value": "us-east-1, us-west-2, ap-northeast-2, ap-southeast-2, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3493,14 +4557,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_key_management_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Kinesis Data Analytics
-**Service Slug:** amazon_kinesis_data_analytics
+## AWS Kinesis Data Analytics
+**Service Slug:** aws_kinesis_data_analytics
 
 **Host:** kinesisanalytics.eu-north-1.amazonaws.com
 
@@ -3510,23 +4582,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Kinesis Data Analytics",
+        "name": "AWS Kinesis Data Analytics",
         "values": [
             {
-                "key": "amazon_kinesis_data_analytics_base_url",
+                "key": "aws_kinesis_data_analytics_base_url",
                 "value": "kinesisanalytics.eu-north-1.amazonaws.com"
             },
             {
-                "key": "amazon_kinesis_data_analytics_region",
+                "key": "aws_kinesis_data_analytics_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Kinesis Data Firehose
-**Service Slug:** amazon_kinesis_data_firehose
+## AWS Kinesis Data Firehose
+**Service Slug:** aws_kinesis_data_firehose
 
 **Host:** firehose.us-gov-west-1.amazonaws.com
 
@@ -3536,23 +4616,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Kinesis Data Firehose",
+        "name": "AWS Kinesis Data Firehose",
         "values": [
             {
-                "key": "amazon_kinesis_data_firehose_base_url",
+                "key": "aws_kinesis_data_firehose_base_url",
                 "value": "firehose.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_kinesis_data_firehose_region",
+                "key": "aws_kinesis_data_firehose_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Kinesis Data Streams
-**Service Slug:** amazon_kinesis_data_streams
+## AWS Kinesis Data Streams
+**Service Slug:** aws_kinesis_data_streams
 
 **Host:** kinesis.us-gov-west-1.amazonaws.com
 
@@ -3562,23 +4650,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Kinesis Data Streams",
+        "name": "AWS Kinesis Data Streams",
         "values": [
             {
-                "key": "amazon_kinesis_data_streams_base_url",
+                "key": "aws_kinesis_data_streams_base_url",
                 "value": "kinesis.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_kinesis_data_streams_region",
+                "key": "aws_kinesis_data_streams_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Kinesis Video Streams
-**Service Slug:** amazon_kinesis_video_streams
+## AWS Kinesis Video Streams
+**Service Slug:** aws_kinesis_video_streams
 
 **Host:** kinesisvideo.eu-west-1.amazonaws.com
 
@@ -3588,15 +4684,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Kinesis Video Streams",
+        "name": "AWS Kinesis Video Streams",
         "values": [
             {
-                "key": "amazon_kinesis_video_streams_base_url",
+                "key": "aws_kinesis_video_streams_base_url",
                 "value": "kinesisvideo.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_kinesis_video_streams_region",
+                "key": "aws_kinesis_video_streams_region",
                 "value": "us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3623,6 +4727,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_lake_formation_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3649,14 +4761,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_lambda_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Lex
-**Service Slug:** amazon_lex
+## AWS Lex
+**Service Slug:** aws_lex
 
 **Host:** models.lex.eu-west-1.amazonaws.com
 
@@ -3666,15 +4786,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Lex",
+        "name": "AWS Lex",
         "values": [
             {
-                "key": "amazon_lex_base_url",
+                "key": "aws_lex_base_url",
                 "value": "models.lex.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_lex_region",
+                "key": "aws_lex_region",
                 "value": "us-east-1, us-west-2, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3701,14 +4829,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_license_manager_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Lightsail
-**Service Slug:** amazon_lightsail
+## AWS Lightsail
+**Service Slug:** aws_lightsail
 
 **Host:** lightsail.eu-west-3.amazonaws.com
 
@@ -3718,23 +4854,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Lightsail",
+        "name": "AWS Lightsail",
         "values": [
             {
-                "key": "amazon_lightsail_base_url",
+                "key": "aws_lightsail_base_url",
                 "value": "lightsail.eu-west-3.amazonaws.com"
             },
             {
-                "key": "amazon_lightsail_region",
+                "key": "aws_lightsail_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Macie
-**Service Slug:** amazon_macie
+## AWS Macie
+**Service Slug:** aws_macie
 
 **Host:** macie.us-west-2.amazonaws.com
 
@@ -3744,23 +4888,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Macie",
+        "name": "AWS Macie",
         "values": [
             {
-                "key": "amazon_macie_base_url",
+                "key": "aws_macie_base_url",
                 "value": "macie.us-west-2.amazonaws.com"
             },
             {
-                "key": "amazon_macie_region",
+                "key": "aws_macie_region",
                 "value": "us-east-1, us-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Machine Learning
-**Service Slug:** amazon_machine_learning
+## AWS Machine Learning
+**Service Slug:** aws_machine_learning
 
 **Host:** machinelearning.eu-west-1.amazonaws.com
 
@@ -3770,23 +4922,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Machine Learning",
+        "name": "AWS Machine Learning",
         "values": [
             {
-                "key": "amazon_machine_learning_base_url",
+                "key": "aws_machine_learning_base_url",
                 "value": "machinelearning.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_machine_learning_region",
+                "key": "aws_machine_learning_region",
                 "value": "us-east-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Managed Blockchain
-**Service Slug:** amazon_managed_blockchain
+## AWS Managed Blockchain
+**Service Slug:** aws_managed_blockchain
 
 **Host:** managedblockchain.us-east-1.amazonaws.com
 
@@ -3796,15 +4956,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Managed Blockchain",
+        "name": "AWS Managed Blockchain",
         "values": [
             {
-                "key": "amazon_managed_blockchain_base_url",
+                "key": "aws_managed_blockchain_base_url",
                 "value": "managedblockchain.us-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_managed_blockchain_region",
+                "key": "aws_managed_blockchain_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3831,14 +4999,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_marketplace_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Mechanical Turk
-**Service Slug:** amazon_mechanical_turk
+## AWS Mechanical Turk
+**Service Slug:** aws_mechanical_turk
 
 **Host:** HTTPS
 
@@ -3848,23 +5024,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Mechanical Turk",
+        "name": "AWS Mechanical Turk",
         "values": [
             {
-                "key": "amazon_mechanical_turk_base_url",
+                "key": "aws_mechanical_turk_base_url",
                 "value": "HTTPS"
             },
             {
-                "key": "amazon_mechanical_turk_region",
+                "key": "aws_mechanical_turk_region",
                 "value": "mturk-requester-sandbox.us-east-1.amazonaws.com, mturk-requester.us-east-1.amazonaws.com"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Managed Streaming for Apache Kafka (Amazon MSK)
-**Service Slug:** amazon_managed_streaming_for_apache_kafka_(amazon_msk)
+## AWS Managed Streaming for Apache Kafka AWS MSK
+**Service Slug:** aws_managed_streaming_for_apache_kafka_aws_msk
 
 **Host:** kafka.sa-east-1.amazonaws.com
 
@@ -3874,15 +5058,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)",
+        "name": "AWS Managed Streaming for Apache Kafka AWS MSK",
         "values": [
             {
-                "key": "amazon_managed_streaming_for_apache_kafka_(amazon_msk)_base_url",
+                "key": "aws_managed_streaming_for_apache_kafka_aws_msk_base_url",
                 "value": "kafka.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_managed_streaming_for_apache_kafka_(amazon_msk)_region",
+                "key": "aws_managed_streaming_for_apache_kafka_aws_msk_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3909,6 +5101,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_elemental_mediaconnect_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3935,6 +5135,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_elemental_mediaconvert_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3961,6 +5169,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_elemental_medialive_region",
                 "value": "us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -3987,6 +5203,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_elemental_mediastore_region",
                 "value": "us-east-1, us-west-2, ap-northeast-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-north-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4013,6 +5237,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_elemental_mediatailor_region",
                 "value": "us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4039,14 +5271,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_migration_hub_region",
                 "value": "us-west-2, eu-central-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon MQ
-**Service Slug:** amazon_mq
+## AWS MQ
+**Service Slug:** aws_mq
 
 **Host:** mq.eu-west-3.amazonaws.com
 
@@ -4056,23 +5296,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon MQ",
+        "name": "AWS MQ",
         "values": [
             {
-                "key": "amazon_mq_base_url",
+                "key": "aws_mq_base_url",
                 "value": "mq.eu-west-3.amazonaws.com"
             },
             {
-                "key": "amazon_mq_region",
+                "key": "aws_mq_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Neptune
-**Service Slug:** amazon_neptune
+## AWS Neptune
+**Service Slug:** aws_neptune
 
 **Host:** rds.us-gov-west-1.amazonaws.com
 
@@ -4082,15 +5330,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Neptune",
+        "name": "AWS Neptune",
         "values": [
             {
-                "key": "amazon_neptune_base_url",
+                "key": "aws_neptune_base_url",
                 "value": "rds.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_neptune_region",
+                "key": "aws_neptune_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-north-1, me-south-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4117,6 +5373,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_opsworks_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4143,14 +5407,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_organizations_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Personalize
-**Service Slug:** amazon_personalize
+## AWS Personalize
+**Service Slug:** aws_personalize
 
 **Host:** personalize.eu-west-1.amazonaws.com
 
@@ -4160,23 +5432,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Personalize",
+        "name": "AWS Personalize",
         "values": [
             {
-                "key": "amazon_personalize_base_url",
+                "key": "aws_personalize_base_url",
                 "value": "personalize.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_personalize_region",
+                "key": "aws_personalize_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Pinpoint
-**Service Slug:** amazon_pinpoint
+## AWS Pinpoint
+**Service Slug:** aws_pinpoint
 
 **Host:** pinpoint.eu-west-1.amazonaws.com
 
@@ -4186,23 +5466,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Pinpoint",
+        "name": "AWS Pinpoint",
         "values": [
             {
-                "key": "amazon_pinpoint_base_url",
+                "key": "aws_pinpoint_base_url",
                 "value": "pinpoint.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_pinpoint_region",
+                "key": "aws_pinpoint_region",
                 "value": "us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Polly
-**Service Slug:** amazon_polly
+## AWS Polly
+**Service Slug:** aws_polly
 
 **Host:** polly.us-gov-west-1.amazonaws.com
 
@@ -4212,23 +5500,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Polly",
+        "name": "AWS Polly",
         "values": [
             {
-                "key": "amazon_polly_base_url",
+                "key": "aws_polly_base_url",
                 "value": "polly.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_polly_region",
+                "key": "aws_polly_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon QLDB
-**Service Slug:** amazon_qldb
+## AWS QLDB
+**Service Slug:** aws_qldb
 
 **Host:** qldb.eu-west-1.amazonaws.com
 
@@ -4238,23 +5534,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon QLDB",
+        "name": "AWS QLDB",
         "values": [
             {
-                "key": "amazon_qldb_base_url",
+                "key": "aws_qldb_base_url",
                 "value": "qldb.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_qldb_region",
+                "key": "aws_qldb_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon QuickSight
-**Service Slug:** amazon_quicksight
+## AWS QuickSight
+**Service Slug:** aws_quicksight
 
 **Host:** https://eu-west-2.quicksight.aws.amazon.com
 
@@ -4264,15 +5568,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon QuickSight",
+        "name": "AWS QuickSight",
         "values": [
             {
-                "key": "amazon_quicksight_base_url",
+                "key": "aws_quicksight_base_url",
                 "value": "https:\/\/eu-west-2.quicksight.aws.amazon.com"
             },
             {
-                "key": "amazon_quicksight_region",
+                "key": "aws_quicksight_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4299,14 +5611,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_resource_access_manager_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Redshift
-**Service Slug:** amazon_redshift
+## AWS Redshift
+**Service Slug:** aws_redshift
 
 **Host:** redshift.us-gov-west-1.amazonaws.com
 
@@ -4316,23 +5636,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Redshift",
+        "name": "AWS Redshift",
         "values": [
             {
-                "key": "amazon_redshift_base_url",
+                "key": "aws_redshift_base_url",
                 "value": "redshift.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_redshift_region",
+                "key": "aws_redshift_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Rekognition
-**Service Slug:** amazon_rekognition
+## AWS Rekognition
+**Service Slug:** aws_rekognition
 
 **Host:** rekognition.us-gov-west-1.amazonaws.com
 
@@ -4342,23 +5670,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Rekognition",
+        "name": "AWS Rekognition",
         "values": [
             {
-                "key": "amazon_rekognition_base_url",
+                "key": "aws_rekognition_base_url",
                 "value": "rekognition.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_rekognition_region",
+                "key": "aws_rekognition_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1, eu-west-2, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Relational Database Service (Amazon RDS)
-**Service Slug:** amazon_relational_database_service_(amazon_rds)
+## AWS Relational Database Service AWS RDS
+**Service Slug:** aws_relational_database_service_aws_rds
 
 **Host:** rds.us-gov-west-1.amazonaws.com
 
@@ -4368,23 +5704,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Relational Database Service (Amazon RDS)",
+        "name": "AWS Relational Database Service AWS RDS",
         "values": [
             {
-                "key": "amazon_relational_database_service_(amazon_rds)_base_url",
+                "key": "aws_relational_database_service_aws_rds_base_url",
                 "value": "rds.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_relational_database_service_(amazon_rds)_region",
+                "key": "aws_relational_database_service_aws_rds_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Relational Database Service (Amazon RDS) Performance Insights
-**Service Slug:** amazon_relational_database_service_amazon_rds_performance_insights
+## AWS Relational Database Service AWS RDS Performance Insights
+**Service Slug:** aws_relational_database_service_aws_rds_performance_insights
 
 **Host:** pi.sa-east-1.amazonaws.com
 
@@ -4394,15 +5738,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Relational Database Service (Amazon RDS) Performance Insights",
+        "name": "AWS Relational Database Service AWS RDS Performance Insights",
         "values": [
             {
-                "key": "amazon_relational_database_service_(amazon_rds)_performance_insights_base_url",
+                "key": "aws_relational_database_service_aws_rds_performance_insights_base_url",
                 "value": "pi.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_relational_database_service_(amazon_rds)_performance_insights_region",
+                "key": "aws_relational_database_service_aws_rds_performance_insights_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4431,6 +5783,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_resource_groups_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4457,6 +5817,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "resource_groups_tagging_api_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4483,14 +5851,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_robomaker_region",
                 "value": "us-east-1, us-east-2, us-west-2, eu-west-1, eu-central-1, ap-southeast-1, ap-northeast-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Route 53
-**Service Slug:** amazon_route 53
+## AWS Route 53
+**Service Slug:** aws_route 53
 
 **Host:** route53.amazonaws.com
 
@@ -4500,23 +5876,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Route\u00a053",
+        "name": "AWS Route\u00a053",
         "values": [
             {
-                "key": "amazon_route\u00a053_base_url",
+                "key": "aws_route\u00a053_base_url",
                 "value": "route53.amazonaws.com"
             },
             {
-                "key": "amazon_route\u00a053_region",
+                "key": "aws_route\u00a053_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon SageMaker
-**Service Slug:** amazon_sagemaker
+## AWS SageMaker
+**Service Slug:** aws_sagemaker
 
 **Host:** api.sagemaker.us-gov-west-1.amazonaws.com
 
@@ -4526,15 +5910,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon SageMaker",
+        "name": "AWS SageMaker",
         "values": [
             {
-                "key": "amazon_sagemaker_base_url",
+                "key": "aws_sagemaker_base_url",
                 "value": "api.sagemaker.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_sagemaker_region",
+                "key": "aws_sagemaker_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4561,6 +5953,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_secrets_manager_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4587,14 +5987,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_security_hub_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## AWS Security Token Service (AWS STS)
-**Service Slug:** aws_security_token_service_(aws_sts)
+## AWS Security Token Service AWS STS
+**Service Slug:** aws_security_token_service_aws_sts
 
 **Host:** sts.us-gov-west-1.amazonaws.com
 
@@ -4604,15 +6012,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "AWS Security Token Service (AWS STS)",
+        "name": "AWS Security Token Service AWS STS",
         "values": [
             {
-                "key": "aws_security_token_service_(aws_sts)_base_url",
+                "key": "aws_security_token_service_aws_sts_base_url",
                 "value": "sts.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "aws_security_token_service_(aws_sts)_region",
+                "key": "aws_security_token_service_aws_sts_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4639,6 +6055,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_server_migration_service_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4665,6 +6089,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "service_quotas_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4691,6 +6123,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_serverless_application_repository_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4717,6 +6157,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_service_catalog_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4743,14 +6191,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_shield_advanced_region",
                 "value": "us-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Simple Email Service (Amazon SES)
-**Service Slug:** amazon_simple_email_service_(amazon_ses)
+## AWS Simple Email Service AWS SES
+**Service Slug:** aws_simple_email_service_aws_ses
 
 **Host:** email.eu-central-1.amazonaws.com
 
@@ -4760,23 +6216,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Simple Email Service (Amazon SES)",
+        "name": "AWS Simple Email Service AWS SES",
         "values": [
             {
-                "key": "amazon_simple_email_service_(amazon_ses)_base_url",
+                "key": "aws_simple_email_service_aws_ses_base_url",
                 "value": "email.eu-central-1.amazonaws.com"
             },
             {
-                "key": "amazon_simple_email_service_(amazon_ses)_region",
+                "key": "aws_simple_email_service_aws_ses_region",
                 "value": "us-east-1, us-east-1, us-west-2, us-west-2, ap-south-1, ap-southeast-2, eu-west-1, eu-central-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Simple Notification Service (Amazon SNS)
-**Service Slug:** amazon_simple_notification_service_(amazon_sns)
+## AWS Simple Notification Service AWS SNS
+**Service Slug:** aws_simple_notification_service_aws_sns
 
 **Host:** sns.us-gov-west-1.amazonaws.com
 
@@ -4786,23 +6250,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Simple Notification Service (Amazon SNS)",
+        "name": "AWS Simple Notification Service AWS SNS",
         "values": [
             {
-                "key": "amazon_simple_notification_service_(amazon_sns)_base_url",
+                "key": "aws_simple_notification_service_aws_sns_base_url",
                 "value": "sns.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_simple_notification_service_(amazon_sns)_region",
+                "key": "aws_simple_notification_service_aws_sns_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Simple Queue Service (Amazon SQS)
-**Service Slug:** amazon_simple_queue_service_(amazon_sqs)
+## AWS Simple Queue Service AWS SQS
+**Service Slug:** aws_simple_queue_service_aws_sqs
 
 **Host:** sqs.us-gov-west-1.amazonaws.com
 
@@ -4812,23 +6284,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Simple Queue Service (Amazon SQS)",
+        "name": "AWS Simple Queue Service AWS SQS",
         "values": [
             {
-                "key": "amazon_simple_queue_service_(amazon_sqs)_base_url",
+                "key": "aws_simple_queue_service_aws_sqs_base_url",
                 "value": "sqs.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_simple_queue_service_(amazon_sqs)_region",
+                "key": "aws_simple_queue_service_aws_sqs_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Simple Storage Service (Amazon S3)
-**Service Slug:** amazon_simple_storage_service_(amazon_s3)
+## AWS Simple Storage Service AWS S3
+**Service Slug:** aws_simple_storage_service_aws_s3
 
 **Host:** Valid endpoint names for this Region:
 
@@ -4871,23 +6351,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Simple Storage Service (Amazon S3)",
+        "name": "AWS Simple Storage Service AWS S3",
         "values": [
             {
-                "key": "amazon_simple_storage_service_(amazon_s3)_base_url",
+                "key": "aws_simple_storage_service_aws_s3_base_url",
                 "value": "Valid endpoint names for this Region:\n                                    \n                                    \n                                       \n                                       \n                                       \n                                       \n                                       \n                                       \n                                       \n                                          \n                                             \n                                             s3.me-south-1.amazonaws.com\n                                             \n                                          \n                                          \n                                             \n                                             s3.dualstack.me-south-1.amazonaws.com**\n                                             \n                                          \n                                          \n                                             \n                                             s3.dualstack.us-east-1.amazonaws.com**\n                                             \n                                          \n                                          \n                                             \n                                             account-id.s3-control.me-south-1.amazonaws.com\n                                             \n                                             \n                                          \n                                          \n                                             \n                                             account-id.s3-control.dualstack.me-south-1.amazonaws.com**"
             },
             {
-                "key": "amazon_simple_storage_service_(amazon_s3)_region",
+                "key": "aws_simple_storage_service_aws_s3_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, me-south-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Simple Workflow Service (Amazon SWF)
-**Service Slug:** amazon_simple_workflow_service_(amazon_swf)
+## AWS Simple Workflow Service AWS SWF
+**Service Slug:** aws_simple_workflow_service_aws_swf
 
 **Host:** swf.us-gov-west-1.amazonaws.com
 
@@ -4897,23 +6385,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Simple Workflow Service (Amazon SWF)",
+        "name": "AWS Simple Workflow Service AWS SWF",
         "values": [
             {
-                "key": "amazon_simple_workflow_service_(amazon_swf)_base_url",
+                "key": "aws_simple_workflow_service_aws_swf_base_url",
                 "value": "swf.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_simple_workflow_service_(amazon_swf)_region",
+                "key": "aws_simple_workflow_service_aws_swf_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon SimpleDB
-**Service Slug:** amazon_simpledb
+## AWS SimpleDB
+**Service Slug:** aws_simpledb
 
 **Host:** sdb.sa-east-1.amazonaws.com
 
@@ -4923,15 +6419,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon SimpleDB",
+        "name": "AWS SimpleDB",
         "values": [
             {
-                "key": "amazon_simpledb_base_url",
+                "key": "aws_simpledb_base_url",
                 "value": "sdb.sa-east-1.amazonaws.com"
             },
             {
-                "key": "amazon_simpledb_region",
+                "key": "aws_simpledb_region",
                 "value": "us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4958,6 +6462,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_single_sign-on_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ca-central-1, eu-central-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -4984,6 +6496,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_snowball_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -5010,6 +6530,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_step_functions_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -5036,6 +6564,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_storage_gateway_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -5062,14 +6598,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_support_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Textract
-**Service Slug:** amazon_textract
+## AWS Textract
+**Service Slug:** aws_textract
 
 **Host:** textract.eu-west-2.amazonaws.com
 
@@ -5079,23 +6623,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Textract",
+        "name": "AWS Textract",
         "values": [
             {
-                "key": "amazon_textract_base_url",
+                "key": "aws_textract_base_url",
                 "value": "textract.eu-west-2.amazonaws.com"
             },
             {
-                "key": "amazon_textract_region",
+                "key": "aws_textract_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-1, eu-west-1, eu-west-2"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Transcribe
-**Service Slug:** amazon_transcribe
+## AWS Transcribe
+**Service Slug:** aws_transcribe
 
 **Host:** transcribe.us-gov-west-1.amazonaws.com
 
@@ -5105,23 +6657,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Transcribe",
+        "name": "AWS Transcribe",
         "values": [
             {
-                "key": "amazon_transcribe_base_url",
+                "key": "aws_transcribe_base_url",
                 "value": "transcribe.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_transcribe_region",
+                "key": "aws_transcribe_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-north-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, me-south-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Transcribe Streaming
-**Service Slug:** amazon_transcribe_streaming
+## AWS Transcribe Streaming
+**Service Slug:** aws_transcribe_streaming
 
 **Host:** transcribestreaming.eu-west-1.amazonaws.com
 
@@ -5131,15 +6691,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Transcribe Streaming",
+        "name": "AWS Transcribe Streaming",
         "values": [
             {
-                "key": "amazon_transcribe_streaming_base_url",
+                "key": "aws_transcribe_streaming_base_url",
                 "value": "transcribestreaming.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_transcribe_streaming_region",
+                "key": "aws_transcribe_streaming_region",
                 "value": "us-east-2, us-east-1, us-west-2, ap-southeast-2, ca-central-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -5166,14 +6734,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_transfer_for_sftp_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon Translate
-**Service Slug:** amazon_translate
+## AWS Translate
+**Service Slug:** aws_translate
 
 **Host:** translate.us-gov-west-1.amazonaws.com
 
@@ -5185,23 +6761,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon Translate",
+        "name": "AWS Translate",
         "values": [
             {
-                "key": "amazon_translate_base_url",
+                "key": "aws_translate_base_url",
                 "value": "translate.us-gov-west-1.amazonaws.com\n                                    \n                                    translate-fips.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_translate_region",
+                "key": "aws_translate_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon VPC
-**Service Slug:** amazon_vpc
+## AWS VPC
+**Service Slug:** aws_vpc
 
 **Host:** ec2.us-gov-west-1.amazonaws.com
 
@@ -5211,15 +6795,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon VPC",
+        "name": "AWS VPC",
         "values": [
             {
-                "key": "amazon_vpc_base_url",
+                "key": "aws_vpc_base_url",
                 "value": "ec2.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_vpc_region",
+                "key": "aws_vpc_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-3, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1, us-gov-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -5246,14 +6838,22 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_waf_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon WorkDocs
-**Service Slug:** amazon_workdocs
+## AWS WorkDocs
+**Service Slug:** aws_workdocs
 
 **Host:** workdocs.eu-west-1.amazonaws.com
 
@@ -5263,23 +6863,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon WorkDocs",
+        "name": "AWS WorkDocs",
         "values": [
             {
-                "key": "amazon_workdocs_base_url",
+                "key": "aws_workdocs_base_url",
                 "value": "workdocs.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_workdocs_region",
+                "key": "aws_workdocs_region",
                 "value": "us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon WorkLink
-**Service Slug:** amazon_worklink
+## AWS WorkLink
+**Service Slug:** aws_worklink
 
 **Host:** worklink.eu-west-1.amazonaws.com
 
@@ -5289,23 +6897,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon WorkLink",
+        "name": "AWS WorkLink",
         "values": [
             {
-                "key": "amazon_worklink_base_url",
+                "key": "aws_worklink_base_url",
                 "value": "worklink.eu-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_worklink_region",
+                "key": "aws_worklink_region",
                 "value": "us-east-1, us-east-2, us-west-2, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon WorkMail
-**Service Slug:** amazon_workmail
+## AWS WorkMail
+**Service Slug:** aws_workmail
 
 **Host:** SMTP via TLS (port 465)
 
@@ -5315,23 +6931,31 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon WorkMail",
+        "name": "AWS WorkMail",
         "values": [
             {
-                "key": "amazon_workmail_base_url",
+                "key": "aws_workmail_base_url",
                 "value": "SMTP via TLS (port 465)"
             },
             {
-                "key": "amazon_workmail_region",
+                "key": "aws_workmail_region",
                 "value": "us-east-1, us-east-1, us-east-1, us-east-1, us-east-1, us-east-1, us-east-1, us-west-2, us-west-2, us-west-2, us-west-2, us-west-2, us-west-2, us-west-2, eu-west-1, eu-west-1, eu-west-1, eu-west-1, eu-west-1, eu-west-1, eu-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
 }
 ```
 
-## Amazon WorkSpaces
-**Service Slug:** amazon_workspaces
+## AWS WorkSpaces
+**Service Slug:** aws_workspaces
 
 **Host:** workspaces.us-gov-west-1.amazonaws.com
 
@@ -5341,15 +6965,23 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
 ```{
     "environment": {
-        "name": "Amazon WorkSpaces",
+        "name": "AWS WorkSpaces",
         "values": [
             {
-                "key": "amazon_workspaces_base_url",
+                "key": "aws_workspaces_base_url",
                 "value": "workspaces.us-gov-west-1.amazonaws.com"
             },
             {
-                "key": "amazon_workspaces_region",
+                "key": "aws_workspaces_region",
                 "value": "us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, cn-northwest-1, eu-central-1, eu-west-1, eu-west-2, sa-east-1, us-gov-west-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
@@ -5376,6 +7008,14 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             {
                 "key": "aws_x-ray_region",
                 "value": "us-east-2, us-east-1, us-west-1, us-west-2, ap-east-1, ap-south-1, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, ca-central-1, eu-central-1, eu-west-1, eu-west-2, eu-west-3, eu-north-1, me-south-1, sa-east-1"
+            },
+            {
+                "key": "accessKey",
+                "value": ""
+            },
+            {
+                "key": "secretKey",
+                "value": ""
             }
         ]
     }
