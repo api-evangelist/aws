@@ -39,7 +39,6 @@ Make sure and look at [the AWS Postman environments](environments.md) as part of
 - [Kinesis Firehose](kinesis-firehose/README.md) - A Postman collection for the AWS Kinesis Firehose API.
 - [Lambda](lambda/README.md) - A Postman collection for the AWS Lambda API.
 - [Lightsail](lightsail/README.md) - A Postman collection for the AWS Lightsail API.
-- [Machine Learning](machine-learning/README.md) - A Postman collection for the AWS Machine Learning API.
 - [Marketplace Metering Service](marketplace-metering-service/README.md) - A Postman collection for the AWS Marketplace Metering Service API.
 - [OpsWorks](opsworks/README.md) - A Postman collection for the AWS OpsWorks API.
 - [Polly](polly/README.md) - A Postman collection for the AWS Polly API.
