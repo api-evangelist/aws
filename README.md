@@ -56,6 +56,5 @@ Make sure and look at [the AWS Postman environments](environments.md) as part of
 - [Storage Gateway Service](storage-gateway-service/README.md) - A Postman collection for the AWS Storage Gateway Service API.
 - [Systems Manager](systems-manager/README.md) - A Postman collection for the AWS Systems Manager API.
 - [WAF](waf/README.md) - A Postman collection for the AWS WAF API.
-- [WAF Regional](waf-regional/README.md) - A Postman collection for the AWS WAF Regional API.
 
 If you have any comments or questions you can submit an issue on this repository, or feel free to tweet at @apievangelist on Twitter, or email info@apievangelist.com for a more private discussion.
