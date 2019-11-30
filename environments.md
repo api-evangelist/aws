@@ -106,7 +106,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS AppSync Data Plane
 **Service Slug:** aws_appsync_data_plane
 
-**Host:** &lt;unique-id&gt;.appsync-api.eu-west-1.amazonaws.com
+**Host:** &lt;unique-id&gt;.appsync-api.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -118,7 +118,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_appsync_data_plane_base_url",
-                "value": "&lt;unique-id&gt;.appsync-api.eu-west-1.amazonaws.com"
+                "value": "&lt;unique-id&gt;.appsync-api.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_appsync_data_plane_region",
@@ -446,7 +446,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Forecast
 **Service Slug:** aws_forecast
 
-**Host:** forecast.eu-west-1.amazonaws.com
+**Host:** forecast.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
 
@@ -458,7 +458,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_forecast_base_url",
-                "value": "forecast.eu-west-1.amazonaws.com"
+                "value": "forecast.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_forecast_region",
@@ -480,7 +480,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Forecast Query
 **Service Slug:** aws_forecast_query
 
-**Host:** forecastquery.eu-west-1.amazonaws.com
+**Host:** forecastquery.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
 
@@ -492,7 +492,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_forecast_query_base_url",
-                "value": "forecastquery.eu-west-1.amazonaws.com"
+                "value": "forecastquery.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_forecast_query_region",
@@ -786,7 +786,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## Supported Legacy Endpoints
 **Service Slug:** supported_legacy_endpoints
 
-**Host:** prefix.iot.eu-west-1.amazonaws.com
+**Host:** prefix.iot.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -798,7 +798,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "supported_legacy_endpoints_base_url",
-                "value": "prefix.iot.eu-west-1.amazonaws.com"
+                "value": "prefix.iot.us-east-1.amazonaws.com"
             },
             {
                 "key": "supported_legacy_endpoints_region",
@@ -820,7 +820,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## Model Building Endpoints
 **Service Slug:** model_building_endpoints
 
-**Host:** models.lex.eu-west-1.amazonaws.com
+**Host:** models.lex.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, eu-west-1
 
@@ -832,7 +832,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "model_building_endpoints_base_url",
-                "value": "models.lex.eu-west-1.amazonaws.com"
+                "value": "models.lex.us-east-1.amazonaws.com"
             },
             {
                 "key": "model_building_endpoints_region",
@@ -854,7 +854,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## Runtime Endpoints
 **Service Slug:** runtime_endpoints
 
-**Host:** runtime.lex.eu-west-1.amazonaws.com
+**Host:** runtime.lex.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, eu-west-1
 
@@ -866,7 +866,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "runtime_endpoints_base_url",
-                "value": "runtime.lex.eu-west-1.amazonaws.com"
+                "value": "runtime.lex.us-east-1.amazonaws.com"
             },
             {
                 "key": "runtime_endpoints_region",
@@ -990,7 +990,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS OpsWorks CM
 **Service Slug:** aws_opsworks_cm
 
-**Host:** opsworks-cm.eu-west-1.amazonaws.com
+**Host:** opsworks-cm.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -1002,7 +1002,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_opsworks_cm_base_url",
-                "value": "opsworks-cm.eu-west-1.amazonaws.com"
+                "value": "opsworks-cm.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_opsworks_cm_region",
@@ -1058,7 +1058,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Personalize
 **Service Slug:** aws_personalize
 
-**Host:** personalize.eu-west-1.amazonaws.com
+**Host:** personalize.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
 
@@ -1070,7 +1070,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_personalize_base_url",
-                "value": "personalize.eu-west-1.amazonaws.com"
+                "value": "personalize.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_personalize_region",
@@ -1092,7 +1092,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Personalize Events
 **Service Slug:** aws_personalize_events
 
-**Host:** personalize-events.eu-west-1.amazonaws.com
+**Host:** personalize-events.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-east-2, us-west-2, ap-northeast-1, ap-southeast-1, eu-west-1
 
@@ -1104,7 +1104,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_personalize_events_base_url",
-                "value": "personalize-events.eu-west-1.amazonaws.com"
+                "value": "personalize-events.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_personalize_events_region",
@@ -1126,7 +1126,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Personalize Runtime
 **Service Slug:** aws_personalize_runtime
 
-**Host:** personalize-runtime.eu-west-1.amazonaws.com
+**Host:** personalize-runtime.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-east-2, us-west-2, ap-northeast-1, ap-southeast-1, eu-west-1
 
@@ -1138,7 +1138,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_personalize_runtime_base_url",
-                "value": "personalize-runtime.eu-west-1.amazonaws.com"
+                "value": "personalize-runtime.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_personalize_runtime_region",
@@ -1160,7 +1160,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Pinpoint API
 **Service Slug:** aws_pinpoint_api
 
-**Host:** pinpoint.eu-west-1.amazonaws.com
+**Host:** pinpoint.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
 
@@ -1172,7 +1172,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_pinpoint_api_base_url",
-                "value": "pinpoint.eu-west-1.amazonaws.com"
+                "value": "pinpoint.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_pinpoint_api_region",
@@ -1194,7 +1194,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Pinpoint Email API
 **Service Slug:** aws_pinpoint_email_api
 
-**Host:** email.eu-west-1.amazonaws.com
+**Host:** email.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
 
@@ -1206,7 +1206,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_pinpoint_email_api_base_url",
-                "value": "email.eu-west-1.amazonaws.com"
+                "value": "email.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_pinpoint_email_api_region",
@@ -1228,7 +1228,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Pinpoint SMS and Voice API
 **Service Slug:** aws_pinpoint_sms_and_voice_api
 
-**Host:** sms-voice.pinpoint.eu-west-1.amazonaws.com
+**Host:** sms-voice.pinpoint.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
 
@@ -1240,7 +1240,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_pinpoint_sms_and_voice_api_base_url",
-                "value": "sms-voice.pinpoint.eu-west-1.amazonaws.com"
+                "value": "sms-voice.pinpoint.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_pinpoint_sms_and_voice_api_region",
@@ -1262,7 +1262,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS QLDB Control Plane
 **Service Slug:** aws_qldb_control_plane
 
-**Host:** qldb.eu-west-1.amazonaws.com
+**Host:** qldb.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -1274,7 +1274,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_qldb_control_plane_base_url",
-                "value": "qldb.eu-west-1.amazonaws.com"
+                "value": "qldb.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_qldb_control_plane_region",
@@ -1296,7 +1296,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS QLDB Transactional Data Plane
 **Service Slug:** aws_qldb_transactional_data_plane
 
-**Host:** session.qldb.eu-west-1.amazonaws.com
+**Host:** session.qldb.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -1308,7 +1308,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_qldb_transactional_data_plane_base_url",
-                "value": "session.qldb.eu-west-1.amazonaws.com"
+                "value": "session.qldb.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_qldb_transactional_data_plane_region",
@@ -1502,7 +1502,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 
 **Host:** Z1MPMWCPA7YB62
 
-**Regions:** s3-website.us-east-2.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website-us-west-1.amazonaws.com, s3-website-us-west-2.amazonaws.com, s3-website.ap-east-1.amazonaws.com, s3-website.ap-south-1.amazonaws.com, s3-website.ap-northeast-3.amazonaws.com, s3-website.ap-northeast-2.amazonaws.com, s3-website-ap-southeast-1.amazonaws.com, s3-website-ap-southeast-2.amazonaws.com, s3-website-ap-northeast-1.amazonaws.com, s3-website.ca-central-1.amazonaws.com, s3-website.cn-northwest-1.amazonaws.com.cn, s3-website.eu-central-1.amazonaws.com, s3-website-eu-west-1.amazonaws.com, s3-website.us-east-1.amazonaws.com, s3-website.eu-west-3.amazonaws.com, s3-website.eu-north-1.amazonaws.com, s3-website-sa-east-1.amazonaws.com, s3-website.me-south-1.amazonaws.com
+**Regions:** s3-website.us-east-2.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website-us-west-1.amazonaws.com, s3-website-us-west-2.amazonaws.com, s3-website.ap-east-1.amazonaws.com, s3-website.ap-south-1.amazonaws.com, s3-website.ap-northeast-3.amazonaws.com, s3-website.ap-northeast-2.amazonaws.com, s3-website-ap-southeast-1.amazonaws.com, s3-website-ap-southeast-2.amazonaws.com, s3-website-ap-northeast-1.amazonaws.com, s3-website.ca-central-1.amazonaws.com, s3-website.cn-northwest-1.amazonaws.com.cn, s3-website.eu-central-1.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website.us-east-1.amazonaws.com, s3-website.eu-west-3.amazonaws.com, s3-website.eu-north-1.amazonaws.com, s3-website-sa-east-1.amazonaws.com, s3-website.me-south-1.amazonaws.com
 
 
 **Environment** ([For Posting To Postman API](https://docs.api.getpostman.com/?version=latest#a237ffbe-0444-b394-a2c4-b99f691931cf))
@@ -1516,7 +1516,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
             },
             {
                 "key": "aws_simple_storage_service_website_endpoints_region",
-                "value": "s3-website.us-east-2.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website-us-west-1.amazonaws.com, s3-website-us-west-2.amazonaws.com, s3-website.ap-east-1.amazonaws.com, s3-website.ap-south-1.amazonaws.com, s3-website.ap-northeast-3.amazonaws.com, s3-website.ap-northeast-2.amazonaws.com, s3-website-ap-southeast-1.amazonaws.com, s3-website-ap-southeast-2.amazonaws.com, s3-website-ap-northeast-1.amazonaws.com, s3-website.ca-central-1.amazonaws.com, s3-website.cn-northwest-1.amazonaws.com.cn, s3-website.eu-central-1.amazonaws.com, s3-website-eu-west-1.amazonaws.com, s3-website.us-east-1.amazonaws.com, s3-website.eu-west-3.amazonaws.com, s3-website.eu-north-1.amazonaws.com, s3-website-sa-east-1.amazonaws.com, s3-website.me-south-1.amazonaws.com"
+                "value": "s3-website.us-east-2.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website-us-west-1.amazonaws.com, s3-website-us-west-2.amazonaws.com, s3-website.ap-east-1.amazonaws.com, s3-website.ap-south-1.amazonaws.com, s3-website.ap-northeast-3.amazonaws.com, s3-website.ap-northeast-2.amazonaws.com, s3-website-ap-southeast-1.amazonaws.com, s3-website-ap-southeast-2.amazonaws.com, s3-website-ap-northeast-1.amazonaws.com, s3-website.ca-central-1.amazonaws.com, s3-website.cn-northwest-1.amazonaws.com.cn, s3-website.eu-central-1.amazonaws.com, s3-website-us-east-1.amazonaws.com, s3-website.us-east-1.amazonaws.com, s3-website.eu-west-3.amazonaws.com, s3-website.eu-north-1.amazonaws.com, s3-website-sa-east-1.amazonaws.com, s3-website.me-south-1.amazonaws.com"
             },
             {
                 "key": "accessKey",
@@ -2114,7 +2114,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Chime
 **Service Slug:** aws_chime
 
-**Host:** cloud9.eu-west-1.amazonaws.com
+**Host:** cloud9.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -2126,7 +2126,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_chime_base_url",
-                "value": "cloud9.eu-west-1.amazonaws.com"
+                "value": "cloud9.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_chime_region",
@@ -3000,7 +3000,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Data Pipeline
 **Service Slug:** aws_data_pipeline
 
-**Host:** datapipeline.eu-west-1.amazonaws.com
+**Host:** datapipeline.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-west-1
 
@@ -3012,7 +3012,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_data_pipeline_base_url",
-                "value": "datapipeline.eu-west-1.amazonaws.com"
+                "value": "datapipeline.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_data_pipeline_region",
@@ -3652,7 +3652,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Elastic Transcoder
 **Service Slug:** aws_elastic_transcoder
 
-**Host:** elastictranscoder.eu-west-1.amazonaws.com
+**Host:** elastictranscoder.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-1, us-west-2, ap-south-1, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1
 
@@ -3664,7 +3664,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_elastic_transcoder_base_url",
-                "value": "elastictranscoder.eu-west-1.amazonaws.com"
+                "value": "elastictranscoder.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_elastic_transcoder_region",
@@ -3858,7 +3858,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Forecast
 **Service Slug:** aws_forecast
 
-**Host:** forecast.eu-west-1.amazonaws.com
+**Host:** forecast.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
 
@@ -3870,7 +3870,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_forecast_base_url",
-                "value": "forecast.eu-west-1.amazonaws.com"
+                "value": "forecast.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_forecast_region",
@@ -4300,7 +4300,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS IoT Analytics
 **Service Slug:** aws_iot_analytics
 
-**Host:** iotanalytics.eu-west-1.amazonaws.com
+**Host:** iotanalytics.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -4312,7 +4312,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_iot_analytics_base_url",
-                "value": "iotanalytics.eu-west-1.amazonaws.com"
+                "value": "iotanalytics.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_iot_analytics_region",
@@ -4504,7 +4504,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS IoT Things Graph
 **Service Slug:** aws_iot_things_graph
 
-**Host:** iotthingsgraph.eu-west-1.amazonaws.com
+**Host:** iotthingsgraph.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-northeast-2, ap-southeast-2, ap-northeast-1, eu-west-1
 
@@ -4516,7 +4516,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_iot_things_graph_base_url",
-                "value": "iotthingsgraph.eu-west-1.amazonaws.com"
+                "value": "iotthingsgraph.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_iot_things_graph_region",
@@ -4676,7 +4676,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Kinesis Video Streams
 **Service Slug:** aws_kinesis_video_streams
 
-**Host:** kinesisvideo.eu-west-1.amazonaws.com
+**Host:** kinesisvideo.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -4688,7 +4688,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_kinesis_video_streams_base_url",
-                "value": "kinesisvideo.eu-west-1.amazonaws.com"
+                "value": "kinesisvideo.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_kinesis_video_streams_region",
@@ -4778,7 +4778,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Lex
 **Service Slug:** aws_lex
 
-**Host:** models.lex.eu-west-1.amazonaws.com
+**Host:** models.lex.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, eu-west-1
 
@@ -4790,7 +4790,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_lex_base_url",
-                "value": "models.lex.eu-west-1.amazonaws.com"
+                "value": "models.lex.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_lex_region",
@@ -4914,7 +4914,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Machine Learning
 **Service Slug:** aws_machine_learning
 
-**Host:** machinelearning.eu-west-1.amazonaws.com
+**Host:** machinelearning.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, eu-west-1
 
@@ -4926,7 +4926,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_machine_learning_base_url",
-                "value": "machinelearning.eu-west-1.amazonaws.com"
+                "value": "machinelearning.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_machine_learning_region",
@@ -5220,7 +5220,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Elemental MediaTailor
 **Service Slug:** aws_elemental_mediatailor
 
-**Host:** api.mediatailor.eu-west-1.amazonaws.com
+**Host:** api.mediatailor.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -5232,7 +5232,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_elemental_mediatailor_base_url",
-                "value": "api.mediatailor.eu-west-1.amazonaws.com"
+                "value": "api.mediatailor.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_elemental_mediatailor_region",
@@ -5356,7 +5356,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS OpsWorks
 **Service Slug:** aws_opsworks
 
-**Host:** opsworks-cm.eu-west-1.amazonaws.com
+**Host:** opsworks-cm.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -5368,7 +5368,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_opsworks_base_url",
-                "value": "opsworks-cm.eu-west-1.amazonaws.com"
+                "value": "opsworks-cm.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_opsworks_region",
@@ -5424,7 +5424,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Personalize
 **Service Slug:** aws_personalize
 
-**Host:** personalize.eu-west-1.amazonaws.com
+**Host:** personalize.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-1, ap-northeast-1, eu-west-1
 
@@ -5436,7 +5436,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_personalize_base_url",
-                "value": "personalize.eu-west-1.amazonaws.com"
+                "value": "personalize.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_personalize_region",
@@ -5458,7 +5458,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Pinpoint
 **Service Slug:** aws_pinpoint
 
-**Host:** pinpoint.eu-west-1.amazonaws.com
+**Host:** pinpoint.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-south-1, ap-southeast-2, eu-central-1, eu-west-1
 
@@ -5470,7 +5470,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_pinpoint_base_url",
-                "value": "pinpoint.eu-west-1.amazonaws.com"
+                "value": "pinpoint.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_pinpoint_region",
@@ -5526,7 +5526,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS QLDB
 **Service Slug:** aws_qldb
 
-**Host:** qldb.eu-west-1.amazonaws.com
+**Host:** qldb.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-northeast-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-central-1, eu-west-1
 
@@ -5538,7 +5538,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_qldb_base_url",
-                "value": "qldb.eu-west-1.amazonaws.com"
+                "value": "qldb.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_qldb_region",
@@ -6683,7 +6683,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS Transcribe Streaming
 **Service Slug:** aws_transcribe_streaming
 
-**Host:** transcribestreaming.eu-west-1.amazonaws.com
+**Host:** transcribestreaming.us-east-1.amazonaws.com
 
 **Regions:** us-east-2, us-east-1, us-west-2, ap-southeast-2, ca-central-1, eu-west-1
 
@@ -6695,7 +6695,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_transcribe_streaming_base_url",
-                "value": "transcribestreaming.eu-west-1.amazonaws.com"
+                "value": "transcribestreaming.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_transcribe_streaming_region",
@@ -6855,7 +6855,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS WorkDocs
 **Service Slug:** aws_workdocs
 
-**Host:** workdocs.eu-west-1.amazonaws.com
+**Host:** workdocs.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-west-2, ap-southeast-1, ap-southeast-2, ap-northeast-1, eu-west-1
 
@@ -6867,7 +6867,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_workdocs_base_url",
-                "value": "workdocs.eu-west-1.amazonaws.com"
+                "value": "workdocs.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_workdocs_region",
@@ -6889,7 +6889,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
 ## AWS WorkLink
 **Service Slug:** aws_worklink
 
-**Host:** worklink.eu-west-1.amazonaws.com
+**Host:** worklink.us-east-1.amazonaws.com
 
 **Regions:** us-east-1, us-east-2, us-west-2, eu-west-1
 
@@ -6901,7 +6901,7 @@ These are Postman environments generated from the [AWS Service Endpoints](https:
         "values": [
             {
                 "key": "aws_worklink_base_url",
-                "value": "worklink.eu-west-1.amazonaws.com"
+                "value": "worklink.us-east-1.amazonaws.com"
             },
             {
                 "key": "aws_worklink_region",
