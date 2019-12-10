@@ -8,11 +8,11 @@ Make sure and look at [the AWS Postman environments](environments.md) as part of
 | [Auto Scaling](auto-scaling/README.md) | [Documentation](https://docs.aws.amazon.com/autoscaling/ec2/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2Tkj) |[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/36ee4d2b75b4b808f17f) |
 | [Batch](batch/README.md) | [Documentation](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2nYr) |[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/128d365e471ce5789025) |
 | [Certificate Manager](certificate-manager/README.md) | [Documentation](https://docs.aws.amazon.com/acm/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7XbV7y) |[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/e5cbd6b6eac817242265) |
-| [CloudFormation](cloudformation/README.md) | docs | postman docs | collection |
-| [CloudFront](cloudfront/README.md) | docs | postman docs | collection |
-| [CloudHSM](cloudhsm/README.md) | docs | postman docs | collection |
-| [CloudTrail](cloudtrail/README.md) | docs | postman docs | collection |
-| [CloudWatch](cloudwatch/README.md) | docs | postman docs | collection |
+| [CloudFormation](cloudformation/README.md) | [Documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2ndG) | [Postman Collection](https://www.getpostman.com/collections/9ba1e2c74bceb771e5a4) |
+| [CloudFront](cloudfront/README.md) | [Documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2nhn) | [Postman Collection](https://www.getpostman.com/collections/214e413bb457f989d773) |
+| [CloudHSM](cloudhsm/README.md) | [Documentation](https://docs.aws.amazon.com/cloudhsm/classic/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2nn6) | [Postman Collection](https://www.getpostman.com/collections/521344e0f4ec72c078ad) |
+| [CloudTrail](cloudtrail/README.md) | [Documentation](https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2nrW) | [Postman Collection](https://www.getpostman.com/collections/49cf0ef75dce0f742ff1) |
+| [CloudWatch](cloudwatch/README.md) | [Documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7XbAKr?version=latest) | [Postman Collection](https://www.getpostman.com/collections/4840c1fecd18e6cd415f) |
 | [CodeBuild](codebuild/README.md) | docs | postman docs | collection |
 | [CodeCommit](codecommit/README.md) | docs | postman docs | collection |
 | [CodePipeline](codepipeline/README.md) | docs | postman docs | collection |
