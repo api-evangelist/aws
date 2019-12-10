@@ -3,6 +3,13 @@ This is an assortment of Postman collections for the AWS APIs, broken down by ea
 
 Make sure and look at [the AWS Postman environments](environments.md) as part of this work, establishing the base URL and regions for each service.
 
+| AWS Service|Documentation|Postman Documentation|Postman Collection|
+| -------------|:-------------:| -----:|
+| [Auto Scaling](auto-scaling/README.md)|[Documentation](https://docs.aws.amazon.com/autoscaling/ec2/APIReference/Welcome.html)|[Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2Tkj)|[Postman Collection](https://www.getpostman.com/collections/36ee4d2b75b4b808f17f)|
+| [Batch](batch/README.md)|[Documentation](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html)|[Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2nYr)|[Postman Collection](https://www.getpostman.com/collections/128d365e471ce5789025)|
+| [Certificate Manager](certificate-manager/README.md)|[Documentation](https://docs.aws.amazon.com/acm/latest/APIReference/Welcome.html)|[Postman Documentation](https://documenter.getpostman.com/view/35240/SW7XbV7y)|[Postman Collection](https://www.getpostman.com/collections/e5cbd6b6eac817242265)|
+
+
 - [Auto Scaling](auto-scaling/README.md) - A Postman collection for the AWS Auto Scaling API.
 - [Batch](batch/README.md) - A Postman collection for the AWS Batch API.
 - [Certificate Manager](certificate-manager/README.md) - A Postman collection for the AWS Certificate Manager API.
