@@ -9,7 +9,6 @@ Make sure and look at [the AWS Postman environments](environments.md) as part of
 | [Batch](batch/README.md) | [Documentation](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7Z2nYr) | ![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/128d365e471ce5789025) |
 | [Certificate Manager](certificate-manager/README.md) | [Documentation](https://docs.aws.amazon.com/acm/latest/APIReference/Welcome.html) | [Postman Documentation](https://documenter.getpostman.com/view/35240/SW7XbV7y) | ![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/run-collection/e5cbd6b6eac817242265) |
 
-
 - [Auto Scaling](auto-scaling/README.md) - A Postman collection for the AWS Auto Scaling API.
 - [Batch](batch/README.md) - A Postman collection for the AWS Batch API.
 - [Certificate Manager](certificate-manager/README.md) - A Postman collection for the AWS Certificate Manager API.
