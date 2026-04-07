@@ -8,10 +8,10 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Cloud Computing
-  - Infrastructure
-  - Platform as a Service
   - IaaS
+  - Infrastructure
   - PaaS
+  - Platform as a Service
   - Serverless
 url: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/apis.yml
 created: '2024-01-01'
@@ -25,8 +25,8 @@ apis:
     baseURL: https://ec2.amazonaws.com
     tags:
       - Compute
-      - Virtual Machines
       - Infrastructure
+      - Virtual Machines
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/ec2/
@@ -38,9 +38,9 @@ apis:
     humanURL: https://aws.amazon.com/s3/
     baseURL: https://s3.amazonaws.com
     tags:
-      - Storage
-      - Object Storage
       - Data Lake
+      - Object Storage
+      - Storage
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/s3/
@@ -52,9 +52,9 @@ apis:
     humanURL: https://aws.amazon.com/lambda/
     baseURL: https://lambda.amazonaws.com
     tags:
-      - Serverless
       - Compute
       - Functions
+      - Serverless
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/lambda/
@@ -67,8 +67,8 @@ apis:
     baseURL: https://dynamodb.amazonaws.com
     tags:
       - Database
-      - NoSQL
       - Key-Value
+      - NoSQL
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/dynamodb/
@@ -83,8 +83,8 @@ apis:
     baseURL: https://rds.amazonaws.com
     tags:
       - Database
-      - Relational
       - Managed Service
+      - Relational
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/rds/
