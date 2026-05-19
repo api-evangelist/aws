@@ -1,8 +1,6 @@
 aid: aws
 name: Amazon Web Services (AWS)
-description: Amazon Web Services is a comprehensive collection of cloud computing services and APIs provided
-  by Amazon, offering infrastructure as a service, platform as a service, and software as a service solutions
-  globally.
+description: Amazon Web Services is a comprehensive collection of cloud computing services and APIs provided by Amazon, offering infrastructure as a service, platform as a service, and software as a service solutions globally.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -14,7 +12,7 @@ tags:
   - Serverless
 url: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-05-04'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
   - aid: aws:amazon-ec2
@@ -181,6 +179,9 @@ common:
         description: Integrate data workflows between Snowflake and AWS S3, Glue, and Lake Formation.
   - type: Integrations
     url: https://aws.amazon.com/marketplace
+  - name: MCP Server
+    url: https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/
+    type: MCPServer
 integrations:
   - name: Sign in
   - name: Agent Mode
