@@ -96,7 +96,7 @@ common:
     url: https://docs.aws.amazon.com/
   - type: Authentication
     url: https://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html
-  - type: SDK
+  - type: SDKs
     url: https://aws.amazon.com/tools/
   - type: Blog
     url: https://aws.amazon.com/blogs/
