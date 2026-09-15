@@ -1,6 +1,8 @@
 aid: aws
 name: Amazon Web Services (AWS)
-description: Amazon Web Services is a comprehensive collection of cloud computing services and APIs provided by Amazon, offering infrastructure as a service, platform as a service, and software as a service solutions globally.
+description: Amazon Web Services is a comprehensive collection of cloud computing services and APIs provided
+  by Amazon, offering infrastructure as a service, platform as a service, and software as a service solutions
+  globally.
 type: Index
 deliveryModel:
   model: saas
@@ -27,212 +29,383 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws.png
 tags:
-  - Cloud Computing
-  - Infrastructure-as-a-Service
-  - Infrastructure
-  - Platform-as-a-Service
-  - Serverless
+- Cloud Computing
+- Infrastructure-as-a-Service
+- Infrastructure
+- Platform-as-a-Service
+- Serverless
 tags_raw:
-  - Cloud Computing
-  - IaaS
-  - Infrastructure
-  - PaaS
-  - Platform as a Service
-  - Serverless
+- Cloud Computing
+- IaaS
+- Infrastructure
+- PaaS
+- Platform as a Service
+- Serverless
 url: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-05-19'
+modified: '2026-09-15'
 specificationVersion: '0.23'
 apis:
-  - aid: aws:amazon-ec2
-    name: Amazon EC2
-    description: Scalable virtual servers in the cloud.
-    humanURL: https://aws.amazon.com/ec2/
-    baseURL: https://ec2.amazonaws.com
-    tags:
-      - Compute
-      - Infrastructure
-      - Virtual Machines
-    properties:
-      - type: Documentation
-        url: https://docs.aws.amazon.com/ec2/
-      - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/amazonaws.com/ec2/2016-11-15/openapi.yaml
-  - aid: aws:amazon-s3
-    name: Amazon S3
-    description: Scalable object storage service for data backup, archival, and analytics.
-    humanURL: https://aws.amazon.com/s3/
-    baseURL: https://s3.amazonaws.com
-    tags:
-      - Data Lake
-      - Object Storage
-      - Storage
-    properties:
-      - type: Documentation
-        url: https://docs.aws.amazon.com/s3/
-      - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/amazonaws.com/s3/2006-03-01/openapi.yaml
-  - aid: aws:amazon-lambda
-    name: Amazon Lambda
-    description: Run code without thinking about servers or clusters.
-    humanURL: https://aws.amazon.com/lambda/
-    baseURL: https://lambda.amazonaws.com
-    tags:
-      - Compute
-      - Functions
-      - Serverless
-    properties:
-      - type: Documentation
-        url: https://docs.aws.amazon.com/lambda/
-      - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.yaml
-  - aid: aws:amazon-dynamodb
-    name: Amazon DynamoDB
-    description: Fast and flexible NoSQL database service for any scale.
-    humanURL: https://aws.amazon.com/dynamodb/
-    baseURL: https://dynamodb.amazonaws.com
-    tags:
-      - Database
-      - Key-Value
-      - NoSQL
-    properties:
-      - type: Documentation
-        url: https://docs.aws.amazon.com/dynamodb/
-      - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/amazonaws.com/dynamodb/2012-08-10/openapi.yaml
-  - aid: aws:amazon-rds
-    name: Amazon RDS
-    description: Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.
-    humanURL: https://aws.amazon.com/rds/
-    baseURL: https://rds.amazonaws.com
-    tags:
-      - Database
-      - Managed Service
-      - Relational
-    properties:
-      - type: Documentation
-        url: https://docs.aws.amazon.com/rds/
-      - type: OpenAPI
-        url: https://api.apis.guru/v2/specs/amazonaws.com/rds/2014-10-31/openapi.yaml
-common:
-  - type: TrustCenter
-    url: security/aws-trust-center.yml
-  - type: VulnerabilityDisclosure
-    url: security/aws-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/aws-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/aws
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/amazon-web-services
-  - type: Portal
-    url: https://aws.amazon.com/
+- aid: aws:amazon-ec2
+  name: Amazon EC2
+  description: Scalable virtual servers in the cloud.
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - Compute
+  - Infrastructure
+  - Virtual Machines
+  properties:
   - type: Documentation
-    url: https://docs.aws.amazon.com/
-  - type: Authentication
-    url: https://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html
-  - type: SDKs
-    url: https://aws.amazon.com/tools/
-  - type: Blog
-    url: https://aws.amazon.com/blogs/
-  - type: StatusPage
-    url: https://health.aws.amazon.com/health/status
-  - type: Support
-    url: https://aws.amazon.com/support/
-  - type: TermsOfService
-    url: https://aws.amazon.com/service-terms/
-  - type: PrivacyPolicy
-    url: https://aws.amazon.com/privacy/
+    url: https://docs.aws.amazon.com/ec2/
+  - type: OpenAPI
+    url: https://api.apis.guru/v2/specs/amazonaws.com/ec2/2016-11-15/openapi.yaml
+- aid: aws:amazon-s3
+  name: Amazon S3
+  description: Scalable object storage service for data backup, archival, and analytics.
+  humanURL: https://aws.amazon.com/s3/
+  baseURL: https://s3.amazonaws.com
+  tags:
+  - Data Lake
+  - Object Storage
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/s3/
+  - type: OpenAPI
+    url: https://api.apis.guru/v2/specs/amazonaws.com/s3/2006-03-01/openapi.yaml
+- aid: aws:amazon-lambda
+  name: Amazon Lambda
+  description: Run code without thinking about servers or clusters.
+  humanURL: https://aws.amazon.com/lambda/
+  baseURL: https://lambda.amazonaws.com
+  tags:
+  - Compute
+  - Functions
+  - Serverless
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/lambda/
+  - type: OpenAPI
+    url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.yaml
+- aid: aws:amazon-dynamodb
+  name: Amazon DynamoDB
+  description: Fast and flexible NoSQL database service for any scale.
+  humanURL: https://aws.amazon.com/dynamodb/
+  baseURL: https://dynamodb.amazonaws.com
+  tags:
+  - Database
+  - Key-Value
+  - NoSQL
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/dynamodb/
+  - type: OpenAPI
+    url: https://api.apis.guru/v2/specs/amazonaws.com/dynamodb/2012-08-10/openapi.yaml
+- aid: aws:amazon-rds
+  name: Amazon RDS
+  description: Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: https://rds.amazonaws.com
+  tags:
+  - Database
+  - Managed Service
+  - Relational
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/rds/
+  - type: OpenAPI
+    url: https://api.apis.guru/v2/specs/amazonaws.com/rds/2014-10-31/openapi.yaml
+- name: Amazon Bedrock API
+  description: Amazon Bedrock is a fully managed service that provides access to foundation models from
+    leading AI companies for building generative AI applications.
+  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  humanURL: https://aws.amazon.com/bedrock/
+  baseURL: https://bedrock.amazonaws.com
+  tags:
+  - Artificial Intelligence
+  - Foundation Models
+  - Generative AI
+  - Large Language Models
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/bedrock/
   - type: Pricing
-    url: https://aws.amazon.com/pricing/
+    url: https://aws.amazon.com/bedrock/pricing/
   - type: Console
-    url: https://console.aws.amazon.com/
-  - type: ChangeLog
-    url: https://aws.amazon.com/new/
-  - type: Features
-    data:
-      - 'Amazon Web Services (AWS): hundreds of services across Cloud Infrastructure'
-      - 'Detailed pricing: see https://aws.amazon.com/pricing/'
-      - 'Service: EC2 (compute)'
-      - 'Service: S3 (object storage)'
-      - 'Service: EBS (block storage)'
-      - 'Service: RDS (managed SQL)'
-      - 'Service: DynamoDB (NoSQL)'
-      - 'Service: Lambda (serverless)'
-      - 'Service: API Gateway'
-      - 'Service: CloudFront (CDN)'
-      - 'Service: Route 53 (DNS)'
-      - 'Service: VPC (networking)'
-      - 'Service: IAM (identity)'
-      - 'Service: KMS (encryption)'
-      - 'Service: Secrets Manager'
-      - 'Service: CloudWatch (monitoring)'
-      - 'Service: EKS (Kubernetes)'
-      - 'Service: ECS (containers)'
-      - 'Service: ECR (container registry)'
-      - 'Service: SQS (queue)'
-      - 'Service: SNS (pub-sub)'
-      - 'Service: SES (email)'
-      - 'Service: Bedrock (AI/ML)'
-      - 'Service: SageMaker (ML)'
-      - 'Service: Comprehend (NLP)'
-      - 'Service: Rekognition (vision)'
-      - 'Service: Polly (TTS)'
-      - 'Service: Transcribe (STT)'
-      - 'Service: Translate'
-      - 'Service: Athena (SQL on S3)'
-      - 'Service: Redshift (data warehouse)'
-      - 'Service: Glue (ETL)'
-      - 'Service: EMR (Hadoop)'
-      - 'Service: Kinesis (streaming)'
-      - 'Service: MSK (managed Kafka)'
-      - 'Service: OpenSearch'
-      - 'Service: QuickSight (BI)'
-    sources:
-      - https://aws.amazon.com/pricing/
-      - https://focus.finops.org/
-    updated: '2026-05-04'
-  - type: UseCases
-    data:
-      - name: Web Application Hosting
-        description: Host scalable web applications with EC2, S3, CloudFront, and RDS.
-      - name: Data Analytics
-        description: Process and analyze large datasets using EMR, Redshift, Athena, and Glue.
-      - name: Machine Learning
-        description: Build and deploy ML models at scale using SageMaker, Rekognition, and Comprehend.
-      - name: Disaster Recovery
-        description: Implement multi-region disaster recovery strategies with minimal RPO and RTO.
-      - name: IoT Applications
-        description: Collect, process, and analyze IoT device data with AWS IoT Core and related services.
-  - type: Integrations
-    data:
-      - name: Terraform
-        description: Manage AWS infrastructure as code using the official AWS Terraform provider.
-      - name: Kubernetes
-        description: Deploy and manage Kubernetes workloads on AWS using Amazon EKS.
-      - name: GitHub Actions
-        description: Automate CI/CD pipelines deploying to AWS using GitHub Actions and OIDC.
-      - name: Datadog
-        description: Monitor AWS infrastructure and applications using the Datadog AWS integration.
-      - name: Snowflake
-        description: Integrate data workflows between Snowflake and AWS S3, Glue, and Lake Formation.
-  - type: Integrations
-    url: https://aws.amazon.com/marketplace
-  - name: MCP Server
-    url: https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/
-    type: MCPServer
+    url: https://console.aws.amazon.com/bedrock/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started.html
+  - type: FAQ
+    url: https://aws.amazon.com/bedrock/faqs/
+  - type: GitRepository
+    url: https://github.com/api-evangelist/amazon-bedrock
+- name: Amazon VPC API
+  description: Amazon Virtual Private Cloud lets you define and launch AWS resources in a logically isolated
+    virtual network with full control over your networking environment.
+  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  humanURL: https://aws.amazon.com/vpc/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - Isolation
+  - Networking
+  - Security
+  - Virtual Private Cloud
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc/
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/pricing/
+  - type: Console
+    url: https://console.aws.amazon.com/vpc/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-getting-started.html
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/faqs/
+  - type: GitRepository
+    url: https://github.com/api-evangelist/amazon-vpc
+- name: Amazon Aurora API
+  description: Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud
+    that combines the performance and availability of traditional enterprise databases with the simplicity
+    and cost-effectiveness of open source databases.
+  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  humanURL: https://aws.amazon.com/rds/aurora/
+  baseURL: https://rds.amazonaws.com
+  tags:
+  - Database
+  - MySQL
+  - PostgreSQL
+  - Relational Database
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/
+  - type: Pricing
+    url: https://aws.amazon.com/rds/aurora/pricing/
+  - type: Console
+    url: https://console.aws.amazon.com/rds/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_GettingStartedAurora.html
+  - type: FAQ
+    url: https://aws.amazon.com/rds/aurora/faqs/
+  - type: GitRepository
+    url: https://github.com/api-evangelist/amazon-aurora
+- name: Amazon EBS API
+  description: Amazon Elastic Block Store provides persistent block storage volumes for use with Amazon
+    EC2 instances in the AWS Cloud.
+  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  humanURL: https://aws.amazon.com/ebs/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - Block Storage
+  - Snapshots
+  - Storage
+  - Volumes
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/ebs/
+  - type: Pricing
+    url: https://aws.amazon.com/ebs/pricing/
+  - type: Console
+    url: https://console.aws.amazon.com/ec2/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html
+  - type: FAQ
+    url: https://aws.amazon.com/ebs/faqs/
+  - type: GitRepository
+    url: https://github.com/api-evangelist/amazon-ebs
+- name: AWS Fargate API
+  description: AWS Fargate is a serverless compute engine for containers that works with both Amazon ECS
+    and Amazon EKS removing the need to manage servers.
+  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  humanURL: https://aws.amazon.com/fargate/
+  baseURL: https://ecs.amazonaws.com
+  tags:
+  - Compute
+  - Containers
+  - Docker
+  - Serverless
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html
+  - type: Pricing
+    url: https://aws.amazon.com/fargate/pricing/
+  - type: Console
+    url: https://console.aws.amazon.com/ecs/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/AmazonECS/latest/userguide/getting-started-fargate.html
+  - type: FAQ
+    url: https://aws.amazon.com/fargate/faqs/
+  - type: GitRepository
+    url: https://github.com/api-evangelist/amazon-fargate
+- name: Amazon Keyspaces API
+  description: Amazon Keyspaces is a scalable, highly available, and managed Apache Cassandra-compatible
+    database service for running Cassandra workloads in the cloud.
+  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  humanURL: https://aws.amazon.com/keyspaces/
+  baseURL: https://cassandra.amazonaws.com
+  tags:
+  - Cassandra
+  - Database
+  - NoSQL
+  - Wide Column
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/keyspaces/
+  - type: Pricing
+    url: https://aws.amazon.com/keyspaces/pricing/
+  - type: Console
+    url: https://console.aws.amazon.com/keyspaces/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/keyspaces/latest/devguide/getting-started.html
+  - type: FAQ
+    url: https://aws.amazon.com/keyspaces/faqs/
+  - type: GitRepository
+    url: https://github.com/api-evangelist/amazon-keyspaces
+- name: AWS Transit Gateway API
+  description: AWS Transit Gateway connects VPCs and on-premises networks through a central hub simplifying
+    your network and putting an end to complex peering relationships.
+  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png
+  humanURL: https://aws.amazon.com/transit-gateway/
+  baseURL: https://ec2.amazonaws.com
+  tags:
+  - Hybrid Cloud
+  - Networking
+  - Transit
+  - VPC
+  properties:
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc/latest/tgw/
+  - type: Pricing
+    url: https://aws.amazon.com/transit-gateway/pricing/
+  - type: Console
+    url: https://console.aws.amazon.com/vpc/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc/latest/tgw/tgw-getting-started.html
+  - type: FAQ
+    url: https://aws.amazon.com/transit-gateway/faqs/
+  - type: GitRepository
+    url: https://github.com/api-evangelist/amazon-transit-gateway
+common:
+- type: Website
+  url: https://aws.amazon.com/
+- type: TrustCenter
+  url: security/aws-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/aws-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/aws-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/aws
+- type: LinkedIn
+  url: https://www.linkedin.com/company/amazon-web-services
+- type: Portal
+  url: https://aws.amazon.com/
+- type: Documentation
+  url: https://docs.aws.amazon.com/
+- type: Authentication
+  url: https://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html
+- type: SDKs
+  url: https://aws.amazon.com/tools/
+- type: Blog
+  url: https://aws.amazon.com/blogs/
+- type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+- type: Support
+  url: https://aws.amazon.com/support/
+- type: TermsOfService
+  url: https://aws.amazon.com/service-terms/
+- type: PrivacyPolicy
+  url: https://aws.amazon.com/privacy/
+- type: Pricing
+  url: https://aws.amazon.com/pricing/
+- type: Console
+  url: https://console.aws.amazon.com/
+- type: ChangeLog
+  url: https://aws.amazon.com/new/
+- type: Features
+  data:
+  - 'Amazon Web Services (AWS): hundreds of services across Cloud Infrastructure'
+  - 'Detailed pricing: see https://aws.amazon.com/pricing/'
+  - 'Service: EC2 (compute)'
+  - 'Service: S3 (object storage)'
+  - 'Service: EBS (block storage)'
+  - 'Service: RDS (managed SQL)'
+  - 'Service: DynamoDB (NoSQL)'
+  - 'Service: Lambda (serverless)'
+  - 'Service: API Gateway'
+  - 'Service: CloudFront (CDN)'
+  - 'Service: Route 53 (DNS)'
+  - 'Service: VPC (networking)'
+  - 'Service: IAM (identity)'
+  - 'Service: KMS (encryption)'
+  - 'Service: Secrets Manager'
+  - 'Service: CloudWatch (monitoring)'
+  - 'Service: EKS (Kubernetes)'
+  - 'Service: ECS (containers)'
+  - 'Service: ECR (container registry)'
+  - 'Service: SQS (queue)'
+  - 'Service: SNS (pub-sub)'
+  - 'Service: SES (email)'
+  - 'Service: Bedrock (AI/ML)'
+  - 'Service: SageMaker (ML)'
+  - 'Service: Comprehend (NLP)'
+  - 'Service: Rekognition (vision)'
+  - 'Service: Polly (TTS)'
+  - 'Service: Transcribe (STT)'
+  - 'Service: Translate'
+  - 'Service: Athena (SQL on S3)'
+  - 'Service: Redshift (data warehouse)'
+  - 'Service: Glue (ETL)'
+  - 'Service: EMR (Hadoop)'
+  - 'Service: Kinesis (streaming)'
+  - 'Service: MSK (managed Kafka)'
+  - 'Service: OpenSearch'
+  - 'Service: QuickSight (BI)'
+  sources:
+  - https://aws.amazon.com/pricing/
+  - https://focus.finops.org/
+  updated: '2026-05-04'
+- type: UseCases
+  data:
+  - name: Web Application Hosting
+    description: Host scalable web applications with EC2, S3, CloudFront, and RDS.
+  - name: Data Analytics
+    description: Process and analyze large datasets using EMR, Redshift, Athena, and Glue.
+  - name: Machine Learning
+    description: Build and deploy ML models at scale using SageMaker, Rekognition, and Comprehend.
+  - name: Disaster Recovery
+    description: Implement multi-region disaster recovery strategies with minimal RPO and RTO.
+  - name: IoT Applications
+    description: Collect, process, and analyze IoT device data with AWS IoT Core and related services.
+- type: Integrations
+  data:
+  - name: Terraform
+    description: Manage AWS infrastructure as code using the official AWS Terraform provider.
+  - name: Kubernetes
+    description: Deploy and manage Kubernetes workloads on AWS using Amazon EKS.
+  - name: GitHub Actions
+    description: Automate CI/CD pipelines deploying to AWS using GitHub Actions and OIDC.
+  - name: Datadog
+    description: Monitor AWS infrastructure and applications using the Datadog AWS integration.
+  - name: Snowflake
+    description: Integrate data workflows between Snowflake and AWS S3, Glue, and Lake Formation.
+- type: Integrations
+  url: https://aws.amazon.com/marketplace
+- name: MCP Server
+  url: https://aws.amazon.com/about-aws/whats-new/2026/05/aws-mcp-server/
+  type: MCPServer
 integrations:
-  - name: Sign in
-  - name: Agent Mode
-  - name: 'Why AWS Marketplace?'
-  - name: Get started in AWS Marketplace
-  - name: Industry
-  - name: Resources
-  - name: Become a Channel Partner
-  - name: Sell in AWS Marketplace
-  - name: Manage Your Account
+- name: Sign in
+- name: Agent Mode
+- name: Why AWS Marketplace?
+- name: Get started in AWS Marketplace
+- name: Industry
+- name: Resources
+- name: Become a Channel Partner
+- name: Sell in AWS Marketplace
+- name: Manage Your Account
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
 x-parent: amazon
 x-relationship: subsidiary
