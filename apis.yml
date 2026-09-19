@@ -126,6 +126,11 @@ apis:
   - Artificial Intelligence
   - Foundation Models
   - Generative AI
+  - LLM
+  tags_raw:
+  - Artificial Intelligence
+  - Foundation Models
+  - Generative AI
   - Large Language Models
   properties:
   - type: Documentation
