@@ -95,6 +95,10 @@ apis:
   baseURL: https://dynamodb.amazonaws.com
   tags:
   - Database
+  - Key-Value Store
+  - NoSQL
+  tags_raw:
+  - Database
   - Key-Value
   - NoSQL
   properties:
