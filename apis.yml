@@ -295,6 +295,12 @@ apis:
   - type: GitRepository
     url: https://github.com/api-evangelist/amazon-transit-gateway
 common:
+- type: Plans
+  url: plans/aws-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/aws-rate-limits.yml
+- type: FinOps
+  url: finops/aws-finops.yml
 - type: Website
   url: https://aws.amazon.com/
 - type: TrustCenter
