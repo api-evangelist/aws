@@ -1,4 +1,4 @@
-# Amazon Web Services (AWS)
+# aws
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,61 +64,31 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Amazon Web Services is a comprehensive collection of cloud computing services and APIs provided by Amazon, offering infrastructure as a service, platform as a service, and software as a service solutions globally.
+> **Retired — merged into [Amazon Web Services](https://apis.io/providers/amazon-web-services/).** The two records described the same company, and that one is canonical. Nothing in this repository is maintained any more.
 
-## APIs
+**Why:** Duplicate record of one company, retired into amazon-web-services (Kin, 2026-09-23). aws carried the identity links (website, docs, status, terms, SDKs, console) and 12 flagship API entries; amazon-web-services carried 1,638 APIs and the contracts. Links, the 12 APIs (re-keyed amazon-web-services:*), security artifacts and the front-door probe were moved onto the survivor; 229 x-parent: aws declarations now name it, and it takes aws's own parent (amazon). API pages redirect to their moved entries, the estate to the survivor's estate, everything else to the provider page. The aws TAG page is not the company and is left alone.
 
-### Amazon EC2
-Scalable virtual servers in the cloud providing compute capacity.
-- **Documentation**: https://docs.aws.amazon.com/ec2/
+**Retired:** 2026-09-23
 
-### Amazon S3
-Scalable object storage service for data backup, archival, and analytics.
-- **Documentation**: https://docs.aws.amazon.com/s3/
+## Where to go now
 
-### Amazon Lambda
-Run code without thinking about servers or clusters with serverless compute.
-- **Documentation**: https://docs.aws.amazon.com/lambda/
+The current profile, APIs, artifacts and rating for Amazon Web Services are on APIs.io at **[apis.io/providers/amazon-web-services/](https://apis.io/providers/amazon-web-services/)**.
 
-### Amazon DynamoDB
-Fast and flexible NoSQL database service for any scale.
-- **Documentation**: https://docs.aws.amazon.com/dynamodb/
+Pages that used to belong to this profile now live at:
 
-### Amazon RDS
-Managed relational database service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB.
-- **Documentation**: https://docs.aws.amazon.com/rds/
+- [Amazon Aurora API](https://apis.io/apis/amazon-web-services/amazon-aurora-api/)
+- [Amazon Bedrock API](https://apis.io/apis/amazon-web-services/amazon-bedrock-api/)
+- [Amazon Dynamodb](https://apis.io/apis/amazon-web-services/amazon-dynamodb/)
+- [Amazon Ebs API](https://apis.io/apis/amazon-web-services/amazon-ebs-api/)
+- [Amazon Ec2](https://apis.io/apis/amazon-web-services/amazon-ec2/)
+- [Amazon Keyspaces API](https://apis.io/apis/amazon-web-services/amazon-keyspaces-api/)
+- [Amazon Lambda](https://apis.io/apis/amazon-web-services/amazon-lambda/)
+- [Amazon Rds](https://apis.io/apis/amazon-web-services/amazon-rds/)
+- [Amazon S3](https://apis.io/apis/amazon-web-services/amazon-s3/)
+- [Amazon Vpc API](https://apis.io/apis/amazon-web-services/amazon-vpc-api/)
+- [Aws Fargate API](https://apis.io/apis/amazon-web-services/aws-fargate-api/)
+- [Aws Transit Gateway API](https://apis.io/apis/amazon-web-services/aws-transit-gateway-api/)
 
-## Features
+## Open an issue
 
-- **Global Infrastructure** — Deploy across 30+ AWS Regions and 90+ Availability Zones worldwide.
-- **Pay-as-you-go Pricing** — Pay only for the services you use with no upfront costs.
-- **Comprehensive Security** — Built-in security with compliance, encryption, IAM, and dedicated services.
-- **Managed Services** — Managed database, compute, storage, and networking with automatic scaling.
-- **Serverless Computing** — Run code, manage databases, and process streams without managing infrastructure.
-- **Machine Learning** — Pre-built ML services for building, training, and deploying ML models at scale.
-- **Hybrid Cloud** — Extend AWS to on-premises with Outposts, Local Zones, and Direct Connect.
-- **DevOps Toolchain** — Integrated tools for CI/CD, infrastructure as code, and monitoring.
-- **Event-Driven Architecture** — Build decoupled applications with SQS, SNS, EventBridge, and Lambda.
-- **Container Services** — Run containers with ECS, EKS, Fargate, and ECR.
-
-## Use Cases
-
-- **Web Application Hosting** — Scalable web applications with EC2, S3, CloudFront, and RDS.
-- **Data Analytics** — Process large datasets using EMR, Redshift, Athena, and Glue.
-- **Machine Learning** — Build ML models at scale with SageMaker, Rekognition, and Comprehend.
-- **Disaster Recovery** — Multi-region disaster recovery with minimal RPO and RTO.
-- **IoT Applications** — Collect and analyze IoT device data with AWS IoT Core.
-
-## Links
-
-- **Portal**: https://aws.amazon.com/
-- **Documentation**: https://docs.aws.amazon.com/
-- **Console**: https://console.aws.amazon.com/
-- **Pricing**: https://aws.amazon.com/pricing/
-- **Blog**: https://aws.amazon.com/blogs/
-- **SDKs and Tools**: https://aws.amazon.com/tools/
-- **Status**: https://health.aws.amazon.com/health/status
-
-## Maintainers
-
-- **Kin Lane** — kin@apievangelist.com
+Issues about Amazon Web Services belong on the canonical profile: [open one on api-evangelist/amazon-web-services](https://github.com/api-evangelist/amazon-web-services/issues/new). If you think this merge was a mistake — these were really two companies — say so there or email [info@apievangelist.com](mailto:info@apievangelist.com).
